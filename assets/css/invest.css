@@ -1,0 +1,170 @@
+@charset "UTF-8";
+ul li {
+  list-style: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.investment {
+  display: flex;
+  background-color: #000;
+  margin: 0px 0px 0px 0px;
+  position: relative;
+}
+.investment__column {
+  flex: 0 0 60%;
+}
+.investment__image {
+  height: 100%;
+  margin-left: -250px;
+  margin-top: 230px;
+}
+
+.investment-body {
+  padding-top: 150px;
+  padding-left: 200px;
+}
+.investment-body__title {
+  font-size: 72px;
+  line-height: 87px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.investment-body__text {
+  max-width: 551px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.investment-body-content {
+  max-width: 950px;
+}
+
+.card {
+  display: flex;
+  margin: 0px 0px 0px 0px;
+}
+.card__column {
+  flex: 0 0 50%;
+  margin: 154px 0px 154px 0px;
+}
+.card__image {
+  height: 100%;
+  margin-left: 210px;
+}
+
+.card-body {
+  margin-right: 171px;
+}
+.card-body__list_4 li:before {
+  content: "• ";
+  color: #fff;
+}
+.sfera {
+  display: flex;
+  background: #000;
+}
+.sfera__column {
+  flex: 0 0 50%;
+  margin: 246px 0px 246px 0px;
+}
+.sfera__image {
+  margin-right: 246px;
+  margin-left: 200px;
+  margin-top: 57px;
+}
+
+.sfera-body {
+  color: #fff;
+  margin-left: 246px;
+  list-style: circle;
+}
+.sfera-body__link li:before {
+  content: "• ";
+  color: #fff;
+  margin-left: -20px;
+}
+.venchur-body {
+  margin: 130px 308px 130px 308px;
+}
+.venchur-body__undertitle {
+  margin-top: 36px;
+}
+.venchur-body__undertitle_text {
+  margin: 0px 0px 0px 0px;
+}
+.venchur-body__link {
+  padding-left: 0;
+}
+
+.venchur-body-list {
+  padding-left: 86px;
+  background: url(../img/investment/quote.png) top left no-repeat;
+}
+
+.sfera-2 {
+  display: flex;
+  background: #000;
+}
+.sfera-2__column {
+  flex: 0 0 50%;
+  margin: 235px 0px 235px 0px;
+}
+.sfera-2__image {
+  margin-right: 200px;
+  margin-left: 245px;
+  margin-top: 68px;
+}
+
+.sfera-2-body {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+}
+.sfera-2-body__uptext {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+}
+.sfera-2-body__link li:before {
+  content: "• ";
+  color: #fff;
+  margin-left: -20px;
+}
+.sfera-2-body-content {
+  padding-right: 245px;
+}
+
+.goal {
+  background: #fff;
+}
+
+.goal-body__title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43px;
+  text-align: center;
+}
+
+.goal-body-content {
+  margin: 130px 0px 130px 0px;
+}
+
+.lead__download-links-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.lead__download-links-list-item {
+  flex: 0 1 40%;
+}
