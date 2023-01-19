@@ -1,0 +1,224 @@
+.apps {
+  /* ----------------------------------------------- */
+  /* ----------------------------------------------- */
+  /* ----------------------------------------------- */
+  /* ----------------------------------------------- */
+}
+.lead__download-links-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  column-gap: 30px;
+}
+/* .lead__button:first-child {
+  margin-right: 40px;
+}  */
+.apps__subapps {
+  background: black;
+  color: white;
+  padding: 100px 0 40px;
+}
+.apps__subapps-wrapper {
+  width: 886px;
+  margin: 0 auto;
+}
+.apps__subapps-title {
+  text-align: center;
+  margin: 0 0 25px 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.apps__subapps-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.apps__subapps-list-item {
+  margin: 0 40px 0 0;
+  padding: 0;
+}
+
+.apps__subapps-list-item:last-of-type {
+  margin-right: 0;
+}
+.apps__subapps-list-item-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.apps__subapps-list-item-icon {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.flex {
+  display: flex;
+  column-gap: 180px;
+}
+.apps__subapps-list-item-title {
+  font-size: 16px;
+  line-height: 19px;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.apps__lead {
+  padding: 40px 0 130px;
+  background-color: #000000;
+  color: aliceblue;
+}
+.apps__lead-grid {
+  max-width: 1270px;
+  min-width: 669px;
+  margin: 0 auto;
+  grid-template-columns: minmax(335px, 800px) minmax(238px, 1fr);
+}
+.apps__lead-text-container {
+  margin-top: 21px;
+}
+.apps__lead-image-container {
+  display: flex;
+  justify-content: end;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.apps__lead-image-wrapper {
+  max-width: 340px;
+  max-height: 500px;
+}
+/* .apps__lead-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+} */
+.apps__lead-links-container {
+  margin-bottom: 21px;
+}
+.apps__briefs {
+  padding: 65px 0 130px 0;
+}
+.apps__briefs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.apps__briefs-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 65px 0 65px;
+  margin: 0;
+}
+.apps__briefs-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.apps__brief-text-container {
+  max-width: 738px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.apps__brief-text {
+  font-size: 24px;
+  line-height: 29px;
+  margin: 0;
+  padding: 0;
+}
+.apps__brief-images-container {
+  max-width: 610px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.apps__brief-image-wrapper {
+  position: relative;
+  max-width: 293px;
+  max-height: 592px;
+  margin-right: 35px;
+  padding-bottom: 50px;
+}
+.apps__brief-image-wrapper:last-of-type {
+  margin: 0;
+}
+.apps__brief-image-wrapper::after {
+  position: absolute;
+  content: "iOS";
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  line-height: 29px;
+  height: 29px;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+}
+.apps__brief-image-wrapper:last-of-type::after {
+  content: "Android";
+}
+.apps__brief-image {
+  max-width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+.apps__future {
+  padding: 78px 0 140px;
+}
+
+/* ----------------------------------------------- */
+.swiper {
+  width: 100%;
+  height: 560px;
+}
+.swiper-slide {
+  width: 350px;
+  height: 498px;
+  background: linear-gradient(180deg, #28282C 0%, #000000 100%);
+}
+.swiper-slide__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px;
+}
+.swiper-slide__image-wrapper {
+  width: 179px;
+  height: 367px;
+  margin-bottom: 32px;
+}
+.swiper-slide__title {
+  color: white;
+  font-size: 22px;
+  line-height: 27px;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+@media screen and  (max-width: 992px) {
+  .apps__subapps-list {
+    justify-content: center;
+  }
+  .flex {
+    column-gap: 0;
+  }
+}
+@media screen and  (max-width: 768px) {
+
+
+}

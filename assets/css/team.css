@@ -1,0 +1,245 @@
+
+.team {
+	background: linear-gradient(180deg, #28282C 0%, #000000 100%);
+  padding-top: 170px;
+  padding-bottom: 130px;
+} 
+.team__body {
+  display: flex;
+  margin-left: 212px;
+  margin-right: 212px;
+  flex-wrap: wrap;
+}
+@media (max-width: 1850px) {
+  .team__body {
+    margin-left: 185px;
+    margin-right: 185px;
+  }
+}
+@media (max-width: 1750px) {
+  .team__body {
+    margin-left: 152px;
+    margin-right: 152px;
+  }
+}
+@media (max-width: 1650px) {
+  .team__body {
+    margin-left: 122px;
+    margin-right: 122px;
+  }
+}
+@media (max-width: 1440px) {
+  .team__body {
+    margin-left: 106px;
+    margin-right: 106px;
+  }
+  .team__body:last-child {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1240px) {
+  .team__body {
+    margin-left: 62px;
+    margin-right: 62px;
+  }
+}
+@media (max-width: 768px) {
+  .team__body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .team__body:last-child {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 360px) {
+  .team__body {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
+.team__column {
+  flex: 0 1 17%;
+  margin: 0px 20px 40px 20px;
+}
+@media (max-width: 1440px) {
+  .team__column {
+    flex: 0 1 21.6%;
+    margin: 0px 20px 40px 20px;
+  }
+}
+@media (max-width: 1240px) {
+  .team__column {
+    flex: 0 1 23%;
+  }
+}
+@media (max-width: 992px) {
+  .team__column {
+    flex: 0 1 24%;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .team__column {
+    flex: 0 1 22.6%;
+    margin: 0px 8px 16px 8px;
+  }
+}
+@media (max-width: 567px) {
+  .team__column {
+    flex: 0 1 29.6%;
+  }
+}
+@media (max-width: 360px) {
+  .team__column {
+    flex: 0 1 47%;
+    margin: 0px 4px 8px 4px;
+  }
+}
+@media (max-width: 320px) {
+  .team__column {
+    flex: 0 1 49%;
+    margin: 0px 1px 8px 1px;
+  }
+}
+
+.item {
+  height: 100%;
+  display: block;
+  position: relative;
+}
+.item__image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  -o-object-position: center;
+     object-position: center;
+  box-shadow: 0px 10px 20px #000000;
+}
+.item__person {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  top: 120px;
+  left: 18px;
+}
+.item__person .item__person-name {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 17px;
+}
+@media (max-width: 1240px) {
+  .item__person .item__person-name {
+    font-size: 14px;
+    line-height: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .item__person .item__person-name {
+    font-size: 14px;
+    line-height: 5px;
+  }
+}
+@media (max-width: 567px) {
+  .item__person .item__person-name {
+    font-size: 10px;
+  }
+}
+.item__person .item__person-role {
+  display: block;
+  margin: 10px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #C9CED4;
+  width: 71%;
+}
+@media (max-width: 1240px) {
+  .item__person .item__person-role {
+    font-size: 10px;
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .item__person .item__person-role {
+    font-size: 10px;
+    width: 85%;
+  }
+}
+@media (max-width: 567px) {
+  .item__person .item__person-role {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1650px) {
+  .item__person {
+    top: 65px;
+    left: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .item__person {
+    top: 65px;
+    left: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .item__person {
+    top: 50px;
+    left: 10px;
+  }
+}
+.item .logo__item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  transition: all 0.3s ease 0s;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(100, 194, 158, 0.5);
+  border-radius: 8px;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+}
+.item .logo__item .logo__text {
+  margin: 10px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .item .logo__item .logo__text {
+    font-size: 8px;
+  }
+}
+.item .logo__item .logo__image {
+  max-width: 150px;
+}
+@media (max-width: 768px) {
+  .item .logo__item .logo__image {
+    max-width: 80px;
+  }
+}
+@media (max-width: 320px) {
+  .item .logo__item {
+    top: -5px;
+  }
+}
+.item:hover .logo__item {
+  opacity: 1;
+  visibility: visible;
+}/*# sourceMappingURL=styles.css.map */
