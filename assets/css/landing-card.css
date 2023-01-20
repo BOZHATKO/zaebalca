@@ -20,6 +20,7 @@
 	height: 75%;
 	transform-style: preserve-3d;
 }
+
 .card-block-botton {
 	position: relative;
 	margin-top: 40px;
@@ -29,6 +30,7 @@
 	font-size: 20px;
 	line-height: 24px;
 }
+
 .card-block-top {
 	display: block;
 	font-size: 24px;
@@ -52,6 +54,7 @@
 	width: 76%;
 	left: -5px;
 	border-radius: 35px;
+	
 	transform: translateZ(7.8px);
 }
 .product-back {
@@ -73,7 +76,7 @@
 	position: relative;
 	margin-left: -5px;
 	bottom: 585px;
-	/* -webkit-border-radius: 20px; */
+	-webkit-border-radius: 20px;
 }
 
 .product-inner:hover {
@@ -85,13 +88,13 @@
 	position: relative;
 	width: 300px;
 	height: 600px;
-	background-image: url(/image-lending/1920/Android -1.png);
+	background-image: url(../image-lending/1920/android1.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 	left: -47px;
 }
 .front {
-	background-image: url(../image-lending/1920/iOS\ -\ 1\ .png);
+	background-image: url(../image-lending/1920/ios1.png);
 	width: 300px;
 	height: 600px;
 	background-repeat: no-repeat;
@@ -100,7 +103,7 @@
 	position: relative;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-2.png);
+	background-image: url(../image-lending/1920/android2.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 	left: -47px;
@@ -108,7 +111,7 @@
 .front-two {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -2.png);
+	background-image: url(../image-lending/1920/ios2.png);
 	background-repeat: no-repeat;
 }
 .back-three {
@@ -116,14 +119,14 @@
 	left: -47px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-3.png);
+	background-image: url(../image-lending/1920/android3.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-three {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -3.png);
+	background-image: url(../image-lending/1920/ios3.png);
 	background-repeat: no-repeat;
 }
 .back-four {
@@ -131,14 +134,14 @@
 	left: -47px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-4.png);
+	background-image: url(../image-lending/1920/android4.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-four {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -4.png);
+	background-image: url(../image-lending/1920/ios4.png);
 	background-repeat: no-repeat;
 }
 .back-five {
@@ -146,14 +149,14 @@
 	left: -47px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-5.png);
+	background-image: url(../image-lending/1920/android5.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-five {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -5.png);
+	background-image: url(../image-lending/1920/ios5.png);
 	background-repeat: no-repeat;
 }
 .back-six {
@@ -161,14 +164,14 @@
 	left: -47px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-6.png);
+	background-image: url(../image-lending/1920/android6.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-six {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -6.png);
+	background-image: url(../image-lending/1920/ios6.png);
 	background-repeat: no-repeat;
 }
 .back-seven {
@@ -176,14 +179,14 @@
 	left: -47px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-7.png);
+	background-image: url(../image-lending/1920/android7.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-seven {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -7.png);
+	background-image: url(../image-lending/1920/ios7.png);
 	background-repeat: no-repeat;
 }
 .back-eight {
@@ -191,14 +194,14 @@
 	left: -47px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-8.png);
+	background-image: url(../image-lending/1920/android8.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-eight {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -8.png);
+	background-image: url(../image-lending/1920/ios8.png);
 	background-repeat: no-repeat;
 }
 .back-nine {
@@ -206,14 +209,14 @@
 	left: -47px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/Android-9.png);
+	background-image: url(../image-lending/1920/android9.png);
 	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-nine {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/iOS\ -9.png);
+	background-image: url(../image-lending/1920/ios9.png);
 	background-repeat: no-repeat;
 }
 @media screen and (max-width: 1440px) {
@@ -243,7 +246,7 @@
 			margin-top: 50px;
 		}
 		.card-block:last-child{
-			margin-top: 30px;
+		 margin-top: 30px;
 		}
 		.left-side {
 			height: 100%;
@@ -346,12 +349,12 @@
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/5-iOS.png);
+		background-image: url(../image/375/5-iOS.png);
 	}
 	.back-six {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image/375/6-Android.png);
+		background-image: url(../image-lending/375/6-Android.png);
 	}
 	.front-six {
 		position: relative;
@@ -402,9 +405,9 @@
 	.card-block {
 		margin: 0 0 0;
 	}
-	.card-block:last-child {
+	.card-block:last-child{
 		margin-top: 0px;
-	}
+	  }
 	.card-block-top {
 		font-size: 14px;
 		line-height: 20px;
@@ -470,7 +473,7 @@
 	.front-two {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image/320/2-iOS.png);
+		background-image: url(../image-lending/320/2-iOS.png);
 	}
 	.back-three {
 		width: 132px;
@@ -525,7 +528,7 @@
 	.back-eight {
 		width: 132px;
 		height: 261px;
-		background-image: url(../iimage-lending/320/8-Android.png);
+		background-image: url(../image-lending/320/8-Android.png);
 	}
 	.front-eight {
 		width: 132px;
