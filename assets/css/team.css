@@ -1,4 +1,12 @@
+.lead__title {
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 87px;
+  color: #FFFFFF;
+  margin-left: 200px;
+  
 
+}
 .team {
 	background: linear-gradient(180deg, #28282C 0%, #000000 100%);
   padding-top: 170px;
