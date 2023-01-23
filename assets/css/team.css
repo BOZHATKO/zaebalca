@@ -1,14 +1,21 @@
-
 .team {
-	background: linear-gradient(180deg, #28282C 0%, #000000 100%);
-  padding-top: 170px;
-  padding-bottom: 130px;
-} 
+  background: #fff;
+}
+.team__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
 .team__body {
   display: flex;
   margin-left: 212px;
   margin-right: 212px;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 @media (max-width: 1850px) {
   .team__body {
@@ -242,4 +249,4 @@
 .item:hover .logo__item {
   opacity: 1;
   visibility: visible;
-}/*# sourceMappingURL=styles.css.map */
+}
