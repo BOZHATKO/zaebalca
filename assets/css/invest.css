@@ -44,14 +44,16 @@ a, a:visited {
   font-size: 72px;
   line-height: 87px;
   color: #fff;
+  margin-bottom: 50px;
 }
 .investment-body__title_color {
-  color: tan;
+  color: #00A9DE;
 }
 .investment-body__text {
   max-width: 667px;
   font-size: 24px;
   color: #fff;
+  margin-bottom: 50px;
 }
 
 .investment-body-content {
@@ -107,7 +109,7 @@ a, a:visited {
 }
 .sfera__column {
   flex: 0 0 60%;
-  margin: 46px 0px 246px 0px;
+  margin: 46px 0px 0px 0px;
 }
 .sfera__image {
   margin-right: 246px;
@@ -145,7 +147,7 @@ a, a:visited {
 }
 
 .venchur-body {
-  margin: 130px 308px 130px 308px;
+  margin: 100px 308px 0px 258px;
 }
 .venchur-body__title {
   font-weight: 700;
@@ -155,6 +157,7 @@ a, a:visited {
 }
 .venchur-body__undertitle {
   margin-top: 36px;
+  margin-bottom: 40px;
 }
 .venchur-body__undertitle_text {
   margin: 0px 0px 0px 0px;
@@ -162,14 +165,18 @@ a, a:visited {
 .venchur-body__link {
   padding-left: 0;
 }
+.venchur-body-list {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 40px;
+}
 
 .sfera-2 {
   display: flex;
-  background: #000;
 }
 .sfera-2__column {
-  flex: 0 0 50%;
-  margin: 235px 0px 235px 0px;
+  flex: 0 0 60%;
+  margin: 160px 0px 100px 258px;
 }
 .sfera-2__image {
   margin-right: 200px;
@@ -177,22 +184,23 @@ a, a:visited {
   margin-top: 68px;
 }
 
-.sfera-2-body {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 29px;
-}
 .sfera-2-body__uptext {
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 43px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 55px;
 }
-.sfera-2-body__link li:before {
-  content: "• ";
-  color: #fff;
-  margin-left: -20px;
+.sfera-2-body__link {
+  font-size: 18px;
+  line-height: 22px;
 }
+.sfera-2-body__link li {
+  list-style: decimal;
+}
+.sfera-2-body__downtext {
+  margin-top: 33px;
+}
+
 .sfera-2-body-content {
   padding-right: 245px;
 }
@@ -221,4 +229,8 @@ a, a:visited {
 }
 .lead__download-links-list-item {
   flex: 0 1 40%;
+}
+#btn {
+  cursor: pointer;
+  color: #007094;
 }

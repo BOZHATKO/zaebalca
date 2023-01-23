@@ -39,8 +39,9 @@ position: relative;
 		font-size: 72px;
 		line-height: 87px;
 		color: #fff;
+		margin-bottom: 50px;
 		&_color{
-			color: tan;
+			color: #00A9DE;
 		}
 	}
 	
@@ -50,6 +51,7 @@ position: relative;
 		max-width: 667px;
 		font-size: 24px;
 		color: #fff;
+		margin-bottom: 50px;
 	}
 }
 .investment-body-content {
@@ -167,7 +169,7 @@ margin: 0px 0px 0px 0px;
 
 	&__column {
 		flex: 0 0 60%;
-		margin: 46px 0px 246px 0px;
+		margin: 46px 0px 0px 0px;
 	}
 
 	// .sfera__image
@@ -218,7 +220,7 @@ margin: 0px 0px 0px 0px;
 .venchur {
 }
 .venchur-body {
-	margin: 130px 308px 130px 308px;
+	margin: 100px 308px 0px 258px;
 
 		// .venchur-body__title
 
@@ -233,6 +235,7 @@ margin: 0px 0px 0px 0px;
 
 		&__undertitle {
 			margin-top: 36px;
+			margin-bottom: 40px;
 
 			// .venchur-body__undertitle_text
 
@@ -246,6 +249,11 @@ margin: 0px 0px 0px 0px;
 		&__link {
 			padding-left: 0;
 		}
+		&-list{
+			font-size: 24px;
+			line-height: 29px;
+			margin-bottom: 40px;
+		}
 }
 .venchur-body-content {
 }
@@ -257,12 +265,12 @@ margin: 0px 0px 0px 0px;
 //=============================================================================================================================================================================
 .sfera-2 {
 	display: flex;
-	background: #000;
+
 	// .sfera-2__column
 
 	&__column {
-		flex: 0 0 50%;
-		margin: 235px 0px 235px 0px;
+		flex: 0 0 60%;
+		margin: 160px 0px 100px 258px;
 	}
 
 	// .sfera-2__image
@@ -274,27 +282,31 @@ margin: 0px 0px 0px 0px;
 	}
 }
 .sfera-2-body {
-	color: #fff;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 29px;
+
 	// .sfera-2-body__uptext
 
 	&__uptext {
-		font-size: 36px;
-		font-weight: 600;
-		line-height: 43px;
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 38px;
+		margin-bottom: 55px;
+		
 	}
 
 	// .sfera-2-body__link
-
-	&__link {
-		li:before {content: "• ";color: #fff; margin-left: -20px;}
+	&__link{
+		font-size: 18px;
+		line-height: 22px;
+	}
+	&__link li {
+		// li:before {content: "• ";color: #fff; margin-left: -20px;}
+		list-style: decimal;
 	}
 
 	// .sfera-2-body__downtext
 
 	&__downtext {
+		margin-top: 33px;
 	}
 }
 .sfera-2-body-content {
@@ -363,4 +375,9 @@ margin: 0px 0px 0px 0px;
 
 	&_type {
 	}
+}
+
+#btn{
+	cursor: pointer;
+	color: #007094;
 }
