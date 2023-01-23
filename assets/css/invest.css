@@ -13,6 +13,10 @@ a, a:visited {
   background-repeat: no-repeat;
 }
 
+#more {
+  display: none;
+}
+
 .investment {
   display: flex;
   background-color: #000;
@@ -23,9 +27,12 @@ a, a:visited {
   flex: 0 0 60%;
 }
 .investment__image {
-  height: 100%;
-  margin-left: -250px;
-  margin-top: 230px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+.investment__image img {
+  border-radius: 30px;
 }
 
 .investment-body {
@@ -33,13 +40,16 @@ a, a:visited {
   padding-left: 200px;
 }
 .investment-body__title {
+  padding-right: 80px;
   font-size: 72px;
   line-height: 87px;
-  text-transform: uppercase;
   color: #fff;
 }
+.investment-body__title_color {
+  color: tan;
+}
 .investment-body__text {
-  max-width: 551px;
+  max-width: 667px;
   font-size: 24px;
   color: #fff;
 }
@@ -54,27 +64,50 @@ a, a:visited {
 }
 .card__column {
   flex: 0 0 50%;
-  margin: 154px 0px 154px 0px;
+  margin: 235px 0px 154px 0px;
 }
 .card__image {
   height: 100%;
-  margin-left: 210px;
+  margin-left: 258px;
 }
 
 .card-body {
   margin-right: 171px;
 }
-.card-body__list_4 li:before {
-  content: "• ";
-  color: #fff;
+.card-body__link li:nth-child(1) {
+  list-style: decimal;
 }
+.card-body__link li:nth-child(3) {
+  list-style: decimal;
+}
+.card-body__list_2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #007094;
+  margin: 20px 0px 20px 20px;
+}
+.card-body__list_4 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #007094;
+  margin: 20px 0px 20px 20px;
+}
+.card-body__text {
+  padding-right: 30px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+}
+
 .sfera {
   display: flex;
-  background: #000;
+  background: #fff;
 }
 .sfera__column {
-  flex: 0 0 50%;
-  margin: 246px 0px 246px 0px;
+  flex: 0 0 60%;
+  margin: 46px 0px 246px 0px;
 }
 .sfera__image {
   margin-right: 246px;
@@ -83,17 +116,42 @@ a, a:visited {
 }
 
 .sfera-body {
-  color: #fff;
-  margin-left: 246px;
+  margin-left: 258px;
   list-style: circle;
+}
+.sfera-body__uptext {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+.sfera-body__link {
+  padding-left: 25px;
+  margin-top: 30px;
 }
 .sfera-body__link li:before {
   content: "• ";
-  color: #fff;
+  color: #000;
   margin-left: -20px;
 }
+.sfera-body__list {
+  margin-top: 10px;
+}
+.sfera-body__downtext {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  padding-right: 110px;
+}
+
 .venchur-body {
   margin: 130px 308px 130px 308px;
+}
+.venchur-body__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 40px;
 }
 .venchur-body__undertitle {
   margin-top: 36px;
@@ -103,11 +161,6 @@ a, a:visited {
 }
 .venchur-body__link {
   padding-left: 0;
-}
-
-.venchur-body-list {
-  padding-left: 86px;
-  background: url(../img/investment/quote.png) top left no-repeat;
 }
 
 .sfera-2 {
@@ -164,6 +217,7 @@ a, a:visited {
   display: flex;
   list-style: none;
   padding: 0;
+  margin-bottom: 100px;
 }
 .lead__download-links-list-item {
   flex: 0 1 40%;
