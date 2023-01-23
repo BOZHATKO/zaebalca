@@ -31,10 +31,6 @@ a, a:visited {
   margin-left: 100px;
   margin-top: 200px;
 }
-.investment__image img {
-  border-radius: 30px;
-}
-
 .investment-body {
   padding-top: 150px;
   padding-left: 200px;
@@ -47,7 +43,7 @@ a, a:visited {
   margin-bottom: 50px;
 }
 .investment-body__title_color {
-  color: #00A9DE;
+ color: #007094;
 }
 .investment-body__text {
   max-width: 667px;
@@ -62,54 +58,23 @@ a, a:visited {
 
 .card {
   display: flex;
-  margin: 0px 0px 0px 0px;
-}
-.card__column {
-  flex: 0 0 50%;
-  margin: 235px 0px 154px 0px;
-}
-.card__image {
-  height: 100%;
-  margin-left: 258px;
+  column-gap: 50px;
 }
 
-.card-body {
-  margin-right: 171px;
+.card__wrapper {
+  margin: 300px 200px;
 }
-.card-body__link li:nth-child(1) {
-  list-style: decimal;
+.card-body__link {
+  padding: 0;
 }
-.card-body__link li:nth-child(3) {
-  list-style: decimal;
-}
-.card-body__list_2 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  color: #007094;
-  margin: 20px 0px 20px 20px;
-}
-.card-body__list_4 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  color: #007094;
-  margin: 20px 0px 20px 20px;
-}
-.card-body__text {
-  padding-right: 30px;
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 400;
-}
-
 .sfera {
   display: flex;
   background: #fff;
 }
 .sfera__column {
   flex: 0 0 60%;
-  margin: 46px 0px 0px 0px;
+margin: 46px 0px 0px 0px;
+
 }
 .sfera__image {
   margin-right: 246px;
@@ -117,8 +82,8 @@ a, a:visited {
   margin-top: 57px;
 }
 
-.sfera-body {
-  margin-left: 258px;
+.sfera__wrapper {
+  margin: 0 200px;
   list-style: circle;
 }
 .sfera-body__uptext {
@@ -146,8 +111,10 @@ a, a:visited {
   padding-right: 110px;
 }
 
-.venchur-body {
-  margin: 100px 308px 0px 258px;
+
+.venchur__wrapper {
+  margin: 130px 200px;
+
 }
 .venchur-body__title {
   font-weight: 700;
@@ -165,6 +132,7 @@ a, a:visited {
 .venchur-body__link {
   padding-left: 0;
 }
+
 .venchur-body-list {
   font-size: 24px;
   line-height: 29px;
@@ -184,22 +152,20 @@ a, a:visited {
   margin-top: 68px;
 }
 
+
 .sfera-2-body__uptext {
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
   margin-bottom: 55px;
 }
-.sfera-2-body__link {
-  font-size: 18px;
-  line-height: 22px;
+
+.sfera__wrapper {
+  margin: 100px 200px;
 }
-.sfera-2-body__link li {
-  list-style: decimal;
-}
-.sfera-2-body__downtext {
-  margin-top: 33px;
-}
+/* .sfera-2-body__link {
+  padding: 0;
+} */
 
 .sfera-2-body-content {
   padding-right: 245px;
