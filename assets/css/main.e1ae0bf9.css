@@ -327,6 +327,7 @@ body{
 	background-color:#000;
 	color:#fff
 }
+
 @media screen and (max-width: 1600px){
 	.section__wrapper{
 		padding:0 50px;
@@ -370,6 +371,17 @@ body{
 	padding:20px 20px 18px 20px;
 	border-bottom:1px solid rgba(0,0,0,0);
 	background-color:#000
+}
+.main-nav__item a.active{
+	font-size:16px;
+	line-height:19px;
+	font-weight:500;
+	margin:0;
+	padding:20px 20px 18px 20px;
+	border-bottom:2px solid rgba(0,0,0,0);
+	background-color:#000
+	border-bottom:2px solid rgba(0,0,0,0);
+	border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 40
 }
 .main-nav__item:hover{
 	border-bottom:2px solid rgba(0,0,0,0);
@@ -550,6 +562,10 @@ body{
   } */
 }
 @media screen and  (max-width: 768px) {
+	.main-nav__list{
+		display: ;
+		background-color: orange;
+	}
 	.button {
 		font-size: 18px;
 		font-weight: 600;
