@@ -4,6 +4,9 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 5,
     spaceBetween: 10,
+    autoplay: {
+      delay: 3000,
+  },
   
     pagination: {
       el: '.swiper-pagination',
@@ -12,7 +15,7 @@ const swiper = new Swiper('.swiper', {
     },
     breakpoints: {
       640: {
-        slidesPerView: 1,
+        slidesPerView: 2,
         spaceBetween: 20,
       },
       768: {

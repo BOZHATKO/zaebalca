@@ -10,26 +10,36 @@
   padding: 0;
   column-gap: 30px;
 }
-/* .lead__button:first-child {
-  margin-right: 40px;
-}  */
+.lead__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  line-height: 29px;
+  font-weight: 400;
+
+} 
 .apps__subapps {
-  background: black;
+  background: #2E2E31;
   color: white;
-  padding: 100px 0 40px;
+  padding: 80px 0 150px 0;
 }
 .apps__subapps-wrapper {
-  width: 886px;
+  width: 1520px;
   margin: 0 auto;
 }
+.apps__subapps {
+  display: flex;
+  column-gap: 142px;
+
+}
 .apps__subapps-title {
-  text-align: center;
   margin: 0 0 25px 0;
   padding: 0;
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-size: 86px;
+  line-height: 104px;
+  font-weight: 700;
+  /* text-transform: uppercase; */
 }
 .apps__subapps-list {
   display: flex;
@@ -41,10 +51,20 @@
   padding: 0;
 }
 .apps__subapps-list-item {
-  margin: 0 40px 0 0;
+  /* margin: 0 100px 0 0; */
   padding: 0;
 }
-
+.apps__briefs-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: cadetblue;
+}
+.apps__briefs-item-list-color::marker {
+  color: #000000;
+  
+}
 .apps__subapps-list-item:last-of-type {
   margin-right: 0;
 }
@@ -60,9 +80,12 @@
 .apps__subapps-list-item-icon {
   margin: 0;
   padding: 0;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 5px;
+}
+.lead__text-color {
+  color: #00A9DE;
 }
 .flex {
   display: flex;
@@ -122,11 +145,15 @@
   justify-content: space-between;
   padding: 65px 0 65px;
   margin: 0;
-  column-gap: 182px;
+  /* column-gap: 182px; */
 }
-.apps__briefs-item:nth-child(odd) {
+.apps__briefs-item {
   flex-direction: row-reverse;
 }
+/* .apps__briefs-item-list-color {
+  color: black;
+
+} */
 .apps__brief-text-container {
   max-width: 738px;
   margin: 0;
@@ -179,10 +206,16 @@
   object-fit: contain;
 }
 .apps__future {
-  padding: 78px 0 140px;
+  padding: 78px 0 0;
 }
 
 /* ----------------------------------------------- */
+.align_center {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+  margin: 70px 200px ;
+}
 .swiper {
   width: 100%;
   height: 560px;
@@ -190,7 +223,7 @@
 .swiper-slide {
   width: 350px;
   height: 498px;
-  background: linear-gradient(180deg, #28282C 0%, #000000 100%);
+  /* background: linear-gradient(180deg, #28282C 0%, #000000 100%); */
 }
 .swiper-slide__wrapper {
   display: flex;
@@ -205,7 +238,7 @@
   margin-bottom: 32px;
 }
 .swiper-slide__title {
-  color: white;
+  /* color: white; */
   font-size: 22px;
   line-height: 27px;
   white-space: nowrap;
