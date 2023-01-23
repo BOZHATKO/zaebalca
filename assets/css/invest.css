@@ -31,10 +31,6 @@ a, a:visited {
   margin-left: 100px;
   margin-top: 200px;
 }
-.investment__image img {
-  border-radius: 30px;
-}
-
 .investment-body {
   padding-top: 150px;
   padding-left: 200px;
