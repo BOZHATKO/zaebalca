@@ -46,7 +46,7 @@ a, a:visited {
   color: #fff;
 }
 .investment-body__title_color {
-  color: tan;
+  color: #007094;
 }
 .investment-body__text {
   max-width: 667px;
@@ -60,54 +60,22 @@ a, a:visited {
 
 .card {
   display: flex;
-  margin: 0px 0px 0px 0px;
-}
-.card__column {
-  flex: 0 0 50%;
-  margin: 235px 0px 154px 0px;
-}
-.card__image {
-  height: 100%;
-  margin-left: 258px;
+  column-gap: 50px;
 }
 
-.card-body {
-  margin-right: 171px;
+.card__wrapper {
+  margin: 300px 200px;
 }
-.card-body__link li:nth-child(1) {
-  list-style: decimal;
+.card-body__link {
+  padding: 0;
 }
-.card-body__link li:nth-child(3) {
-  list-style: decimal;
-}
-.card-body__list_2 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  color: #007094;
-  margin: 20px 0px 20px 20px;
-}
-.card-body__list_4 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  color: #007094;
-  margin: 20px 0px 20px 20px;
-}
-.card-body__text {
-  padding-right: 30px;
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 400;
-}
-
 .sfera {
   display: flex;
   background: #fff;
 }
 .sfera__column {
   flex: 0 0 60%;
-  margin: 46px 0px 246px 0px;
+  margin: 46px 0px 0 0px;
 }
 .sfera__image {
   margin-right: 246px;
@@ -115,8 +83,8 @@ a, a:visited {
   margin-top: 57px;
 }
 
-.sfera-body {
-  margin-left: 258px;
+.sfera__wrapper {
+  margin: 0 200px;
   list-style: circle;
 }
 .sfera-body__uptext {
@@ -144,8 +112,8 @@ a, a:visited {
   padding-right: 110px;
 }
 
-.venchur-body {
-  margin: 130px 308px 130px 308px;
+.venchur__wrapper {
+  margin: 130px 200px;
 }
 .venchur-body__title {
   font-weight: 700;
@@ -162,23 +130,7 @@ a, a:visited {
 .venchur-body__link {
   padding-left: 0;
 }
-
-.sfera-2 {
-  display: flex;
-  background: #000;
-}
-.sfera-2__column {
-  flex: 0 0 50%;
-  margin: 235px 0px 235px 0px;
-}
-.sfera-2__image {
-  margin-right: 200px;
-  margin-left: 245px;
-  margin-top: 68px;
-}
-
 .sfera-2-body {
-  color: #fff;
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
@@ -188,11 +140,12 @@ a, a:visited {
   font-weight: 600;
   line-height: 43px;
 }
-.sfera-2-body__link li:before {
-  content: "• ";
-  color: #fff;
-  margin-left: -20px;
+.sfera__wrapper {
+  margin: 0 200px;
 }
+/* .sfera-2-body__link {
+  padding: 0;
+} */
 .sfera-2-body-content {
   padding-right: 245px;
 }
