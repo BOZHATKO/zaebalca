@@ -41,6 +41,12 @@ a, a:visited {
   line-height: 87px;
   color: #fff;
 }
+.card-body__list {
+  font-size: 36px;
+  line-height: 43px;
+  font-weight: 600;
+  color: #007094;
+}
 .investment-body__title_color {
   color: #007094;
 }
@@ -49,18 +55,15 @@ a, a:visited {
   font-size: 24px;
   color: #fff;
 }
-
 .investment-body-content {
   max-width: 950px;
 }
-
 .card {
   display: flex;
   column-gap: 50px;
 }
-
 .card__wrapper {
-  margin: 300px 200px;
+  margin: 300px 200px 200px 200px;
 }
 .card-body__link {
   padding: 0;
@@ -137,7 +140,7 @@ a, a:visited {
   line-height: 43px;
 }
 .sfera__wrapper {
-  margin: 100px 200px;
+  margin: 0 200px 0 200px;
 }
 /* .sfera-2-body__link {
   padding: 0;
