@@ -30,7 +30,7 @@
 }
 .apps__subapps {
   display: flex;
-  column-gap: 142px;
+  column-gap: 135px;
 
 }
 .apps__subapps-title {
@@ -62,6 +62,7 @@
   color: cadetblue;
 }
 .apps__briefs-item-list-color::marker {
+  
   color: #000000;
   
 }

@@ -1,6 +1,6 @@
 .section-card {
 	background: linear-gradient(180deg, #2E2E31 0%, #18181A 100%);
-	padding: 130px 0 ;
+	padding: 80px 0 ;
 }
 
 .card {
@@ -83,7 +83,7 @@ border-radius: 3px;
 	position: relative;
 	margin-left: -5px;
 	bottom: 585px;
-	-webkit-border-radius: 20px;
+	/* -webkit-border-radius: 20px; */
 }
 
 .product-inner:hover {
