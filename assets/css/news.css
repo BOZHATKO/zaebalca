@@ -1,137 +1,34 @@
-.apps {
-    /* ----------------------------------------------- */
-    /* ----------------------------------------------- */
-    /* ----------------------------------------------- */
-    /* ----------------------------------------------- */
+.section__wrapper {
+    margin: 0 200px;
 }
-
-/* .lead__button:first-child {
-  margin-right: 40px;
-}  */
-
-.flex {
+.apps__lead {
+    background:  #2E2E31;
+}
+.lead__flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    padding: 100px 0;
+
 }
 
 .lead__text {
-    font-size: 48px;
-    line-height: 57px;
-    max-width: 600px;
-}
-
-.apps__lead {
-    padding: 40px 0 130px;
-    background-color: #000000;
-    color: aliceblue;
-}
-
-.apps__lead-grid {
-    max-width: 1520px;
-    min-width: 669px;
-    margin: 0 auto;
-    grid-template-columns: minmax(335px, 800px) minmax(238px, 1fr);
-}
-
-.apps__lead-text-container {
-    margin-top: 21px;
-}
-
-.apps__lead-image-container {
-    display: flex;
-    justify-content: end;
-    align-items: flex-start;
-    max-width: 100%;
-}
-
-.apps__lead-image-wrapper {
-    max-width: 340px;
-    max-height: 500px;
-}
-
-.apps__briefs {
-    padding: 65px 0 130px 0;
-}
-
-.apps__briefs-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.apps__briefs-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 65px 0 65px;
-    margin: 0;
-}
-
-.apps__briefs-item:nth-child(odd) {
-    flex-direction: row-reverse;
-}
-
-.apps__brief-text-container {
-    max-width: 738px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-}
-
-.apps__brief-text {
+    color: white;
     font-size: 24px;
     line-height: 29px;
-    margin: 0;
-    padding: 0;
+    max-width: 700px;
+}
+details {
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #00A9DE;
+    max-width: 200px;
 }
 
-.apps__brief-images-container {
-    max-width: 610px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
 
-.apps__brief-image-wrapper {
-    position: relative;
-    max-width: 293px;
-    max-height: 592px;
-    margin-right: 35px;
-    padding-bottom: 50px;
-}
 
-.apps__brief-image-wrapper:last-of-type {
-    margin: 0;
-}
 
-/* .apps__brief-image-wrapper::after {
-    position: absolute;
-    content: "iOS";
-    display: block;
-    width: 100%;
-    font-size: 24px;
-    line-height: 29px;
-    height: 29px;
-    text-align: center;
-    bottom: 0px;
-    left: 0px;
-} */
 
-/* .apps__brief-image-wrapper:last-of-type::after {
-    content: "Android";
-} */
 
-.apps__brief-image {
-    max-width: 100%;
-    -o-object-fit: contain;
-    object-fit: contain;
-}
 
-/* .apps__lead-image {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-} */
