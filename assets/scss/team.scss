@@ -112,10 +112,19 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		height: 100%;
+		height: 25%;
 		justify-content:center;
-		top: 120px;
+		top: 245px;
 		left: 18px;
+		@media (max-width: breakpoints.$breakpoint_bx){
+			top: 220px;
+		}
+		@media (max-width: breakpoints.$breakpoint_bx){
+			top: 150px;
+		}
+		@media (max-width: breakpoints.$breakpoint_xs){
+			top: 130px;
+		}
 		.item__person-name {
 			color: #fff;
 			font-size: 22px;
@@ -179,7 +188,7 @@
 		flex-direction: column;
 		justify-content:center;
 		align-items: center;
-		background-color: rgba(100, 194, 158, 0.5);
+		background-color: rgba(0, 169, 222, 0.5);
 		border-radius: 8px;
 		z-index: 2;
 		opacity: 0;
