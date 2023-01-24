@@ -23,9 +23,14 @@ strong {
   color: white;
   line-height: 45px;
 }
+.section-first-color-sfera {
+  color: #00A9DE;
+}
 .section-first-paragraf {
   margin-bottom: 40px;
-  font-size: 44px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
 }
 .section-first-color,
 .block-first-color {
@@ -187,8 +192,10 @@ section.section-two {
 .section-as-heading {
   margin-top: 200px;
   text-align: center;
-  Line-height: 55px;
-  font-size: 44px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  
 }
 .section-as-video {
   text-align: center;
@@ -200,13 +207,9 @@ section.section-two {
 .block-for {
   display: grid;
   grid-template-columns: 50% 50%;
-  /*margin: 118px 0 213px 65px;*/
   margin: 70px 0 150px 130px; 
 }
-/* .list-left-for {
-  background: rgb(251,63,199);
-  background: radial-gradient(circle, rgb(88, 26, 100) -73%, rgba(14,4,43,0.11808473389355745) 61%);
-} */
+
 .block-for-image {
   display: flex;
 }
@@ -242,6 +245,8 @@ section.section-two {
   margin-bottom: 14px;
   font-size: 24px;
   color: #00A9DE;
+  background: rgba(0, 169, 222, 0.1);
+  border-radius: 4px;
 }
 .about-as-heading {
   text-align: center;
@@ -306,9 +311,11 @@ section.section-two {
   font-size: 24px;
 }
 .block-seven-p {
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
   color: #00A9DE;
-  line-height: 35px;
+
 }
 .block-seven-image {
   display: flex;

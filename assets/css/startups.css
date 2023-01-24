@@ -56,6 +56,9 @@
 }
 .description__list__heading {
   margin: 0 0 100px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height:58px;
 }
 .description__list {
   list-style-type: none; 
@@ -69,7 +72,10 @@
   position: relative;	
 	margin: 0 0 0 0;
 	padding: 0 0 20px 50px;
-	line-height: 1.4;
+	
+  font-size: 24px;
+  font-weight: 400;
+  line-height:29px;
 }
 .description__list__paragraf::before {
   content: counter(num); 

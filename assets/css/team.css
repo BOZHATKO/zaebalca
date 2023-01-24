@@ -1,15 +1,12 @@
 .lead__title {
-  font-weight: 300;
-  font-size: 72px;
-  line-height: 87px;
-  color: #FFFFFF;
-  margin-left: 200px;
-  
-
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  margin: 100px 0;
 }
 .team {
-  background: #2E2E31;
-  padding-top: 170px;
   padding-bottom: 130px;
 } 
 .team__body {
