@@ -25,7 +25,17 @@
         <i class="fa fa-bars"></i>
       </label>
     <div class="block-logo">
-      <a class="button button_form_circle button_theme_image link_hide-text" href=""><span class="button__play-video">Просмотреть видео о SFERA</span></a>
+      <div class="modal" id="modal">
+        <div class="modal__box">
+          <video  controls="controls"autoplay="autoplay">
+            <source src="../assets/video/video.mp4">
+          </video>
+          <a href="#" class="btn btn--close" id="btn_close">close</a>
+        </div>
+      </div>
+
+      <a class="button button_form_circle button_theme_image link_hide-text btn" id="btn" href=""><span class="button__play-video">Просмотреть видео о SFERA</span></a>
+
       <label class="logo">
         <svg width="247" height="40" viewBox="0 0 247 40" fill="none" class="logo__image">
           <g filter="url(#filter0_i_6961_2109)">
@@ -162,6 +172,7 @@
     </footer>
   </div>
   <script src="assets/js/main.3.ddda2f0e.js" defer></script>
+  <script src="../assets/js/main.js"></script>
 </body>
 
 </html>
