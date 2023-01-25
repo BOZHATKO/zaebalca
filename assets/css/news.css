@@ -10,17 +10,15 @@
     align-items: center;
     column-gap: 80px;
     padding: 100px 0;
-
 }
-
 .lead__text {
-    color: white;
+    color: rgba(255, 255, 255, 0.87);
     font-size: 24px;
     line-height: 29px;
     max-width: 700px;
 }
 details {
-    color: white;
+    color: rgba(255, 255, 255, 0.87);
     padding-bottom: 10px;
     border-bottom: 1px solid #00A9DE;
     max-width: 200px;

@@ -1,6 +1,6 @@
 .section-card {
 	background: linear-gradient(180deg, #2E2E31 0%, #18181A 100%);
-	padding: 80px 0 ;
+	padding: 80px 0;
 }
 
 .card {
@@ -32,11 +32,10 @@
 	margin-top: 40px;
 	bottom: -20px;
 	text-align: center;
-	color: white;
+	color: rgba(255, 255, 255, 0.87);
 	font-size: 20px;
 	line-height: 24px;
 }
-
 .card-block-top {
 	display: block;
 	font-size: 24px;
@@ -46,8 +45,7 @@
 	padding: 8px;
 	color: #00A9DE;
 	background: rgba(0, 169, 222, 0.1);
-border-radius: 3px;
-
+	border-radius: 3px;
 }
 .card-3d {
 	perspective: 1000px;
@@ -55,13 +53,11 @@ border-radius: 3px;
 	width: 296px;
 	height: 600px;
 }
-
 .product-front {
 	position: absolute;
 	width: 76%;
 	left: -5px;
 	border-radius: 35px;
-	
 	transform: translateZ(7.8px);
 }
 .product-back {
@@ -73,7 +69,6 @@ border-radius: 3px;
 	height: 300px;
 	transform: translateZ(-7.8px);
 }
-
 .left-side {
 	width: 15px;
 	height: 100%;
@@ -85,12 +80,10 @@ border-radius: 3px;
 	bottom: 585px;
 	/* -webkit-border-radius: 20px; */
 }
-
 .product-inner:hover {
 	transform: rotateY(180deg);
 	transition: transform 1.2s linear;
 }
-
 .back {
 	position: relative;
 	width: 300px;
@@ -253,7 +246,7 @@ border-radius: 3px;
 			margin-top: 50px;
 		}
 		.card-block:last-child{
-		 margin-top: 30px;
+		  margin-top: 30px;
 		}
 		.left-side {
 			height: 100%;
@@ -265,7 +258,6 @@ border-radius: 3px;
 	.card-block {
 		margin: 0 0 0;
 	}
-
 	.card-block-top {
 		font-size: 14px;
 		line-height: 20px;

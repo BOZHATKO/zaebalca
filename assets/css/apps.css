@@ -39,6 +39,7 @@
   font-size: 86px;
   line-height: 104px;
   font-weight: 700;
+  color: rgba(255, 255, 255, 0.87);
   /* text-transform: uppercase; */
 }
 .apps__subapps-list {
@@ -62,15 +63,13 @@
   color: cadetblue;
 }
 .apps__briefs-item-list-color::marker {
-  
   color: #000000;
-  
 }
 .apps__subapps-list-item:last-of-type {
   margin-right: 0;
 }
 .apps__subapps-list-item-link {
-  color: white;
+  color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -102,7 +101,7 @@
 .apps__lead {
   padding: 40px 0 130px;
   background-color: #000000;
-  color: aliceblue;
+  color: rgba(255, 255, 255, 0.87);
 }
 .apps__lead-grid {
   max-width: 1270px;

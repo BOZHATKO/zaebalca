@@ -6,7 +6,7 @@
 }
 .startups {
   background: #2E2E31;
-  color: white;
+  color: rgba(255, 255, 255, 0.87);
 }
 .lead {
   display: flex;
@@ -14,7 +14,6 @@
   padding-bottom: 200px;
   column-gap: 180px;
 }
-
 .lead__texts {
   display: flex;
   flex-direction: column;
@@ -25,8 +24,7 @@
   font-weight: 700;
   font-size: 86px;
   line-height: 104px;
-  color: #FFFFFF;
-
+  color: rgba(255, 255, 255, 0.87);
   text-transform: uppercase;
 }
 .lead__title-color {
@@ -36,7 +34,7 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.87);
   margin-top: 0px;
 }
 .lead__images {
@@ -45,8 +43,8 @@
 }
 .lead__image {
   margin-top: 240px;
-    margin-left: -176px;
-    width: 742px;
+  margin-left: -176px;
+  width: 742px;
 }
 .text-list__list-item {
   list-style-type: none;
@@ -87,13 +85,12 @@
 	width: 60px;
 	height: 60px;
 	background: rgb(16, 16, 16);
-	color: white;
+	color: rgba(255, 255, 255, 0.87);
 	text-align: center;
 	font-weight: 600;
   font-size: 36px;
   line-height: 44px;
 	border-radius: 50%;
-	
 }
 .frame__wrapper {
   margin:0 200px 100px 200px;
@@ -105,21 +102,6 @@
   justify-content: center;
   align-items: center;
 }
-
-/* .frame {
-  display: flex;
-  margin-top: 140px;
-  margin-bottom: 130px;
-  gap: 80px;
-} */
-
-/* .frame__text {
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 44px;
-  margin-top: 20px;
-} */
-
 @media screen and (max-width: 768px) {
   .lead {
     margin-left: 50px;
