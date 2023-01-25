@@ -25,7 +25,19 @@
 				<i class="fa fa-bars"></i>
 			</label>
 			<div class="block-logo">
-				<a class="button button_form_circle button_theme_image link_hide-text" href=""><span class="button__play-video">Просмотреть видео о SFERA</span></a>
+				<a class="button button_form_circle button_theme_image link_hide-text openButton"href=""><span class="button__play-video">Просмотреть видео о SFERA</span></a>
+				<div class="loginPopup">
+					<div class="formPopup" id="popupForm">
+							<button type="button" class="btn cancel">Close</button>
+					</div>
+				</div>
+
+				<!-- <a class="button button_form_circle button_theme_image link_hide-text openButton" onclick="openVideo()" href=""><span class="button__play-video">Просмотреть видео о SFERA</span></a>
+				<div class="loginPopup">
+					<div class="formPopup" id="popupForm">
+							<button type="button" class="btn cancel" onclick="closeVideo()">Close</button>
+					</div>
+				</div> -->
 				<label class="logo">
 					<svg width="247" height="40" viewBox="0 0 247 40" fill="none" class="logo__image">
 						<g filter="url(#filter0_i_6961_2109)">
@@ -405,8 +417,9 @@
         </div>
       </div>
     </footer>
+		
 		<script src="/assets/js/index.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="./assets/js/main.js"></script>
 	</body>
 
 </html>

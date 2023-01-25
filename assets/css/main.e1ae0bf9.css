@@ -1,3 +1,28 @@
+.openBtn {
+  display: flex;
+  justify-content: left;
+}
+.openButton {
+  background-color: #1c87c9;
+  cursor: pointer;
+  position: fixed;
+}
+.formPopup {
+  width: 500px;
+  height: 500px;
+  display: none;
+  position: fixed;
+  left: 45%;
+  top: 5%;
+  transform: translate(-50%, 5%);
+  border: 3px solid #999999;
+  z-index: 9999999;
+}
+
+
+
+
+
 .color_grey{
 	color:#c9ced4
 }
