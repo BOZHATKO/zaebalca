@@ -1,26 +1,18 @@
-const body = document.body;
-const btn = document.querySelector("#btn");
-const btnClose = document.querySelector("#btn_close");
-const modal = document.querySelector("#modal");
 
-btn.addEventListener("click", btnHandler);
-btnClose.addEventListener("click", btnCloseHandler);
 
-function btnHandler(e) {
-  e.preventDefault();
-  body.classList.add("lock");
-  modal.classList.add("modal--open"); 
-}
 
-function btnCloseHandler(e) {
-  e.preventDefault();
-  body.classList.remove("lock"); 
-  modal.classList.remove("modal--open"); 
-}
+let videoPlayer = document.querySelector('.video-player')
+let videoContainer = document.querySelector('.video-container')
+let close = document.querySelector('.close')
+let video = document.querySelector('.video-container').querySelector('.video')
+videoPlayer.addEventListener('click', function (){
+  videoContainer.classList.add('show');
+  menuBtn.classList.remove('active')
+  menu.classList.remove('active')
+  video.play()
+})
 
-window.addEventListener("click", function (e) {
-  if (e.target == modal) {
-    body.classList.remove("lock");
-    modal.classList.remove("modal--open");
-  }
-});
+close.addEventListener('click',function (){
+    videoContainer.classList.remove('show')
+    video.pause()
+})
