@@ -76,9 +76,6 @@ button,input{
 button,select{
 	text-transform:none
 }
-/* button,[type=button],[type=reset],[type=submit]{
-	-webkit-appearance:button;
-} */
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
 	border-style:none;
 	padding:0
@@ -110,10 +107,7 @@ textarea{
 [type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{
 	height:auto
 }
-/* [type=search]{
-	-webkit-appearance:textfield;
-	outline-offset:-2px
-} */
+
 [type=search]::-webkit-search-decoration{
 	-webkit-appearance:none
 }
@@ -315,13 +309,7 @@ body{
 	transition-duration:.5s;
 	left:0
 }
-/* .page{
-	min-height:100vh;
-	display:flex;
-	flex-direction:column;
-	justify-content:space-between;
-	line-height:29px
-} */
+
 .section{
 	width:100%
 }
@@ -330,11 +318,7 @@ body{
 	color:#fff
 }
 
-/* @media screen and (max-width: 1600px){
-	.section__wrapper{
-		padding:0 50px;
-	}
-} */
+
 .header{
 	padding:30px 0;
 	display: block;/*добавил меню лендинга*/
@@ -382,7 +366,7 @@ body{
 	margin:0;
 	padding:20px 20px 18px 20px;
 	border-bottom:2px solid rgba(0,0,0,0);
-	/* background-color:#000; */
+
 	border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 40;
 }
 .main-nav__item:hover{
@@ -435,16 +419,8 @@ body{
 	text-decoration:none;
 	border-radius: 10px;
 	padding: 5px;
-	background-color: rgb(82 75 75);
+  background-color: rgb(52 44 44);
 }
-/* .langs__arrow::before {
-	content: "\2BC6";
-	color: #fff;
-}
-.langs__arrow:active {
-	content: "\2BC5";
-	color: #fff;
-} */
 .langs__submenu{
 	padding-top:20px
 }
