@@ -61,7 +61,8 @@ sup{
 	top:-0.5em
 }
 img{
-	border-style:none
+	border-style:none;
+	padding: 1px;
 }
 button,input,optgroup,select,textarea{
 	font-family:inherit;
@@ -329,11 +330,11 @@ body{
 	color:#fff
 }
 
-@media screen and (max-width: 1600px){
+/* @media screen and (max-width: 1600px){
 	.section__wrapper{
 		padding:0 50px;
 	}
-}
+} */
 .header{
 	padding:30px 0;
 	display: block;/*добавил меню лендинга*/
@@ -351,7 +352,8 @@ body{
 	align-items:center
 }
 .logo__image{
-	display:block
+	display:block;
+	max-width: 300px;
 }
 .main-nav{
 	display:flex;
@@ -574,7 +576,7 @@ body{
 	background-image:url("../img/social-icons/zen.svg");
 	background-size:50px
 }
-@media screen and  (max-width: 1600px) {
+/* @media screen and  (max-width: 1600px) {
   /* .footer__contacts,
   .footer__social-links {
     margin-right: 160px;
@@ -582,13 +584,17 @@ body{
   /* .footer__container {
     justify-content: center;
   } */
-}
+/* }
 @media screen and  (max-width: 1440px) {
   /* .footer__contacts,
   .footer__social-links {
     margin-right: 50px;
   } */
+	/* .langs {
+    
+    padding: 0 60px 0 10px;
 }
+}  */
 @media screen and  (max-width: 768px) {
 	
 	.button {
@@ -617,7 +623,7 @@ body{
     margin-bottom: 30px;
 }
 }
-@media screen and  (max-width: 375px) {
+/* @media screen and  (max-width: 375px) {
 	
 	.lead__download-links-list {
 		flex-direction: row;
@@ -651,4 +657,4 @@ body{
 	.footer__contacts {
     margin-top: 300px;
 	}
-}
+} */
