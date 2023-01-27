@@ -351,7 +351,16 @@ a {
   .lead__download-links-list {
     justify-content: center;
     align-items: center;
+    
   }
+  .lead__download-links-list {
+    margin-top: 600px;
+    flex-direction: row-reverse;
+}
+.section-block-one {
+  position: absolute;
+  top: 570px;
+}
   .section-first {
     flex-direction: column;
   }
