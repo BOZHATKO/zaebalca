@@ -314,19 +314,15 @@ body{
 	transition-duration:.5s;
 	left:0
 }
-.page{
+/* .page{
 	min-height:100vh;
 	display:flex;
 	flex-direction:column;
 	justify-content:space-between;
 	line-height:29px
-}
+} */
 .section{
 	width:100%
-}
-.section__wrapper{
-	max-width:1520px;
-	margin:0 auto
 }
 .section_theme_dark{
 	background:  #2E2E31;
