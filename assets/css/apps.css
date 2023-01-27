@@ -246,7 +246,9 @@
   .section__wrapper {
     margin: 0 100px;
   }
-  
+  .apps__brief-text-container {
+    max-width: 538px;
+  }
   .apps__subapps-title {
     margin: 0 0 25px 0;
     padding: 0;
