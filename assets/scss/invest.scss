@@ -6,22 +6,21 @@ a,a:visited{text-decoration: none;}
 //===================================================================================================================================================
 .investment {
 	display: flex;
-background-color: #000;
+background: linear-gradient(180deg, #2E2E31 0%, #18181A 100%);
 margin: 0px 0px 0px 0px;
 position: relative;
 
 	// .investment__column
 
 	&__column {
-		flex: 0 0 60%;
+		flex: 0 0 50%;
 	}
 
 	// .investment__image
 
 	&__image {
 		position: absolute;
-
-		margin-left: 100px;
+		margin-left: 250px;
 		margin-top: 200px;
 		& img{
 			border-radius: 30px;
@@ -351,7 +350,7 @@ margin: 0px 0px 0px 0px;
 	// .lead__download-links-list-item
 
 	&__download-links-list-item {
-		flex: 0 1 40%;
+		flex: 0 1 50%;
 	}
 
 	// .lead__download-link
