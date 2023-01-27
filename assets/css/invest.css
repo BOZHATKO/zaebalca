@@ -1,4 +1,10 @@
-@charset "UTF-8";
+
+.lead__download-links-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  column-gap: 30px;
+}
 ul li {
   list-style: none;
 }
@@ -221,16 +227,8 @@ a, a:visited {
   margin: 130px 0px 130px 0px;
 }
 
-.lead__download-links-list {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin-bottom: 100px;
-}
-.lead__download-links-list-item {
-  flex: 0 1 40%;
-}
 #btn {
   cursor: pointer;
   color: #007094;
 }
+
