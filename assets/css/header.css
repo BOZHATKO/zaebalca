@@ -164,7 +164,7 @@ background: #1f1f26;
         text-align: center;
         transition: all .5s;
         z-index: 99999;
-       background-color: rgba(46, 46, 49, 1);
+       /* background-color: rgba(46, 46, 49, 1); */
     }
     .nav_list-item{
         height: 50px;
