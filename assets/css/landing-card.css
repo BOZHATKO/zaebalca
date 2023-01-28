@@ -200,6 +200,9 @@
 	}
 }
 @media screen and (max-width: 768px) {
+	.section-card {
+    padding: 1px 0;
+	}
 	.card {
 		margin: 10px 10px 0px 20px;
 		}

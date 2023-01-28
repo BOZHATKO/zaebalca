@@ -103,6 +103,12 @@
   align-items: center;
 }
 @media screen and (max-width: 768px) {
+  .lead__texts {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    height: 418px;
+}
   .lead {
     margin-left: 50px;
     margin-right: 50px;
@@ -110,13 +116,11 @@
     padding-bottom: 0px;
   }
   .lead__text {
-    width: 332px;
-    height: 108px;
-    font-style: normal;
+  
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
-    margin-top: -50px;
+  
   }
   .lead__title {
     font-weight: 300;
@@ -144,6 +148,11 @@
     margin-top: 30px;
     padding-top: 130px;
   }
+  .description__list {
+    
+    row-gap: 50px;
+    flex-direction: column;
+  }
   .lead__button__lead-android {
     width: 262px;
     height: 60px;
@@ -152,6 +161,12 @@
     font-size: 18px;
     line-height: 22px;
   }
+  .frame__list {
+    
+    column-gap: 195px;
+    
+    flex-direction: column;
+}
   .lead__button__lead-ios {
     width: 222px;
     height: 60px;
