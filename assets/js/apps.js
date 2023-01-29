@@ -7,7 +7,6 @@ const swiper = new Swiper('.swiper', {
     autoplay: {
       delay: 3000,
   },
-  
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
@@ -19,8 +18,8 @@ const swiper = new Swiper('.swiper', {
         spaceBetween: 20,
       },
       768: {
-        slidesPerView: 3,
-        spaceBetween: 10,
+        slidesPerView: 2.5,
+        spaceBetween: 20,
       },
       1024: {
         slidesPerView: 3,

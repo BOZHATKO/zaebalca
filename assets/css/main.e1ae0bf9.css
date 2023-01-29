@@ -241,7 +241,7 @@ body{
 	color:#fff
 }
 .button_theme_dark::after{
-	background:#000
+	background:#2E2E31;
 }
 .button_theme_image::after{
 	background-image:url(../img/bg_space.c71bad83.jpg);

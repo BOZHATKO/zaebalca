@@ -354,18 +354,20 @@ a {
     
   }
   .lead__download-links-list {
-    margin-top: 600px;
+    margin-top: 500px;
     flex-direction: row-reverse;
-}
-.section-block-one {
+  }
+  .section-block-one {
   position: absolute;
-  top: 570px;
-}
+  top: 480px;
+  }
   .section-first {
     flex-direction: column;
+    margin: 0 50px;
+    padding: 0;
   }
   .list-left {
-    padding: 64px 0 20px 0;
+    padding: 130px 0 20px 0;
   }
   .link-list-left-one,
   .link-list-left-for {
@@ -375,69 +377,111 @@ a {
 	margin-top: -5px;
   }
   .section-image-one {
-    width: 239px;
-    height: 500px;
-  }
+    margin-right: 44px;
+    width: 183px;
+    height: 398px;
+  }      
   .section-image-two {
-    width: 250px;
-    height: 498px;
-  }                    
+    width: 183px;
+    height: 398px;
+  }      
   .section-two-image{
 	margin-top: 0;
   }
-  .block-seven {
-    column-gap: 120px;
-  }
+  
   .section-as-heading {
 	margin-top: 100px;
+  font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
   }
-  
+  .section-about-as-heading {
+    margin-top: 100px;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
   .block-for-image-one {
-    width: 280px;
-    height: 560px;
-    margin-right: 48px;
+    width: 178px;
+    height: 391px;
+    margin-right: 8px;
   }
   .block-for-image-two {
-    width: 223px;
-    height: 455px;
-    margin-right: 48px;
+    width: 178px;
+    height: 391px;
+    margin-right: 0;
   }
   .block-for {
-    flex-direction: column;
-    margin: 0px 55px 190px 50px;
+    column-gap: 50px;
+    margin: 80px 0 100px;
+    justify-content: center;
   }
-  .block-for-image-one {
-    width: 223px;
-    height: 455px;
+  .block-first-color {
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
   }
-  .section-first{
-	margin-bottom: 20px;
+  .link-list-left-for-li {
+    /* margin-top: 18px; */
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 500;
   }
+  .block-first-color-for {
+    margin-top: 34px;
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 400;
+}
   .section-first-paragraf {
-    
     font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
   }
   .link-list-left {
-    margin-left: 35px;
-    font-size: 28px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
   }
   .link-list-left-color {
-  
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
   }
   .section-two {
-    display: flex;
-    flex-direction: column-reverse;
+    column-gap: 56px;
+    margin: 100px 50px;
+  }
+  .section-two-image-one,
+  .section-two-image-two {
+    width: 177px;
+    height: 390px;
+  }
+  .section-two-image-one {
+    margin-right: 0;
   }
   section.section-two {
 	margin-top: 0;
   }
-  
+  .section-two-content-message,
+  .section-two-content-social {
+    /* background-image: url(../image-lending/general/Group\ 1\ \(Traced\).png);
+    background-repeat: no-repeat; */
+    font-weight: 600;
+    font-size: 22px;
+    Line-height: 26px;
+  }
+  .section-two-content-number {
+  padding: 33px 0 33px 0;
+  font-weight: 700;
+  font-size: 32px;
+  Line-height: 38px;
+  text-align: center;
+  }
   .section-two-image {
-    padding: 60px 0;
-}
-  .block-for {
-    flex-direction: column;
+    padding: 50px 0;
   }
   .section-as-iframe-video {
     width: 725px;
@@ -446,31 +490,50 @@ a {
   .about-as-heading {
     font-size: 40px;
     line-height: 55px;
-	  margin-top: 120px;
+	  margin-top: 50px;
+    padding-bottom: 50px;
   }
   .block-eight {
     margin: 120px 0 0 0;
   }
   .about-as-heading-last {
-    font-size: 40px;
-    line-height: 55px;
-    text-align: left;
-    margin: 0 0px 0 92px;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 75px 0 75px;
   }
   .block-seven {
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 0px;
+    margin: 87px 50px 130px 50px;
+    column-gap: 30px;
+    
+  }
+  .block-seven-paragraf {
+    Line-height: 14px;
+    font-size: 14px;
+    Line-height: 17px;
+    font-weight: 400;
+  }
+  .block-six-link {
+    margin: 5px;
+    padding: 6px 0px 6px 0px;
+  }
+  .block-seven-p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33px;
   }
   .block-seven-buttons {
     display: flex;
     flex-direction: column;
   }
   .block-seven-image {
-    width: 306px;
-    height: 300px;
-    margin-bottom: 100px;
+    width: 227px;
+    height: 222px;
+    margin-bottom: 0;
   }
   .block-eight-link {
     width: 546px;
