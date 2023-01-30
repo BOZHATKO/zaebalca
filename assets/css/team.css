@@ -108,7 +108,7 @@
 @media (max-width: 320px) {
   .team__column {
     flex: 0 1 49%;
-    margin: 0px 1px 8px 1px;
+    margin: 0 1px 8px 1px;
   }
 }
 
@@ -176,7 +176,7 @@
 }
 .item__person .item__person-role {
   display: block;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0 0 0;
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
@@ -254,6 +254,11 @@
 @media (max-width: 768px) {
   .item .logo__item .logo__image {
     max-width: 80px;
+  }
+  .team__title{
+    padding-top: 220px;
+    margin-bottom: 81px;
+    margin-top: 0;
   }
 }
 @media (max-width: 320px) {

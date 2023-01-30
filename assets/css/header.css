@@ -128,6 +128,7 @@ background: #1f1f26;
         font-size: 30px;
 
     }
+
     .nav_menu{
         margin: 0 auto;
     }
@@ -177,7 +178,7 @@ background: #1f1f26;
         position: fixed;
         width: 100%;
         height: 100%;
-        top: 120px;
+        top: 160px;
         left: -110%;
         text-align: center;
         transition: all .7s;
