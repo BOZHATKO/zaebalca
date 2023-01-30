@@ -570,6 +570,16 @@ body{
     padding: 0 60px 0 10px;
 }
 }  */
+@media  screen and (max-width: 1440px) {
+	.langs{
+		padding: 6px 110px 0 20px;
+		margin: 0 auto;
+	}
+	.logo__image{
+		max-width: 177px;
+	}
+
+}
 @media screen and  (max-width: 768px) {
 	.logo__image {
     max-width: 148px
