@@ -1,28 +1,17 @@
 .section__wrapper {
   margin:  0 258px;
 }
-
-.lead__download-links-list {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  column-gap: 30px;
-}
 .lead__text {
   display: flex;
   align-items: center;
   font-size: 20px;
   line-height: 22px;
   font-weight: 400;
-
 } 
 .apps__subapps {
   background: #2E2E31;
   color: white;
   padding: 80px 0 100px 0;
-}
-.apps__subapps-wrapper {
-  max-width: 1500px;
 }
 .apps__subapps {
   display: flex;
@@ -46,7 +35,6 @@
   padding: 0;
 }
 .apps__subapps-list-item {
-  /* margin: 0 100px 0 0; */
   padding: 0;
 }
 .apps__briefs-item-list {
@@ -69,7 +57,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 .apps__subapps-list-item-icon {
   margin: 0;
@@ -81,44 +68,15 @@
 .apps__subapps-list-item-icon:hover {
   filter: invert(0.1) sepia(0.5) saturate(10.1) hue-rotate(126deg) brightness(0.9);
 }
-
 .lead__text-color {
   color: #00A9DE;
 }
-
 .apps__subapps-list-item-title {
   font-size: 16px;
   line-height: 19px;
   white-space: nowrap;
   margin: 0;
   padding: 0;
-}
-.apps__lead {
-  padding: 40px 0 130px;
-  background-color: #000000;
-  color: rgba(255, 255, 255, 0.87);
-}
-.apps__lead-grid {
-  max-width: 1270px;
-  min-width: 669px;
-  margin: 0 auto;
-  grid-template-columns: minmax(335px, 800px) minmax(238px, 1fr);
-}
-.apps__lead-text-container {
-  margin-top: 21px;
-}
-.apps__lead-image-container {
-  display: flex;
-  justify-content: end;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.apps__lead-image-wrapper {
-  max-width: 340px;
-  max-height: 500px;
-}
-.apps__lead-links-container {
-  margin-bottom: 21px;
 }
 .apps__briefs {
   padding: 65px 0 130px 0;
@@ -139,10 +97,6 @@
 .apps__briefs-item {
   flex-direction: row;
 }
-/* .apps__briefs-item-list-color {
-  color: black;
-
-} */
 .apps__brief-text-container {
   max-width: 738px;
   margin: 0;
@@ -162,7 +116,6 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-
 }
 .apps__brief-image-wrapper {
   position: relative;
@@ -224,7 +177,6 @@
   margin-bottom: 32px;
 }
 .swiper-slide__title {
-  /* color: white; */
   font-size: 22px;
   line-height: 27px;
   white-space: nowrap;
@@ -253,7 +205,7 @@
   }
   .apps__subapps {
     column-gap: 70px;
-}
+  }
 }
 @media screen and  (max-width: 992px) {
   .section__wrapper {
@@ -261,9 +213,6 @@
   }
   .apps__subapps-list {
     justify-content: center;
-  }
-  .flex {
-    column-gap: 0;
   }
 }
 @media screen and  (max-width: 768px) {
@@ -273,40 +222,34 @@
   .section__wrapper {
     margin: 0 90px;
   }
-  
-.apps__subapps {
-  column-gap: 70px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
+  .apps__subapps {
+    column-gap: 70px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
   .apps__brief-text-container {
     max-width: 531px;
     margin-bottom: 100px;
   }
-  
-.apps__briefs {
-  padding: 64px 0 0 0;
-}
-.apps__subapps-list {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr; 
-  justify-items: end;
-  /* margin: 0 0 50px 85px; */
-  
-}
+  .apps__briefs {
+    padding: 64px 0 0 0;
+  }
+  .apps__subapps-list {
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr; 
+    justify-items: center;
+  }
   .apps__briefs-item {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding:  0 ;
     row-gap: 30px;
-
   }
   .apps__briefs-item-list {
     display: none;
-    
-}
+  }
   .apps__subapps {
     padding: 80px 0 60px 0;
   }
@@ -321,45 +264,36 @@
     font-size: 48px;
     line-height: 58px;
     font-weight: 700;
-}
+  }
   .apps__subapps-list-item {
-    margin: 0 25px 0 0;
+    margin: 0 0 10px 0;
   }
   .lead__text {
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
   }
-  .apps__lead-image {
-    width: 140px;
-} 
-  .apps__lead-text-container {
-    margin-top: 0px; 
-}
-.section__title {
-  text-align: center;
-  font-size: 32px;
+  .section__title {
+    text-align: center;
+    font-size: 32px;
     line-height: 38px;
     font-weight: 700;
-}
-.apps__brief-text {
-  text-align: center;
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-}
-.apps__future {
+  }
+  .apps__brief-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+  }
+  .apps__future {
   padding:0;
-}
+  }
 }
 @media screen and  (max-width: 376px) {
-
   .lead__download-links-list {
     flex-direction: column-reverse;
     row-gap: 20px;
     margin-top: 300px;
     margin-left: 25px;
-  
   }
-
 }

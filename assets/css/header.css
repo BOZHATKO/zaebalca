@@ -131,15 +131,23 @@ background: #1f1f26;
     }
 }
 @media screen and (max-width:768px) {
+    .video-container video {
+        width: 650px;
+        height: 500px;
+        margin-left: 37px;
+        margin-top: 54px;
+    }
+    .video-container .close {
+        top: 50%;
+        right: 70px;
+    }
     .checkButton{
         display:flex;
         position: absolute;
-        left: 677px;
+        left: 520px;
         margin-bottom: 9px;
-
     }
     .nav_menu{
-
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -147,11 +155,13 @@ background: #1f1f26;
         position: fixed;
         z-index: 99999;
         margin: 0 auto;
-
     }
     .block-logo{
         column-gap: 10px;
         margin-left: 70px;
+    }
+    label.logo {
+        padding-left: 25px;
     }
     .nav_list{
         display: flex;
@@ -164,7 +174,6 @@ background: #1f1f26;
         text-align: center;
         transition: all .5s;
         z-index: 99999;
-       /* background-color: rgba(46, 46, 49, 1); */
     }
     .nav_list-item{
         height: 50px;
@@ -183,11 +192,10 @@ background: #1f1f26;
         left: 0;
     }
 }
-@media screen and (min-width:375px){
+@media screen and (max-width:375px){
     .checkButton{
-        left: 664px;
+        left: 520px;
     }
-
     .nav_menu{
         column-gap: 90px;
     }
