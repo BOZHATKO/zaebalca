@@ -1,8 +1,10 @@
 .section-card {
-	background: linear-gradient(180deg, #2E2E31 0%, #18181A 100%);
+	background:  #2E2E31;
 	padding: 80px 0;
 }
-
+.card-block-link {
+	display: none;
+}
 .card {
 	display: flex;
 	flex-wrap: wrap;
@@ -63,21 +65,21 @@
 .product-back {
 	transition: transform 1.2s linear;
 	border-radius: 35px;
-	right: -44px;
+	right: -55px;
 	width: 64%;
 	position: relative;
 	height: 300px;
 	transform: translateZ(-7.8px);
 }
 .left-side {
-	width: 15px;
+	width: 16px;
 	height: 100%;
 	background: #121212;
 	transform: rotateY(90deg);
 	margin-top: 300px;
 	position: relative;
 	margin-left: -5px;
-	bottom: 585px;
+	bottom: 590px;
 	/* -webkit-border-radius: 20px; */
 }
 .product-inner:hover {
@@ -88,139 +90,104 @@
 	position: relative;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android1.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
-	left: -47px;
+	left: -63px;
 }
 .front {
-	background-image: url(../image-lending/1920/ios1.png);
 	width: 300px;
 	height: 600px;
-	background-repeat: no-repeat;
 }
 .back-two {
 	position: relative;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android2.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
-	left: -47px;
+	left: -63px;
 }
 .front-two {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios2.png);
-	background-repeat: no-repeat;
 }
 .back-three {
 	position: relative;
-	left: -47px;
+	left: -63px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android3.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-three {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios3.png);
-	background-repeat: no-repeat;
 }
 .back-four {
 	position: relative;
-	left: -47px;
+	left: -63px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android4.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-four {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios4.png);
-	background-repeat: no-repeat;
 }
 .back-five {
 	position: relative;
-	left: -47px;
+	left: -63px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android5.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-five {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios5.png);
-	background-repeat: no-repeat;
 }
 .back-six {
 	position: relative;
-	left: -47px;
+	left: -63px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android6.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-six {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios6.png);
-	background-repeat: no-repeat;
 }
 .back-seven {
 	position: relative;
-	left: -47px;
+	left: -63px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android7.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-seven {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios7.png);
-	background-repeat: no-repeat;
 }
 .back-eight {
 	position: relative;
-	left: -47px;
+	left: -63px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android8.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-eight {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios8.png);
-	background-repeat: no-repeat;
 }
 .back-nine {
 	position: relative;
-	left: -47px;
+	left: -63px;
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/android9.png);
-	background-repeat: no-repeat;
 	transform: rotateY(180deg);
 }
 .front-nine {
 	width: 300px;
 	height: 600px;
-	background-image: url(../image-lending/1920/ios9.png);
-	background-repeat: no-repeat;
 }
 @media screen and (max-width: 1440px) {
 	.card {
+		justify-content: space-between;
 		margin: 30px -110px 60px 60px;
 	}
 	.card-block {
@@ -236,24 +203,37 @@
 	}
 }
 @media screen and (max-width: 768px) {
+	.card-block-link {
+		display: flex;
+		align-items: center;
+    margin-right: 25px
+	}
+	.section-card {
+    padding: 1px 0;
+		
+	}
 	.card {
-		margin: 10px 10px 0px 20px;
-		}
-		.card-block {
-		  margin-right: 7px;
-		}
-		.card-block-botton{
-			margin-top: 50px;
-		}
-		.card-block:last-child{
-		  margin-top: 30px;
-		}
-		.left-side {
-			height: 100%;
-			margin-top: 300px
-		}
+    margin: 10px 50px 0px 50px;
+	}
+	.card-block {
+		margin-right: 7px;
+		margin-bottom: 150px
+	}
+	.card-block-botton{
+		margin-top: 50px;
+	}
+	.card-block:last-child{
+		margin-top: 30px;
+	}
+	.left-side {
+		height: 100%;
+		margin-top: 300px
+	}
 }
 @media screen and (max-width: 375px) {
+	.section-card {
+    padding: 1px 0;
+	}
 	.card,
 	.card-block {
 		margin: 0 0 0;
@@ -293,110 +273,107 @@
 	.back {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/1-Android.png);
 	}
 	.front {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/1-iOS.png);
+
 	}
 	.back-two {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/2-Android.png);
+		
 	}
 	.front-two {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/2-iOS.png);
+	
 	}
 	.back-three {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/3-Android.png);
 	}
 	.front-three {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/3-iOS.png);
+		
 	}
 	.back-four {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/4-Android.png);
 	}
 	.front-four {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/4-iOS.png);
+		
 	}
 	.back-five {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/5-Android.png);
+		
 	}
 	.front-five {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image/375/5-iOS.png);
+		
 	}
 	.back-six {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/6-Android.png);
+		
 	}
 	.front-six {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/6-iOS.png);
+		
 	}
 	.back-seven {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/7-Android.png);
+		
 	}
 	.front-seven {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/7-iOS.png);
+		
 	}
 	.back-eight {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/8-Android.png);
+	
 	}
 	.front-eight {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/8-iOS.png);
+		
 	}
 	.back-nine {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/9-Android.png);
+		
 	}
 	.front-nine {
 		position: relative;
 		left: 1px;
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/375/9-iOS.png);
+		
 	}
 }
 @media screen and (max-width: 320px) {
@@ -457,91 +434,91 @@
 	.back {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/1-Android.png);
+	
 	}
 	.front {
 		width: 150px;
 		height: 300px;
-		background-image: url(../image-lending/320/1-iOS.png);
+		
 	}
 	.back-two {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/2-Android.png);
+		
 	}
 	.front-two {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/2-iOS.png);
+	
 	}
 	.back-three {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/3-Android.png);
+		
 	}
 	.front-three {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/3-iOS.png);
+		
 	}
 	.back-four {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/4-Android.png);
+	
 	}
 	.front-four {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/4-iOS.png);
+		
 	}
 	.back-five {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/5-Android.png);
+		
 	}
 	.front-five {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/5-iOS.png);
+		
 	}
 	.back-six {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/6-Android.png);
+		
 	}
 	.front-six {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/6-iOS.png);
+		
 	}
 	.back-seven {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/7-Android.png);
+		
 	}
 	.front-seven {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/7-iOS.png);
+		
 	}
 	.back-eight {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/8-Android.png);
+		
 	}
 	.front-eight {
 		width: 132px;
 		height: 261px;
-		background-image: url(../image-lending/320/8-iOS.png);
+		
 	}
 	.back-nine {
 		width: 132px;
 		height: 260x;
-		background-image: url(../image-lending/320/9-Android.png);
+		
 	}
 	.front-nine {
 		width: 132px;
 		height: 260px;
-		background-image: url(../image-lending/320/9-iOS.png);
+		
 	}
 }

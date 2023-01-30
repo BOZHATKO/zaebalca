@@ -241,7 +241,7 @@ body{
 	color:#fff
 }
 .button_theme_dark::after{
-	background:#000
+	background:#2E2E31;
 }
 .button_theme_image::after{
 	background-image:url(../img/bg_space.c71bad83.jpg);
@@ -600,10 +600,10 @@ body{
     margin-bottom: 30px;
 }
 }
-/* @media screen and  (max-width: 375px) {
+@media screen and  (max-width: 375px) {
 	
 	.lead__download-links-list {
-		flex-direction: row;
+		flex-direction: column-reverse;
 		list-style: none;
 		padding: 0;
 		column-gap: 30px;
@@ -618,7 +618,9 @@ body{
 	.footer__download-links {
 		position: absolute;
 		left: 40px;
-		
+	}
+	.footer-top {
+		display: none;
 	}
 	.footer__download-links-list {
       flex-direction: column-reverse;
@@ -634,4 +636,4 @@ body{
 	.footer__contacts {
     margin-top: 300px;
 	}
-} */
+} 

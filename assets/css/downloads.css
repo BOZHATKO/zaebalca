@@ -69,47 +69,26 @@
   width: 230px;
   height: 505px;
 }
+.description {
+  background: #2E2E31; 
+}
 .description__wrapper {
   margin: 0 200px;
 }
-.description__heading {
-  display: flex;
-  column-gap: 600px;
-  padding: 100px 0;
+.description__heading__content {
+  margin-top: 140px ;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
 }
-.description__list {
-  padding: 0;
+.description__heading__content__heading {
+  margin: 0;
 }
-.description__list__link {
-  font-size: 24px;
-  font-weight: 400;
-  line-height:29px;
-  list-style: none;
-  margin-bottom: 34px;
-}
-.description__list__link-color,
-.description__heading__as-color {
+.description__heading__content__heading__color {
   color: #00A9DE;
-  background: rgba(0, 169, 222, 0.1);
-  border-radius: 4px;
 }
-.description__heading__as {
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-}
-.description__heading__as {
-  margin: 0 0 55px 0;
-}
-.description__list__link-icon {
 
-  justify-content: center;
-  margin-right: 40px;
-}
-.description__video{
-  width: 300px;
 
-}
+
 @media screen and  (max-width: 1440px) {
   .lead__wrapper {
     margin: 0 150px;
@@ -185,10 +164,10 @@ line-height: 39px;
   .lead__button:first-child {
     margin-right: 20px;
   } 
-  .lead__image {
+  /* .lead__image {
     width: 150px;
     height: 320px;
-  }
+  } */
 }
 @media screen and  (max-width: 992px){
   .lead__wrapper {
@@ -230,6 +209,26 @@ line-height: 39px;
 .lead__wrapper {
     margin: 0 16px;
   }
+  .description__wrapper {
+    margin: 0 70px;
+}
+  .lead__download-links-list {
+    flex-direction: row-reverse;
+    margin-top: 530px;
+}
+.description__heading__content__heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.description__heading__content__paragraf {
+  font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.description__heading__content {
+  margin-top: 100px;
+}
   .lead__button:first-child {
     margin-right: 0;
   }
@@ -247,8 +246,16 @@ line-height: 39px;
     margin: 0;
   }
   .lead__title {
-    font-size: 43px;
-    margin:0 0 330px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    margin:0 0 50px 0;
+  }
+    .lead__subtitle {
+      font-size: 19px;
+      line-height: 26px;
+      font-weight: 400;
+      margin-bottom: 110px;
   }
   .lead__button {
     padding: 5px 45px;
@@ -263,10 +270,13 @@ line-height: 39px;
   }
   .lead__images {
     position: absolute;
-    top: 250px;
-    left: 20px;
+    top: 520px;
+    left: 125px;
     object-fit: contain;
     width: 200px;
+  }
+  .lead-text {
+    margin-top: 100px;
   }
 }
 @media screen and  (max-width: 375px){

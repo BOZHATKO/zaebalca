@@ -78,13 +78,14 @@
   height: 60px;
   margin-bottom: 5px;
 }
+.apps__subapps-list-item-icon:hover {
+  filter: invert(0.1) sepia(0.5) saturate(10.1) hue-rotate(126deg) brightness(0.9);
+}
+
 .lead__text-color {
   color: #00A9DE;
 }
-/* .flex {
-  display: flex;
-  column-gap: 180px;
-} */
+
 .apps__subapps-list-item-title {
   font-size: 16px;
   line-height: 19px;
@@ -185,19 +186,16 @@
   bottom: 0px;
   left: 0px;
 }
+.apps__brief-image {
+  width: 263px;
+  height: 580px;
+}
 .apps__brief-image-wrapper:last-of-type::after {
   content: "Android";
 }
-/* .apps__brief-image {
-  max-width: 100%;
-  -o-object-fit: contain;
-  object-fit: contain;
-} */
 .apps__future {
   padding: 78px 0 0;
 }
-
-/* ----------------------------------------------- */
 .align_center,
 .align_wiper {
   font-size: 48px;
@@ -212,7 +210,6 @@
 .swiper-slide {
   width: 350px;
   height: 498px;
-  /* background: linear-gradient(180deg, #28282C 0%, #000000 100%); */
 }
 .swiper-slide__wrapper {
   display: flex;
@@ -271,11 +268,12 @@
 }
 @media screen and  (max-width: 768px) {
   .align_wiper{
-    margin: 70px 90px 0 0;
+    margin: 30px 90px 0 0;
   }
   .section__wrapper {
-    margin: 0 80px;
-}
+    margin: 0 90px;
+  }
+  
 .apps__subapps {
   column-gap: 70px;
   flex-direction: column;
@@ -291,9 +289,10 @@
   padding: 64px 0 0 0;
 }
 .apps__subapps-list {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-  grid-template-rows: 1fr 1fr;
-  margin: 0 0 50px 85px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; 
+  justify-items: end;
+  /* margin: 0 0 50px 85px; */
   
 }
   .apps__briefs-item {
@@ -301,7 +300,7 @@
     justify-content: center;
     align-items: center;
     padding:  0 ;
-    row-gap: 100px;
+    row-gap: 30px;
 
   }
   .apps__briefs-item-list {

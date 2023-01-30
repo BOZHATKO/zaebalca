@@ -164,7 +164,7 @@ background: #1f1f26;
         text-align: center;
         transition: all .5s;
         z-index: 99999;
-       background-color: rgba(46, 46, 49, 1);
+       /* background-color: rgba(46, 46, 49, 1); */
     }
     .nav_list-item{
         height: 50px;
@@ -192,7 +192,7 @@ background: #1f1f26;
         column-gap: 90px;
     }
     .nav_list-item{
-        margin: 20px 0;
+        margin: 0 0;
     }
 }
 @media  screen and (max-width: 320px){

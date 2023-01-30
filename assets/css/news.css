@@ -23,8 +23,15 @@ details {
     border-bottom: 1px solid #00A9DE;
     max-width: 200px;
 }
-
-
+@media screen and (max-width: 768px) {
+    .lead__flex {
+    flex-direction: column;
+    padding: 200px 0 0 0;
+    }
+    .section__wrapper {
+        margin: 0 50px;
+    }
+}
 
 
 
