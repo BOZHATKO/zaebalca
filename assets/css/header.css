@@ -1,3 +1,8 @@
+.header__wrapper {
+    padding: 0 256px;
+    background:  #2E2E31;
+}
+
 .video-container{
     width: 100%;
     height: 100vh;
@@ -52,7 +57,7 @@ background: #1f1f26;
     background-color:rgba(46, 46, 49, 1);
     height: 80px;
     margin: 0 auto;
-    padding: 40px 256px;
+    padding: 40px 0;
 }
 .button_theme_image {
     margin: 0 auto;
@@ -125,6 +130,13 @@ background: #1f1f26;
 }
 
 @media screen and (max-width:1440px) {
+    .header__wrapper {
+        padding: 0 156px;
+    }
+    .langs{
+		padding: 5px 0 0 10px;
+		margin: 0 auto;
+	}
     label.logo{
         font-size: 30px;
     }
@@ -140,6 +152,22 @@ background: #1f1f26;
     }
 }
 @media screen and (max-width:768px) {
+    .header__wrapper {
+        padding: 0 50px;
+    }
+    .block-logo{
+        column-gap: 10px;
+        margin-left: 40px;
+    }
+    label.logo {
+        padding-left: 25px;
+    }
+    .checkButton{
+        display:flex;
+        position: absolute;
+        left: 500px;
+        margin-bottom: 9px;
+    }
     .video-container video {
         width: 670px;
         height: 500px;
@@ -151,13 +179,6 @@ background: #1f1f26;
         left: 675px;
         top: 80px;
     }
-    
-    .checkButton{
-        display:flex;
-        position: absolute;
-        left: 560px;
-        margin-bottom: 9px;
-    }
     .nav_menu{
         display: flex;
         justify-content: space-between;
@@ -166,13 +187,6 @@ background: #1f1f26;
         position: fixed;
         z-index: 99999;
         margin: 0 auto;
-    }
-    .block-logo{
-        column-gap: 10px;
-        margin-left: -175px;
-    }
-    label.logo {
-        padding-left: 25px;
     }
     .nav_list{
         display: flex;
@@ -188,7 +202,7 @@ background: #1f1f26;
         text-align: center;
         transition: all .7s;
         z-index: 99999;
-        backdrop-filter: brightness(40%) ;
+        /* backdrop-filter: brightness(40%) ; */
     }
     .nav_list-item{
         height: 40px;
@@ -213,11 +227,34 @@ background: #1f1f26;
     }
 }
 @media screen and (max-width:375px){
-    .checkButton{
-        left: 520px;
+    .header__wrapper {
+        padding: 0 25px;
     }
+    .block-logo {
+        column-gap: 10px;
+        margin-left: 0px;
+    }
+    .logo__image {
+        max-width: 110px;
+    }
+    .logo {
+        width: 130px;
+        height: 20px;
+    }
+    .langs {
+       display: none;
+    }
+    label.logo {
+        padding-left: 10px;
+    }
+    .checkButton {
+    display: flex;
+    position: absolute;
+    left: 290px;
+    
+}
     .nav_menu{
-        column-gap: 90px;
+        column-gap: 10px;
     }
     .nav_list-item{
         margin: 0 0;

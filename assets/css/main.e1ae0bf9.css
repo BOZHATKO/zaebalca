@@ -331,6 +331,7 @@ body{
 	/* justify-content:space-between; */
 	align-items:center
 }
+
 .main-nav{
 	display:flex;
 	justify-content:right;
@@ -565,10 +566,7 @@ body{
 }
 }  */
 @media  screen and (max-width: 1440px) {
-	.langs{
-		padding: 6px 110px 0 20px;
-		margin: 0 auto;
-	}
+	
 	.logo__image{
 		max-width: 177px;
 	}
