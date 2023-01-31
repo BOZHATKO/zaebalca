@@ -57,7 +57,7 @@ background: #1f1f26;
     background-color:rgba(46, 46, 49, 1);
     height: 80px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 250px;
 }
 .button_theme_image {
     margin: 0 auto;
@@ -94,6 +94,7 @@ background: #1f1f26;
     list-style: none;
     text-decoration: none;
     margin: 0 auto;
+    padding: 10px;
     color: rgba(255, 255, 255, 0.87);
 
 }
@@ -165,7 +166,7 @@ background: #1f1f26;
     .checkButton{
         display:flex;
         position: absolute;
-        left: 500px;
+        left: 550px;
         margin-bottom: 9px;
     }
     .video-container video {
@@ -180,6 +181,8 @@ background: #1f1f26;
         top: 80px;
     }
     .nav_menu{
+        width: 100%;
+        height: 90px;
         display: flex;
         justify-content: space-between;
         flex-direction: row;
@@ -187,6 +190,7 @@ background: #1f1f26;
         position: fixed;
         z-index: 99999;
         margin: 0 auto;
+        padding: 0 45px;
     }
     .nav_list{
         display: flex;
@@ -197,12 +201,12 @@ background: #1f1f26;
         position: fixed;
         width: 100%;
         height: 100%;
-        top: 160px;
+        top: 90px;
         left: -110%;
         text-align: center;
         transition: all .7s;
         z-index: 99999;
-        /* backdrop-filter: brightness(40%) ; */
+         backdrop-filter: brightness(40%) ;
     }
     .nav_list-item{
         height: 40px;
@@ -250,22 +254,22 @@ background: #1f1f26;
     .checkButton {
     display: flex;
     position: absolute;
-    left: 290px;
-    
-}
+    left: 270px;
+    }
     .nav_menu{
-        column-gap: 10px;
+        column-gap: 60px;
     }
     .nav_list-item{
         margin: 0 0;
     }
+
 }
 @media  screen and (max-width: 320px){
     .checkButton{
         left:590px
     }
     .nav_menu{
-        column-gap: 10px;
+        column-gap: 40px;
     }
     .nav_list{
       top: 160px;
