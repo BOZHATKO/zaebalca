@@ -206,7 +206,13 @@
 	.card-block-link {
 		display: flex;
 		align-items: center;
-    margin-right: 25px
+		justify-content: center;
+    margin-right: 25px;
+		height: 700px;
+		
+	}
+	.card-block-link:hover {
+		color: #007094;
 	}
 	.section-card {
     padding: 1px 0;
