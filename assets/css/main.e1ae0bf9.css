@@ -328,14 +328,8 @@ body{
 }
 .logo{
 	display:flex;
-	width:326px;
-	height:60px;
-	justify-content:space-between;
+	/* justify-content:space-between; */
 	align-items:center
-}
-.logo__image{
-	display:block;
-	max-width: 300px;
 }
 .main-nav{
 	display:flex;
@@ -396,7 +390,7 @@ body{
 .langs {
 	display: flex;
 	align-items: center;
-	padding: 0px 60px 4px;
+	padding: 0px 0px 0 70px;
 	gap: 3px;
 }
 .langs__list{
