@@ -155,6 +155,12 @@
   }
 }
 @media screen and  (max-width: 768px) {
+  .button_type_ios-invest {
+		padding-left:118px;
+	}
+  .button_type_ios-invest::after {
+    background-position: 63px
+  }
   .investment__wrapper,
   .sfera__wrapper,
   .venchur__wrapper,
@@ -179,7 +185,7 @@
   }
   .investment__image {
     width: 230px;
-    top: 200px;
+    top: 198px;
     right: 80px;
   }
   .lead__download-links-list {

@@ -85,8 +85,6 @@ a {
   padding: 30px 0;
   display: flex;
   justify-content: center;
-  /* background: rgb(251,63,199);
-  background: radial-gradient(circle, rgb(88, 26, 100) -27%, rgba(14,4,43,0.11808473389355745) 60%); */
   margin: 0 0 0 0;
 }
 .section-two-content {
@@ -119,8 +117,6 @@ a {
   font-size: 44px;
   Line-height: 58px;
   text-align: center;
-  /* background: rgb(251,63,199);
-  background: radial-gradient(circle, rgb(88, 26, 100) -126%, rgba(14,4,43,0.11808473389355745) 60%); ; */
 }
 .section-two-content-message {
   background-image: url(../image-lending/general/Group\ 1\ \(Traced\).png);
@@ -217,7 +213,7 @@ a {
   line-height: 58px;
   font-weight: 700;
   text-align: center;
-  margin: 100px;
+  margin-bottom: 100px;
 }
 .what-is-already-background {
   z-index: -1;
@@ -225,8 +221,6 @@ a {
   bottom: 1350px;
   height: 450px;
 }
-
-
 .block-six-link {
   color: #00A9DE;
   margin: 5px;
@@ -239,7 +233,7 @@ a {
   column-gap: 270px;
   justify-content: center;
   align-items: center;
-  margin: 200px  250px 0 250px;
+  margin: 70px  250px 0 250px;
 }
 .block-seven-buttons {
   display: flex;
@@ -261,7 +255,7 @@ a {
   justify-content: center; 
 }
 .block-eight {
-	margin: 200px 120px 120px 120px;
+	margin: 100px 120px 120px 120px;
   text-align: center;
 }
 .block-eight-card {
@@ -288,6 +282,9 @@ a {
   text-align: center;
   font-size: 14px;
   margin: 100px;
+}
+.block-seven-image {
+  width: 477px;
 }
 @media screen and (max-width: 1440px) {
   .section-first {
@@ -532,7 +529,6 @@ a {
   }
   .block-seven-image {
     width: 227px;
-    height: 222px;
     margin-bottom: 0;
   }
   .block-eight-link {
