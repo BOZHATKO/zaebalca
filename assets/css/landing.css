@@ -270,13 +270,13 @@ a {
   font-weight: 600;
   line-height: 26px;
 }
-.block-footer {
+/* .block-footer {
   display: flex;
   justify-content: space-around;
   color: rgba(255, 255, 255, 0.87);
   margin: 40px 0;
   font-size: 24px;
-}
+} */
 .block-footer-three {
   color: rgba(255, 255, 255, 0.87);
   text-align: center;
@@ -312,7 +312,6 @@ a {
   }                    
   .block-eight-card {
     row-gap: 30px;
-    
 }
   .section-as-heading{
 	margin-top: 150px;
@@ -332,12 +331,12 @@ a {
     margin-right: 48px;
   }
   .block-seven {
-    column-gap: 260px;
+    column-gap: 200px;
     margin: 206px 130px 0 130px;
 }
   .block-seven-image {
-    width: 400px;
-    height: 400px;
+    width: 335px;
+    height: 540px;
   }
   
   .block-eight {
@@ -504,7 +503,7 @@ a {
     display: flex;
     align-items: center;
     padding: 0px;
-    margin: 87px 50px 130px 50px;
+    margin: 31px 50px 9px 50px;
     column-gap: 30px;
     
   }
@@ -529,6 +528,7 @@ a {
   }
   .block-seven-image {
     width: 227px;
+    height: 400px;
     margin-bottom: 0;
   }
   .block-eight-link {
@@ -549,34 +549,17 @@ a {
   .icon-sfera {
     font-size: 16px;
   }
-  /* .header-fixed {
-    background-color: #0e042b;
-    width: 100%;
-    height: 45px;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: -28;
-    margin: 20px 10px 0px 0px;
-  } */
+  
   .section__landing {
     margin-top: 0;
   }
   .navigation {
     margin-bottom: 48px;
   }
-  /* .menu-btn {
-    width: 60px;
-    height: 5px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    margin: 20px 0 0 275px;
-    z-index: 200;
-  } */
   .section-first-paragraf {
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
   }
   .section-first{
 	  margin-bottom: 0;
@@ -587,7 +570,17 @@ a {
   }
   .list-left {
     text-align: center;
-    padding: 48px 0 0px 0;
+    padding: 128px 0 0px 0;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column-reverse;
+    column-gap: 238px;
+    justify-content: center;
+    margin: 100px 300px;
+  }
+  .block-for-image-two {
+  display: none;
   }
   .link-list-left,
   .block-first-color,
@@ -604,7 +597,7 @@ a {
     width: 16px;
   }
   .section-block-one {
-    top: 450px;
+    top: 380px;
 }
   .lead__download-links-list {
     
@@ -622,7 +615,7 @@ a {
     height: 317px;
   }  
   .section-two {
-	  margin: 1px -19px 170px -26px;
+	  margin:0;
     padding: 0;
   }                  
   .section-two-image-one {
@@ -655,18 +648,10 @@ a {
     height: 300px;
     margin: 0;
   }
-  /* .section-img {
-    background-image: none;
-    margin: 0 0 0 2px;
-  } */
-  /* .section-two-image {
-    margin: 0 0 0 4px;
-  } */
   .section-two-content-social-block-mobile {
     display: block;
     font-size: 24px;
   }
-  
   .section-two-content-number {
     font-size: 24px;
     line-height: 37px;
@@ -680,8 +665,8 @@ a {
   }
   .section-about-as-heading {
     margin-top: 60px;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 22px;
+    line-height: 26px;
     font-weight: 600;
   }
   .about-as-heading{
@@ -700,7 +685,7 @@ a {
     text-align: left;
   } 
   .section-as-heading {
-    margin-top: -175px;
+    margin-top: 35px;
     font-size: 20px;
   }
   .section-as-iframe-video {
@@ -727,12 +712,13 @@ a {
     line-height: 20px;
   }
   .block-seven-p {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
   }
   .block-seven-text {
     font-size: 14px;
-    line-height: 19px;
+    line-height: 16px;
     font-weight: 400;
   }
   .block-eight-link {
@@ -771,14 +757,13 @@ a {
     font-size: 24px;
     line-height: 37px;
   }
-  .block-footer {
-    font-size: 16px;
-    line-height: 20px;
-    margin-left: 5px;
-  }
+  .block-seven {
+    margin: 23px 30px 10px 30px;
+    column-gap: 30px;
+}
   .block-seven-image {
-    width: 200px;
-    height: 200px;
+    width: 97px;
+    height: 164px;
     margin: 0 0 60px 0;
   }
   .block-eight-card {
@@ -855,34 +840,15 @@ a {
     line-height: 30px;
     
   }
-  .header-fixed {
-    background-color: #0e042b;
-    width: 100%;
-    height: 45px;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: -26;
-    margin: 20px 10px 0px 0px;
-  }
-
   .section {
     margin-top: 40px;
   }
 }
-.off_scroll {
+/* .off_scroll {
   overflow: hidden;
   height: 100%;
   width: 100%;
   margin: 0;
   position: fixed;
-}
-.shadow-on {
-  background-color: rgb(0, 0, 0, 0.55);
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  margin: 0;
-}
+} */
 }

@@ -1,23 +1,20 @@
 .section-card {
 	background:  #2E2E31;
-	padding: 80px 0;
+	padding: 80px 250px ;
 }
 .card-block-link {
 	display: none;
 }
 .card {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-left: 200px;
-	margin-top: -50px;
-
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	column-gap: 277px;
+	justify-content: center;
+	align-items: center;
 }
 .card-block {
 	cursor: pointer;
-	width: 300px;
-	height: 760px;
-	margin-right: 261px;
 	margin-bottom: 40px;
 	perspective: 1000px;
 }
@@ -30,9 +27,7 @@
 }
 
 .card-block-botton {
-	position: relative;
-	margin-top: 40px;
-	bottom: -20px;
+	margin-top: 75px;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.87);
 	font-size: 20px;
@@ -73,14 +68,13 @@
 }
 .left-side {
 	width: 16px;
-	height: 100%;
+	height: 95%;
 	background: #121212;
 	transform: rotateY(90deg);
 	margin-top: 300px;
 	position: relative;
-	margin-left: -5px;
-	bottom: 590px;
-	/* -webkit-border-radius: 20px; */
+	margin-left: -8px;
+	bottom: 589px;
 }
 .product-inner:hover {
 	transform: rotateY(180deg);
@@ -88,148 +82,45 @@
 }
 .back {
 	position: relative;
-	width: 300px;
-	height: 600px;
+	width: 275px;
+	height: 595px;
 	transform: rotateY(180deg);
 	left: -63px;
 }
 .front {
-	width: 300px;
-	height: 600px;
-}
-.back-two {
-	position: relative;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-	left: -63px;
-}
-.front-two {
-	width: 300px;
-	height: 600px;
-}
-.back-three {
-	position: relative;
-	left: -63px;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-}
-.front-three {
-	width: 300px;
-	height: 600px;
-}
-.back-four {
-	position: relative;
-	left: -63px;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-}
-.front-four {
-	width: 300px;
-	height: 600px;
-}
-.back-five {
-	position: relative;
-	left: -63px;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-}
-.front-five {
-	width: 300px;
-	height: 600px;
-}
-.back-six {
-	position: relative;
-	left: -63px;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-}
-.front-six {
-	width: 300px;
-	height: 600px;
-}
-.back-seven {
-	position: relative;
-	left: -63px;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-}
-.front-seven {
-	width: 300px;
-	height: 600px;
-}
-.back-eight {
-	position: relative;
-	left: -63px;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-}
-.front-eight {
-	width: 300px;
-	height: 600px;
-}
-.back-nine {
-	position: relative;
-	left: -63px;
-	width: 300px;
-	height: 600px;
-	transform: rotateY(180deg);
-}
-.front-nine {
-	width: 300px;
-	height: 600px;
+	width: 275px;
+	height: 595px;
 }
 @media screen and (max-width: 1440px) {
 	.card {
-		justify-content: space-between;
-		margin: 30px -110px 60px 60px;
-	}
-	.card-block {
-		margin-right: 148px;
-		margin-bottom: 30px;
-	}
-	.left-side {
-		height: 100%;
-		margin-top: 295px
-	}
-	.card-block-botton{
-		bottom: -10px;
+		column-gap: 150px;
 	}
 }
 @media screen and (max-width: 768px) {
-	.card-block-link {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-    margin-right: 25px;
-		height: 700px;
-		
-	}
-	.card-block-link:hover {
-		color: #007094;
-	}
 	.section-card {
-    padding: 1px 0;
-		
+    padding: 80px 70px;
 	}
 	.card {
-    margin: 10px 50px 0px 50px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		column-gap: 63px;
+	}
+	.product-inner {
+    height: 62%;
+	}
+	.card-block__link {
+		font-size:14px ;
+		font-weight:600 ;
+		line-height:17px ;
+		display: flex;
+		align-items: center;
 	}
 	.card-block {
-		margin-right: 7px;
 		margin-bottom: 150px
 	}
 	.card-block-botton{
 		margin-top: 50px;
-	}
-	.card-block:last-child{
-		margin-top: 30px;
 	}
 	.left-side {
 		height: 100%;
@@ -238,148 +129,36 @@
 }
 @media screen and (max-width: 375px) {
 	.section-card {
-    padding: 1px 0;
+    padding: 80px 32px;
 	}
-	.card,
-	.card-block {
-		margin: 0 0 0;
+	.card {
+		column-gap: 30px;
+	}
+	.product-inner {
+    height: 78%;
+	}
+	.card-block-botton {
+    margin-top: 75px;
+		font-size: 14px;
+		line-height: 17px;
+		font-weight: 400;
 	}
 	.card-block-top {
 		font-size: 14px;
 		line-height: 20px;
 	}
-	.card-block-botton {
-		width: 100%;
-		margin-top: 0px;
-    font-size: 10px;
-    line-height: 12px;
+	.back,.front {
+		width: 137px;
+		height: 297px;
 	}
 	.card-block {
-		width: 150px;
-		height: 400px;
+		width: 137px;
+		height: 297px;
 	}
 	.left-side {
-		width: 5px !important;
-		height: 285px !important;
-		position: relative;
-		bottom: 587px !important;
-	}
-	.product-front {
-		position: absolute;
-		transform: translateZ(2px) !important;
-	}
-	.product-back {
-		position: relative;
-		transform: translateZ(-3px) !important;
-	}
-	.product-inner:hover {
-		transform: rotateY(180deg);
-		transition: transform 1.2s linear;
-	}
-	.back {
-		width: 150px;
-		height: 300px;
-	}
-	.front {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-
-	}
-	.back-two {
-		width: 150px;
-		height: 300px;
-		
-	}
-	.front-two {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-	
-	}
-	.back-three {
-		width: 150px;
-		height: 300px;
-	}
-	.front-three {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-		
-	}
-	.back-four {
-		width: 150px;
-		height: 300px;
-	}
-	.front-four {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-		
-	}
-	.back-five {
-		width: 150px;
-		height: 300px;
-		
-	}
-	.front-five {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-		
-	}
-	.back-six {
-		width: 150px;
-		height: 300px;
-		
-	}
-	.front-six {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-		
-	}
-	.back-seven {
-		width: 150px;
-		height: 300px;
-		
-	}
-	.front-seven {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-		
-	}
-	.back-eight {
-		width: 150px;
-		height: 300px;
-	
-	}
-	.front-eight {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-		
-	}
-	.back-nine {
-		width: 150px;
-		height: 300px;
-		
-	}
-	.front-nine {
-		position: relative;
-		left: 1px;
-		width: 150px;
-		height: 300px;
-		
+		width: 16px;
+    height: 283px;
+    margin-top: 296px;
 	}
 }
 @media screen and (max-width: 320px) {
@@ -394,13 +173,6 @@
 		font-size: 14px;
 		line-height: 20px;
 	}
-	.card-block-botton {
-		margin: 115px 0px 0px 5px !important;
-		font-size: 10px;
-		line-height: 12px;
-		width: 100%;
-		margin-top: 0px !important;
-	}
 	.card-block {
 		padding: 5px 0px;
 		width: 150px;
@@ -413,22 +185,6 @@
 		height: 70%;
 	}
 
-	.left-side {
-		width: 5px !important;
-		height: 260px !important;
-		position: relative;
-		bottom: 590px !important;
-		margin-top: 325px;
-	}
-	.product-front {
-		position: absolute;
-		transform: translateZ(2px) !important;
-	}
-	.product-back {
-		position: relative;
-		height: 265px;
-		transform: translateZ(-3px) !important;
-	}
 	.product-inner:hover {
 		transform: rotateY(180deg);
 		transition: transform 1.2s linear;
@@ -440,91 +196,10 @@
 	.back {
 		width: 132px;
 		height: 261px;
-	
 	}
 	.front {
 		width: 150px;
 		height: 300px;
-		
 	}
-	.back-two {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.front-two {
-		width: 132px;
-		height: 261px;
 	
-	}
-	.back-three {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.front-three {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.back-four {
-		width: 132px;
-		height: 261px;
-	
-	}
-	.front-four {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.back-five {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.front-five {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.back-six {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.front-six {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.back-seven {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.front-seven {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.back-eight {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.front-eight {
-		width: 132px;
-		height: 261px;
-		
-	}
-	.back-nine {
-		width: 132px;
-		height: 260x;
-		
-	}
-	.front-nine {
-		width: 132px;
-		height: 260px;
-		
-	}
 }
