@@ -571,7 +571,6 @@ body{
 	.logo__image{
 		max-width: 177px;
 	}
-
 }
 @media screen and  (max-width: 768px) {
 	.logo__image {
@@ -618,25 +617,22 @@ body{
 	.button_type_android {
     padding-left: 70px;
 	}
-	.footer__download-links {
-		position: absolute;
-		left: 40px;
-	}
+	
 	.footer-top {
 		display: none;
 	}
 	.footer__download-links-list {
-      flex-direction: column-reverse;
-      row-gap: 20px;
-    }
-		.footer__download-links-list {
-      flex-direction: column-reverse;
-      row-gap: 20px;
-    }
-    .footer__container {
-      padding: 0 16px;
-    }
-	.footer__contacts {
-    margin-top: 300px;
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+	
+	.footer__download-links-list-item {
+		margin:  0;
+	}
+	
+	.contacts-list__item {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
 	}
 } 
