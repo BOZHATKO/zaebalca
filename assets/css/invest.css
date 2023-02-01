@@ -73,6 +73,9 @@
   line-height: 29px;
   font-weight: 400;
 }
+.card-body__list_copy{
+  cursor: pointer;
+}
 .sfera__wrapper {
   margin: 0 256px;
 }
