@@ -24,7 +24,18 @@ function copyText(){
     document.execCommand('copy');
     document.body.removeChild(elem)
 }
-
+function copyTextTwo(){
+    const textTwo = document.querySelector(".card-body__list_4").innerText;
+    const element = document.createElement('textarea')
+    element.value = textTwo;
+    element.setAttribute('readonly', '');
+    element.style.position = 'absolute';
+    element.style.left = '-9999px';
+    document.body.appendChild(element);
+    element.select();
+    document.execCommand('copy');
+    document.body.removeChild(element)
+}
 const closeMenu = document.querySelector('.close_menu');
  closeMenu.addEventListener('click', function (){
    document.getElementById('myCheck').checked = false
