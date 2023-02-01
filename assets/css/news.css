@@ -20,20 +20,45 @@
 details {
     color: rgba(255, 255, 255, 0.87);
     padding-bottom: 10px;
-    border-bottom: 1px solid #00A9DE;
     max-width: 200px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+    .section__wrapper {
+        margin: 0 70px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .section__wrapper {
+        margin: 0 30px;
+    }
+    .apps__lead-image {
+        max-width: 520px;
+    }
 }
 @media screen and (max-width: 768px) {
     .lead__flex {
     flex-direction: column;
-    padding: 200px 0 0 0;
+    padding: 100px 0 0 0;
     }
     .section__wrapper {
         margin: 0 50px;
     }
 }
-
-
+@media screen and (max-width: 375px) {
+    .section__wrapper {
+        margin: 0 25px;
+    }
+    .apps__lead-image {
+        max-width: 320px;
+    }
+    .lead__text {
+        color: rgba(255, 255, 255, 0.87);
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+}
 
 
 

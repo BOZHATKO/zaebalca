@@ -74,7 +74,8 @@ button,input{
 	overflow:visible
 }
 button,select{
-	text-transform:none
+	text-transform:none;
+	border: none;
 }
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
 	border-style:none;
@@ -570,7 +571,6 @@ body{
 	.logo__image{
 		max-width: 177px;
 	}
-
 }
 @media screen and  (max-width: 768px) {
 	.logo__image {
@@ -603,6 +603,9 @@ body{
 }
 }
 @media screen and  (max-width: 375px) {
+	.socials-list {
+    max-width: 302px;
+	}
 	
 	.lead__download-links-list {
 		flex-direction: column-reverse;
@@ -617,25 +620,26 @@ body{
 	.button_type_android {
     padding-left: 70px;
 	}
-	.footer__download-links {
-		position: absolute;
-		left: 40px;
-	}
+	
 	.footer-top {
 		display: none;
 	}
 	.footer__download-links-list {
-      flex-direction: column-reverse;
-      row-gap: 20px;
-    }
-		.footer__download-links-list {
-      flex-direction: column-reverse;
-      row-gap: 20px;
-    }
-    .footer__container {
-      padding: 0 16px;
-    }
-	.footer__contacts {
-    margin-top: 300px;
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+	
+	.footer__download-links-list-item {
+		margin:  0;
+	}
+	.footer__container {
+    /* max-width: 1462px; */
+  
+    padding: 0 20px;
+}
+	.contacts-list__item {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
 	}
 } 
