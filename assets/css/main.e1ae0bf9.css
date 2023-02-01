@@ -74,7 +74,8 @@ button,input{
 	overflow:visible
 }
 button,select{
-	text-transform:none
+	text-transform:none;
+	border: none;
 }
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
 	border-style:none;

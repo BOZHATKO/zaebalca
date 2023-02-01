@@ -162,29 +162,17 @@
 	}
 }
 @media screen and (max-width: 320px) {
-	.card,
+	
 	.card-block {
-		margin: 0 0 0;
-	}
-	.card-block:last-child{
-		margin-top: 0px;
-	  }
-	.card-block-top {
-		font-size: 14px;
-		line-height: 20px;
-	}
-	.card-block {
-		padding: 5px 0px;
 		width: 150px;
 		height: 400px;
 	}
 
 	.product-inner {
-		justify-content: center;
+		/* justify-content: center; */
 		margin-left: 10px;
 		height: 70%;
 	}
-
 	.product-inner:hover {
 		transform: rotateY(180deg);
 		transition: transform 1.2s linear;
@@ -198,8 +186,8 @@
 		height: 261px;
 	}
 	.front {
-		width: 150px;
-		height: 300px;
+		width: 132px;
+		height: 261px;
 	}
 	
 }

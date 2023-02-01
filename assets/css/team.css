@@ -124,7 +124,6 @@
   border-radius: 8px;
   -o-object-position: center;
      object-position: center;
-  /* box-shadow: 0px 10px 20px #000000; */
 }
 .item__person {
   position: absolute;
