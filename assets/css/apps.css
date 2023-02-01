@@ -314,14 +314,21 @@
     font-weight: 600;
   }
   .apps__brief-image {
-    width: 137px;
-    height: 298px;
+    width: 132px;
+    height: 292px;
 }
+
   .lead__text {
     font-size: 14px;
-    line-height: 27px;
+    line-height: 17px;
     font-weight: 400;
-    width: 327px;
+    width: 310px;
+  }
+  .apps__briefs-item {
+    row-gap: 20px;
+  }
+  .apps__brief-text-container {
+    margin-bottom: 80px;
   }
   .apps__brief-text  {
     font-size: 14px;
