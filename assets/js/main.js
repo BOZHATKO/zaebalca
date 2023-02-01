@@ -24,3 +24,8 @@ function copyText(){
     document.execCommand('copy');
     document.body.removeChild(elem)
 }
+
+const closeMenu = document.querySelector('.close_menu');
+ closeMenu.addEventListener('click', function (){
+   document.getElementById('myCheck').checked = false
+})

@@ -603,6 +603,9 @@ body{
 }
 }
 @media screen and  (max-width: 375px) {
+	.socials-list {
+    max-width: 302px;
+	}
 	
 	.lead__download-links-list {
 		flex-direction: column-reverse;
@@ -629,7 +632,11 @@ body{
 	.footer__download-links-list-item {
 		margin:  0;
 	}
-	
+	.footer__container {
+    /* max-width: 1462px; */
+  
+    padding: 0 20px;
+}
 	.contacts-list__item {
     font-size: 18px;
     font-weight: 600;
