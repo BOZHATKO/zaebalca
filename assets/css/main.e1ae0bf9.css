@@ -11,7 +11,7 @@ html{
 	-webkit-text-size-adjust:100%
 }
 body{
-	margin:0
+	margin:0;
 }
 main{
 	display:block
@@ -74,7 +74,8 @@ button,input{
 	overflow:visible
 }
 button,select{
-	text-transform:none
+	text-transform:none;
+	border: none;
 }
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
 	border-style:none;
@@ -328,15 +329,10 @@ body{
 }
 .logo{
 	display:flex;
-	width:326px;
-	height:60px;
-	justify-content:space-between;
+	/* justify-content:space-between; */
 	align-items:center
 }
-.logo__image{
-	display:block;
-	max-width: 300px;
-}
+
 .main-nav{
 	display:flex;
 	justify-content:right;
@@ -396,7 +392,7 @@ body{
 .langs {
 	display: flex;
 	align-items: center;
-	padding: 0px 60px 4px;
+	padding: 0px 0px 0 70px;
 	gap: 3px;
 }
 .langs__list{
@@ -571,10 +567,7 @@ body{
 }
 }  */
 @media  screen and (max-width: 1440px) {
-	.langs{
-		padding: 6px 110px 0 20px;
-		margin: 0 auto;
-	}
+	
 	.logo__image{
 		max-width: 177px;
 	}
@@ -592,7 +585,7 @@ body{
 	.contacts-list__item {
 		font-size: 22px;
 		font-weight: 400;
-		line-height: 26px;
+		line-height: 36px;
 	}
 	.footer__title {
     margin: 0 0 18px;
