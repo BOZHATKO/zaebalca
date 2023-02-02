@@ -573,6 +573,10 @@ body{
 	}
 }
 @media screen and  (max-width: 768px) {
+	.footer-top {
+		display: none;
+	}
+
 	.logo__image {
     max-width: 148px
 	}

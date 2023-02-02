@@ -2,6 +2,9 @@
 	background:  #2E2E31;
 	padding: 80px 250px ;
 }
+.card-block-botton {
+	display: none;
+}
 .card-block-link {
 	display: none;
 }
@@ -27,7 +30,7 @@
 }
 
 .card-block-botton {
-	margin-top: 75px;
+	margin-top: 25px;
 	text-align: center;
 	color: rgba(255, 255, 255, 0.87);
 	font-size: 20px;
@@ -69,7 +72,7 @@
 .left-side {
 	width: 16px;
 	height: 95%;
-	background: #121212;
+	background: #1e1d1d;
 	transform: rotateY(90deg);
 	margin-top: 300px;
 	position: relative;
@@ -100,11 +103,15 @@
 	.section-card {
     padding: 80px 70px;
 	}
+	.card-block-botton {
+		display: block;
+	}
 	.card {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 		column-gap: 63px;
+		align-items: baseline;
 	}
 	.product-inner {
     height: 62%;
@@ -113,8 +120,8 @@
 		font-size:14px ;
 		font-weight:600 ;
 		line-height:17px ;
-		display: flex;
-		align-items: center;
+		position: relative;
+    top: 350px;
 	}
 	.card-block {
 		margin-bottom: 150px
@@ -124,7 +131,7 @@
 	}
 	.left-side {
 		height: 100%;
-		margin-top: 300px
+		margin-top: 305px
 	}
 }
 @media screen and (max-width: 375px) {
@@ -159,6 +166,10 @@
 		width: 16px;
     height: 283px;
     margin-top: 296px;
+	}
+	.card-block__link {
+		position: relative;
+    top: 190px;
 	}
 }
 @media screen and (max-width: 320px) {
