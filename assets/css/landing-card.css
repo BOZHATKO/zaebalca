@@ -2,9 +2,7 @@
 	background:  #2E2E31;
 	padding: 80px 250px ;
 }
-.card-block-botton {
-	display: none;
-}
+.card-block-link-botton,
 .card-block-link {
 	display: none;
 }
@@ -103,7 +101,7 @@
 	.section-card {
     padding: 80px 70px;
 	}
-	.card-block-botton {
+	.card-block-link-botton{
 		display: block;
 	}
 	.card {
