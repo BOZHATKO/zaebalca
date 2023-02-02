@@ -70,6 +70,12 @@
 .team__column {
   flex: 0 1 17.85%;
   margin: 0px 15px 30px 15px;
+
+}
+@media (max-width: 1650px){
+  .team__column{
+    flex: 0 1 17.8%;
+  }
 }
 @media (max-width: 1440px) {
   .team__column {
@@ -117,8 +123,13 @@
   display: block;
   position: relative;
 }
-.item__image img {
+.item__image{
+
+}
+.team__photo{
   width: 100%;
+}
+.item__image img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
@@ -140,9 +151,19 @@
     top: 220px;
   }
 }
-@media (max-width: 1650px){
+@media (max-width: 1440px){
   .item__person{
-    top: 155px;
+    top: 240px;
+  }
+}
+@media (max-width: 1240px){
+  .item__person{
+    top: 220px;
+  }
+}
+@media (max-width: 992px){
+  .item__person{
+    top: 150px;
   }
 }
 @media (max-width: 320px) {
@@ -204,7 +225,7 @@
 @media (max-width: 1650px) {
   .item__person {
 
-    left: 13px;
+    left: 20px;
   }
 }
 @media (max-width: 1240px){
@@ -241,12 +262,6 @@
   opacity: 0;
   visibility: hidden;
 }
-@media (max-width: 992px){
-  .item .logo__item{
-    height: 92%;
-    left: 7px;
-  }
-}
 .item .logo__item .logo__text {
   margin: 10px 0px 0px 0px;
   font-size: 14px;
@@ -255,6 +270,17 @@
   text-transform: uppercase;
   color: #fff;
 }
+@media (max-width: 992px){
+  .item .logo__item{
+    height: 92%;
+    left: 7px;
+  }
+  .item .logo__item .logo__text {
+font-size: 12px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .item .logo__item .logo__text {
     font-size: 8px;
