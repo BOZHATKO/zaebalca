@@ -17,7 +17,7 @@
 .card-block {
 	cursor: pointer;
 	margin-bottom: 40px;
-	perspective: 1000px;
+	perspective: 1077px;
 }
 .product-inner {
 	transition: transform 1.2s linear;
@@ -179,9 +179,15 @@
 		width: 150px;
 		height: 400px;
 	}
-
+	.left-side {
+    width: 16px;
+    height: 250px;
+    margin-top: 296px;
+	}
+	.card {
+		column-gap: 20px;
+	}
 	.product-inner {
-		/* justify-content: center; */
 		margin-left: 10px;
 		height: 70%;
 	}
@@ -190,14 +196,14 @@
 		transition: transform 1.2s linear;
 	}
 	.card-block {
-		width: 140px;
+	  width: 140px;
 		height: 260px;
 	}
 	.back {
 		width: 132px;
-		height: 261px;
+		height: 365px;
 	}
-	.front {
+	.back,.front {
 		width: 132px;
 		height: 261px;
 	}

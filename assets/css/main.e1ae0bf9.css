@@ -607,8 +607,11 @@ body{
 }
 }
 @media screen and  (max-width: 375px) {
+	.socials-list__link {
+    background-size: 34px;
+}
 	.socials-list {
-    max-width: 302px;
+    max-width: 270px;
 	}
 	
 	.lead__download-links-list {
@@ -616,15 +619,19 @@ body{
 		list-style: none;
 		padding: 0;
 		column-gap: 30px;
-
 	}
 	.button_type_ios {
-    padding-left: 105px;
+    padding-left: 100px;
 	}
 	.button_type_android {
-    padding-left: 70px;
+    padding-left: 60px;
 	}
-	
+	.button_type_android::after {
+    background-size: 21px;
+	}
+	.button_type_ios::after {
+		background-size: 25px;
+	}
 	.footer-top {
 		display: none;
 	}
@@ -632,18 +639,16 @@ body{
     flex-direction: column-reverse;
     row-gap: 20px;
   }
-	
 	.footer__download-links-list-item {
 		margin:  0;
 	}
 	.footer__container {
-    /* max-width: 1462px; */
-  
-    padding: 0 20px;
-}
+    padding: 0px 15px;
+	}
 	.contacts-list__item {
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
 	}
+	
 } 

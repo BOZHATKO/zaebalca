@@ -122,24 +122,20 @@
     margin: 0 1px 8px 1px;
   }
 }
-
 .item {
   height: 100%;
   display: block;
   position: relative;
-}
-.item__image{
-
 }
 .team__photo{
   width: 100%;
 }
 .item__image img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 8px;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 .item__person {
   position: absolute;

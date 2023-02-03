@@ -343,6 +343,31 @@ a {
     margin: 180px 130px 70px 130px;
     text-align: center;
 }
+@media screen and (max-width: 1240px) {
+  .section-image-one,
+  .section-image-two {
+    width: 230px;
+    height: 500px;
+}
+  .section-first {
+    column-gap: 5px;
+}
+  .section-image-one,
+  .section-two-image-one {
+    margin-right: 24px;
+}
+  .block-eight {
+    margin: 180px 80px 70px 80px;
+  }
+  .section-two {
+    column-gap: 70px;
+  }
+  .block-for-image-two {
+    margin-right: 8px;
+}
+.block-for {
+  column-gap: 30px;
+}
 @media screen and (max-width: 768px) {
   .lead__download-links-list {
     justify-content: center;
@@ -794,34 +819,27 @@ a {
   }
 }
 @media screen and (max-width: 320px) {
-  
   .section-as-iframe-video {
     width: 280px;
     height: 258px;
   }
-  .section-image-one {
+  .section-image-one,.section-image-two {
     width: 130px;
     height: 260px;
   }
-  .section-image-two {
-    width: 130px;
-    height: 260px;
-
-  }  
   .section-two-image-one {
     width: 130px;
     height: 272px;
-    margin: 0 28px 0 5px;
+    margin: 0 20px 0 0;
   }
   .section-two-image-two {
     width: 130px;
     height: 272px;
-
   }
   .block-for-image-one {
     width: 111px;
     height: 206px;
-    margin: 14px -20px 0 -14px;
+    margin: 14px 0 0 0x;
   }
   .block-for {
     margin: 37px -15px 0 8px;
@@ -830,16 +848,19 @@ a {
     font-size: 12px;
     line-height: 18px;
   }
+  .list-left-for {
+    padding-left: 0px;
+  }
   .section-two-content-number-two {
     font-size: 20px;
     line-height: 30px;
   }
   .block-seven-paragraf {
-    margin-left: 25px;
+    margin-left: 15px;
   }
   .block-seven-p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .block-seven-text {
     font-size: 14px; 
@@ -847,17 +868,12 @@ a {
   .about-as-heading-last{
     font-size: 20px;
     line-height: 30px;
-    
   }
   .section {
     margin-top: 40px;
   }
-}
-/* .off_scroll {
-  overflow: hidden;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  position: fixed;
-} */
+  .block-seven {
+    margin: 20px 15px 10px 15px;
+    column-gap: 0px;
+  }
 }

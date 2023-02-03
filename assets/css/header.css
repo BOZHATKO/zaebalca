@@ -92,7 +92,7 @@ background: #1f1f26;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
-    margin-right: 85px;
+    margin-right: 80px;
 }
 .logo{
     width: 247px;
@@ -139,8 +139,6 @@ background: #1f1f26;
     border-bottom:2px solid rgba(0,0,0,0);
     border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 40
 }
-
-
 .checkButton {
     font-size: 30px;
     color: rgba(255, 255, 255, 0.87);
@@ -334,7 +332,9 @@ background: #1f1f26;
     
 }
 @media screen and (max-width:375px){
-
+    .header__wrapper {
+        padding: 0 25px;
+    }
     .block-logo {
         column-gap: 10px;
         margin-right: 150px;
@@ -347,12 +347,8 @@ background: #1f1f26;
         height: 20px;
     }
     .langs {
-       display: none;
+    display: none;
     }
-    label.logo {
-
-    }
-
     .nav_list-elements{
         width: 300px;
         height: 812px;
