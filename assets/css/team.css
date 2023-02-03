@@ -105,6 +105,11 @@
     flex: 0 1 29.6%;
   }
 }
+@media (max-width: 375px){
+  .team__column{
+    flex: 0 1 44%;
+  }
+}
 @media (max-width: 360px) {
   .team__column {
     flex: 0 1 47%;
@@ -235,6 +240,12 @@
     left: 13px;
   }
 }
+@media (max-width: 375px) {
+  .item__person {
+    top: 40px;
+    left: 13px;
+  }
+}
 @media (max-width: 320px) {
   .item__person {
     top: 50px;
@@ -293,6 +304,12 @@ font-size: 12px;
     padding-top: 220px;
     margin-bottom: 81px;
     margin-top: 0;
+  }
+}
+@media (max-width: 375px) {
+  .item .logo__item {
+
+    left: 5px;
   }
 }
 @media (max-width: 320px) {
