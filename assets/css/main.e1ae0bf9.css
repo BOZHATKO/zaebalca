@@ -607,6 +607,9 @@ body{
 }
 }
 @media screen and  (max-width: 375px) {
+	.socials-list__link {
+    background-size: 40px;
+}
 	.socials-list {
     max-width: 302px;
 	}

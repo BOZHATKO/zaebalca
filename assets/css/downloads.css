@@ -103,9 +103,9 @@
     
   }
 }
-@media screen and  (max-width: 1200px){
+@media screen and  (max-width: 1240px){
   .lead__wrapper {
-    margin: 0 60px;
+    margin: 0 40px;
   }
   .lead__content {
     column-gap: 20px;
@@ -128,6 +128,9 @@
   .lead__button:first-child {
     margin-right: 20px;
   } 
+  .description__heading__content {
+    margin-top: 110px;
+  }
 }
 @media screen and  (max-width: 992px){
   .lead__wrapper {

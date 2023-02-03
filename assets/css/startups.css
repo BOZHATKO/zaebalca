@@ -112,6 +112,39 @@
     margin: 0 100px;
   }
 }
+@media screen and (max-width: 1440px) {
+  .lead__image {
+    width: 506px;
+    height: 397px;
+}
+  .lead__text {
+    font-size: 22px;
+  }
+  .startups__wrapper {
+    margin: 0 30px;
+  }
+  .lead__title {
+    font-size: 74px;
+  }
+  .lead {
+    column-gap: 0px;
+  }
+  .description__wrapper {
+    margin: 100px 50px;
+  }
+  .description__list {
+  margin: 0px 0 120px 10px;
+  column-gap: 50px;
+  }
+  .frame__wrapper {
+    margin: 150px 100px 100px 100px;
+  }
+  .frame__list {
+  column-gap: 130px;
+  
+  }
+  
+}
 @media screen and (max-width: 768px) {
   .startups__wrapper {
     margin: 0 50px;
@@ -195,13 +228,19 @@
   }
   .lead__images {
     position: absolute;
-    top: 430px;
+    top: 400px;
     left: 0;
   }
+  .lead__texts {
+    margin-top: 120px;
+  }
+  .section__startups {
+    padding: 0px 0 30px 0;
+}
   .lead__text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 21px;
   margin-bottom: 300px;
   }
   .lead__download-links-list {

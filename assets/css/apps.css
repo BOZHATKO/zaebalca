@@ -208,6 +208,19 @@
     column-gap: 70px;
   }
 }
+@media screen and  (max-width: 1440px) {
+  .section__wrapper {
+    margin: 0 70px;
+  }
+  .apps__subapps-title {
+    font-size: 60px;
+    line-height: 95px;
+    font-weight: 700;
+}
+.align_wiper {
+  margin: 70px 100px;
+}
+}
 @media screen and  (max-width: 992px) {
   .section__wrapper {
     margin:  0 50px;
