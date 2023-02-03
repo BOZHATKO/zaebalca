@@ -1,4 +1,9 @@
-
+.langs__dropdown-menu::before{
+	content: '\23F7';
+	color: white;
+	position: absolute;
+	left: 40px;
+}
 .page {
 	max-width: 1920px;
 }
@@ -650,5 +655,8 @@ body{
     font-weight: 600;
     line-height: 22px;
 	}
-	
+	.footer__contacts {
+    width: 352px;
+    margin-right: 170px;
+	}
 } 
