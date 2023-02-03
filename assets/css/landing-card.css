@@ -176,9 +176,15 @@
 		width: 150px;
 		height: 400px;
 	}
-
+	.left-side {
+    width: 16px;
+    height: 250px;
+    margin-top: 296px;
+	}
+	.card {
+		column-gap: 20px;
+	}
 	.product-inner {
-		/* justify-content: center; */
 		margin-left: 10px;
 		height: 70%;
 	}
@@ -187,14 +193,10 @@
 		transition: transform 1.2s linear;
 	}
 	.card-block {
-		width: 140px;
+		width: 132px;
 		height: 365px;
 	}
-	.back {
-		width: 132px;
-		height: 261px;
-	}
-	.front {
+	.back,.front {
 		width: 132px;
 		height: 261px;
 	}

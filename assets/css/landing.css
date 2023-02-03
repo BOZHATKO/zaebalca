@@ -823,19 +823,14 @@ a {
     width: 280px;
     height: 258px;
   }
-  .section-image-one {
+  .section-image-one,.section-image-two {
     width: 130px;
     height: 260px;
   }
-  .section-image-two {
-    width: 130px;
-    height: 260px;
-
-  }  
   .section-two-image-one {
     width: 130px;
     height: 272px;
-    margin: 0 28px 0 5px;
+    margin: 0 20px 0 0;
   }
   .section-two-image-two {
     width: 130px;
@@ -844,7 +839,7 @@ a {
   .block-for-image-one {
     width: 111px;
     height: 206px;
-    margin: 14px -20px 0 -14px;
+    margin: 14px 0 0 0x;
   }
   .block-for {
     margin: 37px -15px 0 8px;
@@ -853,16 +848,19 @@ a {
     font-size: 12px;
     line-height: 18px;
   }
+  .list-left-for {
+    padding-left: 0px;
+  }
   .section-two-content-number-two {
     font-size: 20px;
     line-height: 30px;
   }
   .block-seven-paragraf {
-    margin-left: 25px;
+    margin-left: 15px;
   }
   .block-seven-p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
   }
   .block-seven-text {
     font-size: 14px; 
@@ -873,5 +871,9 @@ a {
   }
   .section {
     margin-top: 40px;
+  }
+  .block-seven {
+    margin: 20px 15px 10px 15px;
+    column-gap: 0px;
   }
 }

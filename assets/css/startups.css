@@ -111,8 +111,17 @@
   .startups__wrapper {
     margin: 0 100px;
   }
+  .description__wrapper {
+    margin: 50px 150px;
+  }
+  .frame__wrapper {
+    margin: 0 150px 50px 150px;
 }
-@media screen and (max-width: 1440px) {
+  .description__list {
+    margin: 0px 0 100px 45px;
+  }
+}
+@media screen and (max-width: 1240px) {
   .lead__image {
     width: 506px;
     height: 397px;
