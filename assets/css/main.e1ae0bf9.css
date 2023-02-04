@@ -397,8 +397,12 @@ body{
 .langs {
 	display: flex;
 	align-items: center;
+<<<<<<< HEAD
 	padding: 0;
 	/* padding: 0px 0px 0 70px; */
+=======
+	padding: 0 0 0 0;
+>>>>>>> b40e70b2877d784dc73c68bdb14c585f6da7f9f4
 	gap: 3px;
 }
 .langs__list{
