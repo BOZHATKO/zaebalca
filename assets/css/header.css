@@ -456,6 +456,14 @@ background: #1f1f26;
         height: 300px;
         margin-left: 25px;
         margin-top: 18px;
+
+    }
+    .video-container .close {
+        position: absolute;
+        left: 295px;
+        top: 30px;
+    }
+
     }
     .video-container .close {
         position: absolute;
