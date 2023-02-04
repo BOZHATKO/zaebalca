@@ -349,6 +349,17 @@ background: #1f1f26;
         width: 130px;
         height: 20px;
     }
+    .video-container video {
+        width: 340px;
+        height: 320px;
+        margin-left: 20px;
+        margin-top: 38px;
+    }
+    .video-container .close {
+        position: absolute;
+        left: 335px;
+        top: 50px;
+    }
     .langs {
     display: none;
     }
@@ -440,7 +451,18 @@ background: #1f1f26;
     .nav_menu{
         column-gap: 40px;
     }
-    .nav_list{
-      top: 160px;
+    .video-container video {
+        width: 310px;
+        height: 300px;
+        margin-left: 25px;
+        margin-top: 18px;
+    }
+    .video-container .close {
+        position: absolute;
+        left: 295px;
+        top: 30px;
+    }
+    .checkButton{
+        margin-left: 50px;
     }
 }
