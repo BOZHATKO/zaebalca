@@ -338,3 +338,19 @@
     font-weight: 600;
   }
 }
+@media screen and  (max-width: 320px) {
+  .lead__download-links-list {
+    margin-left: 0px;
+}
+.button_type_ios-invest {
+  padding-left: 100px;
+}
+.investment__image {
+  width: 142px;
+  top: 380px;
+  right: 85px;
+}
+.card__image-center {
+  width: 280px;
+}
+}
