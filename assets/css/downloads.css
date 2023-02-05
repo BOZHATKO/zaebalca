@@ -285,3 +285,13 @@ line-height: 22px;
     align-items: center;
 }
 }
+@media screen and  (max-width: 320px){
+.lead__images {
+  left: 10px;
+  object-fit: contain;
+  width: 200px;
+}
+.lead__images {
+  column-gap: 16px;
+}
+}
