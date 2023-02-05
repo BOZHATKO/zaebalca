@@ -442,7 +442,7 @@ background: #1f1f26;
 }
 @media  screen and (max-width: 320px){
     .checkButton{
-        left: 260px;
+        left: 230px;
     }
     .block-logo {
     column-gap: 10px;
@@ -462,8 +462,6 @@ background: #1f1f26;
         position: absolute;
         left: 295px;
         top: 30px;
-    }
-
     }
     .video-container .close {
         position: absolute;

@@ -254,6 +254,7 @@
   }
   .lead__download-links-list {
   row-gap: 20px;
+  justify-content: center;
   }
   .lead__title {
     font-weight: 600;
@@ -289,4 +290,13 @@
     line-height: 27px;
     text-align: center;
 }
+}
+@media screen and (max-width: 320px) {
+  .lead__download-links-list {
+    margin: 0;
+  }
+  .lead__image {
+    width: 295px;
+    height: 238px;
+  }
 }
