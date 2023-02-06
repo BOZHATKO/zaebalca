@@ -339,6 +339,9 @@
   }
 }
 @media screen and  (max-width: 320px) {
+  .investment-body__text {
+    max-width: 210px;
+  }
   .lead__download-links-list {
     margin-left: 0px;
 }
