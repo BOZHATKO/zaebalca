@@ -36,7 +36,7 @@ function copyTextTwo(){
     document.execCommand('copy');
     document.body.removeChild(element)
 }
-const closeMenu = document.querySelector('.close_menu');
- closeMenu.addEventListener('click', function (){
+  const closeMenu = document.querySelector('.close_menu');
+   closeMenu.addEventListener('click', function (){
    document.getElementById('myCheck').checked = false
 })
