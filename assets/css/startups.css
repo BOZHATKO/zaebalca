@@ -289,7 +289,10 @@
     font-weight: 400;
     line-height: 27px;
     text-align: center;
-}
+  }
+  .lead__text {
+    width: 210px;
+  }
 }
 @media screen and (max-width: 320px) {
   .lead__download-links-list {
@@ -299,4 +302,8 @@
     width: 295px;
     height: 238px;
   }
+  .lead__text {
+    width: 200px;
+  }
+  
 }

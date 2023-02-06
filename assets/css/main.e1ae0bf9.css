@@ -552,25 +552,7 @@ body{
 	background-image:url("../img/social-icons/zen.svg");
 	background-size:50px
 }
-/* @media screen and  (max-width: 1600px) {
-  /* .footer__contacts,
-  .footer__social-links {
-    margin-right: 160px;
-  } */
-  /* .footer__container {
-    justify-content: center;
-  } */
-/* }
-@media screen and  (max-width: 1440px) {
-  /* .footer__contacts,
-  .footer__social-links {
-    margin-right: 50px;
-  } */
-	/* .langs {
-    
-    padding: 0 60px 0 10px;
-}
-}  */
+
 @media  screen and (max-width: 1440px) {
 	
 	.logo__image{
