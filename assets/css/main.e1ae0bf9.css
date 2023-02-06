@@ -594,6 +594,12 @@ body{
 }
 }
 @media screen and  (max-width: 375px) {
+	.footer__copyright-text {
+    width: 278px;
+}
+.footer__social-links {
+	width: 338px;
+}
 	.socials-list__link {
     background-size: 34px;
 }
@@ -642,3 +648,11 @@ body{
     margin-right: 170px;
 	}
 } 
+@media screen and  (max-width: 320px) {
+.footer__social-links {
+	width: 287px;
+	}
+	.footer__container {
+    padding: 0px 8px;
+}
+}

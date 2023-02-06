@@ -305,7 +305,7 @@
 }
 @media screen and  (max-width: 376px) {
   .section__wrapper {
-    margin: 0px 25px;
+    margin: 0px 15px;
   }
   .apps__subapps-wrapper {
     width: 320px;
@@ -372,7 +372,13 @@
   }
 }
 @media screen and (max-width: 320px){
+  .apps__subapps-wrapper {
+    width: 300px;
+}
 .lead__text {
     width: 256px;
+}
+.section__wrapper {
+  margin: 0px 0px;
 }
 }
