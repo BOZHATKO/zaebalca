@@ -340,7 +340,7 @@ background: #1f1f26;
     }
     .block-logo {
         column-gap: 10px;
-        margin-right: 150px;
+        /* margin-right: 150px; */
     }
     .logo__image {
         max-width: 110px;

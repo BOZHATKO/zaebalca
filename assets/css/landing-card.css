@@ -72,7 +72,7 @@
 	height: 95%;
 	background: #1e1d1d;
 	transform: rotateY(90deg);
-	margin-top: 300px;
+	margin-top: 310px;
 	position: relative;
 	margin-left: -8px;
 	bottom: 589px;
@@ -95,6 +95,9 @@
 @media screen and (max-width: 1440px) {
 	.card {
 		column-gap: 150px;
+	}
+	.left-side{
+		height: 92%;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -128,8 +131,8 @@
 		margin-top: 50px;
 	}
 	.left-side {
-		height: 100%;
-		margin-top: 305px
+		height: 97%;
+		margin-top: 312px
 	}
 }
 @media screen and (max-width: 375px) {
@@ -165,8 +168,8 @@
 	}
 	.left-side {
 		width: 16px;
-    height: 290px;
-    margin-top: 333px;
+    height: 280px;
+    margin-top: 338px;
 	}
 	.card-block__link {
 		position: relative;
@@ -204,11 +207,12 @@
 		height: 365px;
 	}
 	.back,.front {
-		width: 132px;
-		height: 261px;
+		width: 92px;
+		height: 221px;
 	}
 	.left-side{
-		height: 255px;
+		height: 215px;
+		margin-left: -11px;
 	}
 	.card-block-botton{
 		margin-top: 95px;
