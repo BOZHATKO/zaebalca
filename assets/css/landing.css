@@ -58,7 +58,15 @@
   margin-right: 20px;
 }
 .section-image-one {
+  width: 282px ;
+  height: 612px;
   margin-right: 54px;
+}
+.section-image-two,
+.block-for-image-one,
+.block-for-image-two {
+  width: 282px ;
+  height: 612px;
 }
 .section-button {
   display: flex;
@@ -333,15 +341,16 @@ a {
   .block-seven {
     column-gap: 200px;
     margin: 206px 130px 0 130px;
-}
+  }
   .block-seven-image {
     width: 335px;
-    height: 540px;
+    height: 588px;
   }
   
   .block-eight {
     margin: 180px 130px 70px 130px;
     text-align: center;
+  }
 }
 @media screen and (max-width: 1240px) {
   .section-image-one,
@@ -367,6 +376,7 @@ a {
 }
 .block-for {
   column-gap: 30px;
+}
 }
 @media screen and (max-width: 768px) {
   .lead__download-links-list {

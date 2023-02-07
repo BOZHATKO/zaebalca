@@ -552,25 +552,7 @@ body{
 	background-image:url("../img/social-icons/zen.svg");
 	background-size:50px
 }
-/* @media screen and  (max-width: 1600px) {
-  /* .footer__contacts,
-  .footer__social-links {
-    margin-right: 160px;
-  } */
-  /* .footer__container {
-    justify-content: center;
-  } */
-/* }
-@media screen and  (max-width: 1440px) {
-  /* .footer__contacts,
-  .footer__social-links {
-    margin-right: 50px;
-  } */
-	/* .langs {
-    
-    padding: 0 60px 0 10px;
-}
-}  */
+
 @media  screen and (max-width: 1440px) {
 	
 	.logo__image{
@@ -612,6 +594,12 @@ body{
 }
 }
 @media screen and  (max-width: 375px) {
+	.footer__copyright-text {
+    width: 278px;
+}
+.footer__social-links {
+	width: 338px;
+}
 	.socials-list__link {
     background-size: 34px;
 }
@@ -660,3 +648,11 @@ body{
     margin-right: 170px;
 	}
 } 
+@media screen and  (max-width: 320px) {
+	.footer__social-links {
+		width: 287px;
+	}
+	.footer__container {
+    padding: 0px 8px;
+	}
+}

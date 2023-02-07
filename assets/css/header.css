@@ -363,14 +363,15 @@ background: #1f1f26;
     .langs {
     display: none;
     }
-    .nav_list-elements{
+    .nav_list-elements {
         width: 300px;
-        height: 812px;
+        height: 481px;
     }
     .button_download {
         width: 211px;
         height: 30px;
         font-size: 18px;
+        color: black;
     }
     .checkButton {
         display: flex;
@@ -384,7 +385,6 @@ background: #1f1f26;
     .nav_list{
         width: 312px;
         height: 667px;
-
     }
     .nav_list-item {
         width: 95%;
@@ -393,13 +393,10 @@ background: #1f1f26;
         line-height: 40px;
         margin-top: 20px;
         margin-left: 9px;
-
     }
     .header_menu-tablet{
         column-gap: 85px;
-
     }
-
     .download_button-tablet{
         margin-left: 0;
     }
@@ -441,6 +438,25 @@ background: #1f1f26;
     }
 }
 @media  screen and (max-width: 320px){
+   
+    .header_menu-tablet {
+    column-gap: 40px;
+    }
+    .button_download {
+        width: 153px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .download_button-tablet {
+        
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 0px;
+    }
+    .nav_list{
+        width: 268px;
+        height: 677px;
+    }
     .checkButton{
         left: 230px;
     }

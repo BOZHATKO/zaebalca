@@ -283,15 +283,18 @@ line-height: 22px;
     row-gap: 10px;
     margin-top: 350px;
     align-items: center;
-}
+  }
+.description__wrapper {
+  margin: 0 20px;
+  }
 }
 @media screen and  (max-width: 320px){
-.lead__images {
-  left: 10px;
-  object-fit: contain;
-  width: 200px;
-}
-.lead__images {
-  column-gap: 16px;
-}
+  .lead__images {
+    left: 10px;
+    object-fit: contain;
+    width: 200px;
+  }
+  .lead__images {
+    column-gap: 16px;
+  }
 }
