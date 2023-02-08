@@ -137,7 +137,7 @@
 }
 @media screen and (max-width: 375px) {
 	.product-back{
-		height: 260px;
+		height: 225px;
 	}
 	.section-card {
     padding: 80px 32px;
@@ -186,14 +186,15 @@
 	.left-side {
     width: 16px;
     height: 250px;
-    margin-top: 335px;
+    margin-top: 370px;
 	}
 	.card {
 		column-gap: 20px;
 	}
 	.product-inner {
-		margin-left: 10px;
+		margin-left: 30px;
 		height: 70%;
+		width: 55%;
 	}
 	.product-inner:hover {
 		transform: rotateY(180deg);
@@ -212,8 +213,8 @@
 		height: 221px;
 	}
 	.left-side{
-		height: 215px;
-		margin-left: -11px;
+		height: 211px;
+		margin-left: -8px;
 	}
 	.card-block-botton{
 		margin-top: 95px;
