@@ -77,6 +77,13 @@
 	margin-left: 0px;
 	bottom: 589px;
 }
+/* ?======================================================= */
+.eng-left-side {
+	height: 95%;
+	margin-left: -5px;
+
+}
+/* ?======================================================= */
 .product-inner:hover {
 	transform: rotateY(180deg);
 	transition: transform 1.2s linear;
@@ -145,6 +152,11 @@
 	.card {
 		column-gap: 30px;
 	}
+	/* ?=============================================================== */
+	.eng-card{
+		grid-template-rows: 0fr 0fr 0fr 0fr;
+	}
+	/* ?=============================================================== */
 	.product-inner {
     height: 78%;
 	}
@@ -172,13 +184,21 @@
     margin-top: 338px;
     margin-left: -8px;
    }
+	/* ?=================================================== */
+	.eng-left-side{
+		height: 284px;
+		margin-top: 370px;
+	}
+	/* ?==================================================== */
 	.card-block__link {
 		position: relative;
     top: 190px;
 	}
 }
 @media screen and (max-width: 320px) {
-	
+	.eng-card{
+		grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
+	}
 	.card-block {
 		width: 150px;
 		height: 400px;
@@ -218,5 +238,8 @@
 	}
 	.card-block-botton{
 		margin-top: 95px;
+	}
+	.eng-card-block-botton{
+		margin-top: 60px;
 	}
 }
