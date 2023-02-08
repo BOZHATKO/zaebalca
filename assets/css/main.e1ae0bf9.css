@@ -647,12 +647,18 @@ body{
     width: 352px;
     margin-right: 170px;
 	}
+	.button_form_circle {
+    width: 32px;
+    height: 32px;
+	}
 } 
 @media screen and  (max-width: 320px) {
-	.footer__social-links {
-		width: 287px;
-	}
+	.footer__contacts, .footer__social-links {
+    width: 292px;
+    margin-right: 0px;
+}
 	.footer__container {
     padding: 0px 8px;
 	}
+
 }

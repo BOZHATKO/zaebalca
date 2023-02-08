@@ -438,6 +438,9 @@ background: #1f1f26;
     }
 }
 @media  screen and (max-width: 320px){
+    label.logo {
+        padding-left: 0px;
+    }
    
     .header_menu-tablet {
     column-gap: 40px;
@@ -485,6 +488,10 @@ background: #1f1f26;
         top: 30px;
     }
     .checkButton{
-        margin-left: 30px;
+        margin-left: 10px;
+    }
+    .button__play-video {
+        background-size: 10px;
+        background-position: 13px center;
     }
 }
