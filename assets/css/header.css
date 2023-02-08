@@ -436,9 +436,18 @@ background: #1f1f26;
     .img_lang-tablet{
         padding-top: 8px;
     }
+    .button__play-video {
+        background-size: 10px;
+        background-position: 12px center;
+    }
+    label.logo {
+        padding-left: 10px;
+    }
 }
 @media  screen and (max-width: 320px){
-   
+    .logo {
+        padding-left: 0px;
+    }
     .header_menu-tablet {
     column-gap: 40px;
     }
@@ -485,9 +494,6 @@ background: #1f1f26;
     }
 
     .checkButton{
-        margin-left: 30px;
+        margin-left: 10px;
     }
-    .menu-links {
-        padding: 0 7px;
-    }
-}
+
