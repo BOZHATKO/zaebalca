@@ -260,6 +260,7 @@ body{
 	padding-left:78px;
 }
 
+
 .button_type_ios::after {
   position:absolute;
   z-index:-1;
@@ -418,13 +419,17 @@ body{
 	text-decoration:none;
 	border-radius: 10px;
 	padding: 5px;
-  background: #2E2E31;
+    background: #2E2E31;
 }
 .langs__submenu{
 	padding-top:20px
 }
 .langs__dropdown-menu::after{
 	display:none;
+}
+.langs_image {
+	width: 31px;
+	margin-top: 5px;
 }
 .footer{
 	padding:119px 0 129px 0;
@@ -614,7 +619,8 @@ body{
 		column-gap: 30px;
 	}
 	.button_type_ios {
-    padding-left: 100px;
+        padding-left: 76px;
+		width: 158px;
 	}
 	.button_type_android {
     padding-left: 60px;
