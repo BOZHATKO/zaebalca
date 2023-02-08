@@ -136,11 +136,11 @@ background: #1f1f26;
 }
 .nav_list-item.active{
     border-bottom:2px solid rgba(0,0,0,0);
-    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 35
+    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 30
 }
 .nav_list-item:hover{
     border-bottom:2px solid rgba(0,0,0,0);
-    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 35
+    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 30
 }
 .checkButton {
     font-size: 30px;
@@ -323,7 +323,7 @@ background: #1f1f26;
     }
     .langs{
         margin-left: 90px;
-        margin-bottom: 10px;
+        margin-bottom: 14px;
 
     }
     .nav_list-link:hover,.nav_list-link.active{
@@ -436,55 +436,79 @@ background: #1f1f26;
     .img_lang-tablet{
         padding-top: 8px;
     }
+    .button__play-video {
+        background-size: 10px;
+        background-position: 12px center;
+    }
+    label.logo {
+        padding-left: 10px;
+    }
 }
-@media  screen and (max-width: 320px){
-   
+@media  screen and (max-width: 320px) {
+    .logo {
+        padding-left: 0px;
+    }
+
     .header_menu-tablet {
-    column-gap: 40px;
+        column-gap: 40px;
     }
+
     .button_download {
-        width: 153px;
-        height: 30px;
-        font-size: 14px;
+        width: 170px;
+        height: 14px;
+        font-size: 12px;
+        filter: drop-shadow(0px -4px 4px rgba(255, 0, 245, 0.25)) drop-shadow(0px 4px 4px rgba(34, 218, 229, 0.25));
+        border-radius: 16px;
     }
+
     .download_button-tablet {
-        
+
         justify-content: center;
         align-items: flex-start;
         padding-left: 0px;
     }
-    .nav_list{
+
+    .nav_list {
         width: 268px;
         height: 677px;
     }
-    .checkButton{
+
+    .nav_list-elements {
+        width: 255px;
+        height: 481px;
+    }
+
+    .checkButton {
         left: 230px;
     }
+
     .block-logo {
-    column-gap: 10px;
-    margin-left: 11px;
+        column-gap: 10px;
+        margin-left: 26px;
     }
-    .nav_menu{
+
+    .nav_menu {
         column-gap: 40px;
     }
+
     .video-container video {
         width: 310px;
         height: 300px;
-        margin-left: 25px;
+        margin-left: 5px;
         margin-top: 18px;
 
     }
+
     .video-container .close {
         position: absolute;
         left: 295px;
         top: 30px;
     }
-    .video-container .close {
-        position: absolute;
-        left: 295px;
-        top: 30px;
+    .menu-links {
+        padding: 0 10px;
     }
-    .checkButton{
-        margin-left: 30px;
+
+    .checkButton {
+        margin-left: 42px;
     }
 }
