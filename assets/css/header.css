@@ -444,8 +444,8 @@ background: #1f1f26;
     }
     .button_download {
         width: 153px;
-        height: 30px;
-        font-size: 14px;
+        height: 14px;
+        font-size: 12px;
     }
     .download_button-tablet {
         
@@ -456,6 +456,10 @@ background: #1f1f26;
     .nav_list{
         width: 268px;
         height: 677px;
+    }
+    .nav_list-elements {
+        width: 255px;
+        height: 481px;
     }
     .checkButton{
         left: 230px;
@@ -470,7 +474,7 @@ background: #1f1f26;
     .video-container video {
         width: 310px;
         height: 300px;
-        margin-left: 25px;
+        margin-left: 5px;
         margin-top: 18px;
 
     }
@@ -479,12 +483,11 @@ background: #1f1f26;
         left: 295px;
         top: 30px;
     }
-    .video-container .close {
-        position: absolute;
-        left: 295px;
-        top: 30px;
-    }
+
     .checkButton{
         margin-left: 30px;
+    }
+    .menu-links {
+        padding: 0 7px;
     }
 }
