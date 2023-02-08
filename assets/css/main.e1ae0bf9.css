@@ -419,13 +419,17 @@ body{
 	text-decoration:none;
 	border-radius: 10px;
 	padding: 5px;
-  background: #2E2E31;
+    background: #2E2E31;
 }
 .langs__submenu{
 	padding-top:20px
 }
 .langs__dropdown-menu::after{
 	display:none;
+}
+.langs_image {
+	width: 31px;
+	margin-top: 5px;
 }
 .footer{
 	padding:119px 0 129px 0;
