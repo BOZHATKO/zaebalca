@@ -260,6 +260,7 @@ body{
 	padding-left:78px;
 }
 
+
 .button_type_ios::after {
   position:absolute;
   z-index:-1;
@@ -614,7 +615,8 @@ body{
 		column-gap: 30px;
 	}
 	.button_type_ios {
-    padding-left: 100px;
+        padding-left: 76px;
+		width: 158px;
 	}
 	.button_type_android {
     padding-left: 60px;
