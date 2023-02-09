@@ -388,7 +388,7 @@ background: #1f1f26;
     }
     .nav_list{
         width: 312px;
-        height: 667px;
+        height: 600px;
     }
     .nav_list-item {
         width: 95%;
@@ -471,38 +471,30 @@ background: #1f1f26;
         align-items: flex-start;
         padding-left: 0px;
     }
-
     .nav_list {
         width: 268px;
-        height: 677px;
     }
 
     .nav_list-elements {
         width: 255px;
         height: 481px;
     }
-
     .checkButton {
         left: 230px;
     }
-
     .block-logo {
         column-gap: 10px;
         margin-left: 26px;
     }
-
     .nav_menu {
         column-gap: 40px;
     }
-
     .video-container video {
         width: 290px;
         height: 280px;
         margin-left: 5px;
         margin-top: 18px;
-
     }
-
     .video-container .close {
         position: absolute;
         left: 270px;
