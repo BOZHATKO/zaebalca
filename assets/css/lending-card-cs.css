@@ -103,7 +103,7 @@
 		column-gap: 150px;
 	}
 	.left-side{
-		height: 92%;
+		height: 98%;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -120,9 +120,7 @@
 		column-gap: 63px;
 		justify-content: center;
 	}
-	.product-inner {
-    height: 62%;
-	}
+	
 	.card-block__link {
 		font-size:14px ;
 		font-weight:600 ;
@@ -137,7 +135,7 @@
 		margin-top: 130px;
 	}
 	.left-side {
-		height: 97%;
+		height: 95%;
 		margin: 312px 0 0 -6px;
 		
 	}
