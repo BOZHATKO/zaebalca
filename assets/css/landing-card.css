@@ -16,7 +16,7 @@
 .card-block {
 	cursor: pointer;
 	margin-bottom: 40px;
-	perspective: 1077px;
+	perspective: 1000px;
 }
 .product-inner {
 	transition: transform 1.2s linear;
@@ -52,7 +52,7 @@
 }
 .product-front {
 	position: absolute;
-	width: 76%;
+	/* width: 76%; */
 	left: -5px;
 	border-radius: 35px;
 	transform: translateZ(7.8px);
@@ -76,13 +76,6 @@
 	margin-left: 0px;
 	bottom: 589px;
 }
-/* ?======================================================= */
-/* .eng-left-side {
-	height: 95%;
-	margin-left: -5px;
-
-} */
-/* ?======================================================= */
 .product-inner:hover {
 	transform: rotateY(180deg);
 	transition: transform 1.2s linear;
@@ -120,9 +113,6 @@
 		column-gap: 63px;
 		justify-content: center;
 	}
-	/* .product-inner {
-    height: 62%;
-	} */
 	.card-block__link {
 		font-size:14px ;
 		font-weight:600 ;

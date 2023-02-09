@@ -601,14 +601,16 @@ a {
     font-size: 22px;
     line-height: 26px;
     font-weight: 600;
-    margin-left: -30px;
+    display: flex;
+    justify-content: flex-start;
   }
   .section-first{
 	  margin-bottom: 0;
   }
   .link-list-left-color {
-    margin-left: -55px;
     font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
   }
   .list-left {
     text-align: center;
@@ -634,19 +636,18 @@ a {
     font-size: 14px;
     margin: 10px 0 0 0;
     line-height: 20px;
-}
+  }
   .link-list-left-for {
     width: 16px;
   }
   .section-block-one {
     top: 380px;
-}
+  }
   .lead__download-links-list {
-    
     padding: 0;
     row-gap: 10px;
     margin-top: 400px;
-}
+  }
   .section-image-one {
     width: 151px;
     height: 317px;
