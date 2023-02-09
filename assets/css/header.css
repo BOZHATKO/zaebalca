@@ -131,7 +131,7 @@ background: #1f1f26;
     font-size: 18px;
     line-height: 22px;
     font-weight: 500;
-    padding: 7px 13px;
+    padding: 7px 20px;
     margin: 40px 0;
 }
 .nav_list-item.active{
@@ -246,6 +246,27 @@ background: #1f1f26;
         row-gap: 20px;
         padding-top: 25px;
         padding-left: 10px;
+    }
+    .downloads_button {
+    
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .button_downloads_ios {  
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 65px;
+        width: 145px;
+        margin-bottom: 10px;
+    }
+    .button_downloads_android {  
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 60px;
+        width: 150px;
+        
     }
     .colorWhite{
         background-color: white;
@@ -409,6 +430,7 @@ background: #1f1f26;
     }
     .checkButton{
         left: 300px;
+        
     }
     .block-logo {
     column-gap: 10px;
@@ -420,6 +442,7 @@ background: #1f1f26;
         flex-direction: row;
         padding-right: 70px;
         padding-top: 18px;
+        margin-left: 35px;
     }
     .list_lang-tablet{
         display: flex;
