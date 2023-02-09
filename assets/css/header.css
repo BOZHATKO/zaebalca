@@ -159,6 +159,9 @@ background: #1f1f26;
     .header__wrapper {
         padding: 0 156px;
     }
+    .video-container .close {
+        right: 70px;
+    }
     .langs{
 		padding: 5px 0 0 10px;
 		margin: 0 auto;
@@ -199,15 +202,15 @@ background: #1f1f26;
         margin-bottom: 9px;
     }
     .video-container video {
-        width: 670px;
-        height: 500px;
-        margin-left: 50px;
-        margin-top: 58px;
+        width: 678px;
+        height: 490px;
+        margin-left: 38px;
+        margin-top: 0px;
     }
     .video-container .close {
         position: absolute;
         left: 675px;
-        top: 80px;
+        top: 25px;
     }
     .close_menu{
         display: block;
@@ -350,15 +353,16 @@ background: #1f1f26;
         height: 20px;
     }
     .video-container video {
-        width: 340px;
-        height: 320px;
-        margin-left: 20px;
-        margin-top: 38px;
+        width: 330px;
+    height: 309px;
+    margin-left: 16px;
+    margin-top: 17px;
     }
+    
     .video-container .close {
         position: absolute;
-        left: 335px;
-        top: 50px;
+        left: 310px;
+        top: 35px;
     }
     .langs {
     display: none;
@@ -492,8 +496,8 @@ background: #1f1f26;
     }
 
     .video-container video {
-        width: 310px;
-        height: 300px;
+        width: 290px;
+        height: 280px;
         margin-left: 5px;
         margin-top: 18px;
 
@@ -501,7 +505,7 @@ background: #1f1f26;
 
     .video-container .close {
         position: absolute;
-        left: 295px;
+        left: 270px;
         top: 30px;
     }
     .menu-links {
@@ -509,6 +513,10 @@ background: #1f1f26;
     }
 
     .checkButton {
-        margin-left: 42px;
+        margin-left: 24px;
+        margin-right: 0;
+    }
+    .card {
+        column-gap: 10px;
     }
 }
