@@ -131,7 +131,7 @@ background: #1f1f26;
     font-size: 18px;
     line-height: 22px;
     font-weight: 500;
-    padding: 7px 13px;
+    padding: 7px 20px;
     margin: 40px 0;
 }
 .nav_list-item.active{
@@ -158,6 +158,9 @@ background: #1f1f26;
 @media screen and (max-width:1440px) {
     .header__wrapper {
         padding: 0 156px;
+    }
+    .video-container .close {
+        right: 70px;
     }
     .langs{
 		padding: 5px 0 0 10px;
@@ -199,15 +202,15 @@ background: #1f1f26;
         margin-bottom: 9px;
     }
     .video-container video {
-        width: 670px;
-        height: 500px;
-        margin-left: 50px;
-        margin-top: 58px;
+        width: 678px;
+        height: 490px;
+        margin-left: 38px;
+        margin-top: 0px;
     }
     .video-container .close {
         position: absolute;
         left: 675px;
-        top: 80px;
+        top: 25px;
     }
     .close_menu{
         display: block;
@@ -243,6 +246,27 @@ background: #1f1f26;
         row-gap: 20px;
         padding-top: 25px;
         padding-left: 10px;
+    }
+    .downloads_button {
+    
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .button_downloads_ios {  
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 65px;
+        width: 145px;
+        margin-bottom: 10px;
+    }
+    .button_downloads_android {  
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 60px;
+        width: 150px;
+        
     }
     .colorWhite{
         background-color: white;
@@ -350,15 +374,16 @@ background: #1f1f26;
         height: 20px;
     }
     .video-container video {
-        width: 340px;
-        height: 320px;
-        margin-left: 20px;
-        margin-top: 38px;
+        width: 330px;
+    height: 309px;
+    margin-left: 16px;
+    margin-top: 17px;
     }
+    
     .video-container .close {
         position: absolute;
-        left: 335px;
-        top: 50px;
+        left: 310px;
+        top: 35px;
     }
     .langs {
     display: none;
@@ -384,7 +409,7 @@ background: #1f1f26;
     }
     .nav_list{
         width: 312px;
-        height: 667px;
+        height: 600px;
     }
     .nav_list-item {
         width: 95%;
@@ -405,6 +430,7 @@ background: #1f1f26;
     }
     .checkButton{
         left: 300px;
+        
     }
     .block-logo {
     column-gap: 10px;
@@ -416,6 +442,7 @@ background: #1f1f26;
         flex-direction: row;
         padding-right: 70px;
         padding-top: 18px;
+        margin-left: 35px;
     }
     .list_lang-tablet{
         display: flex;
@@ -467,41 +494,33 @@ background: #1f1f26;
         align-items: flex-start;
         padding-left: 0px;
     }
-
     .nav_list {
         width: 268px;
-        height: 677px;
     }
 
     .nav_list-elements {
         width: 255px;
         height: 481px;
     }
-
     .checkButton {
         left: 230px;
     }
-
     .block-logo {
         column-gap: 10px;
         margin-left: 26px;
     }
-
     .nav_menu {
         column-gap: 40px;
     }
-
     .video-container video {
-        width: 310px;
-        height: 300px;
+        width: 290px;
+        height: 280px;
         margin-left: 5px;
         margin-top: 18px;
-
     }
-
     .video-container .close {
         position: absolute;
-        left: 295px;
+        left: 270px;
         top: 30px;
     }
     .menu-links {
@@ -509,6 +528,10 @@ background: #1f1f26;
     }
 
     .checkButton {
-        margin-left: 42px;
+        margin-left: 24px;
+        margin-right: 0;
+    }
+    .card {
+        column-gap: 10px;
     }
 }

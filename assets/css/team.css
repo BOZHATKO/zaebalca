@@ -61,16 +61,20 @@
     justify-content: center;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .team__body {
     margin-left: 12px;
     margin-right: 12px;
+  }
+  .team__title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
   }
 }
 .team__column {
   flex: 0 1 17.85%;
   margin: 0px 15px 30px 15px;
-
 }
 @media (max-width: 1650px){
   .team__column{
@@ -301,9 +305,12 @@ font-size: 12px;
     max-width: 80px;
   }
   .team__title{
-    padding-top: 220px;
+    padding-top: 140px;
     margin-bottom: 81px;
     margin-top: 0;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px;
   }
 }
 @media (max-width: 375px) {

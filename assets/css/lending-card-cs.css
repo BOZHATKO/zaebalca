@@ -52,7 +52,7 @@
 }
 .product-front {
 	position: absolute;
-	/* width: 76%; */
+	width: 76%;
 	left: -5px;
 	border-radius: 35px;
 	transform: translateZ(7.8px);
@@ -68,7 +68,7 @@
 }
 .left-side {
 	width: 16px;
-	height: 96%;
+	height: 93%;
 	background: #1e1d1d;
 	transform: rotateY(90deg);
 	margin-top: 310px;
@@ -76,6 +76,13 @@
 	margin-left: 0px;
 	bottom: 589px;
 }
+/* ?======================================================= */
+.eng-left-side {
+	height: 95%;
+	margin-left: -5px;
+
+}
+/* ?======================================================= */
 .product-inner:hover {
 	transform: rotateY(180deg);
 	transition: transform 1.2s linear;
@@ -96,7 +103,7 @@
 		column-gap: 150px;
 	}
 	.left-side{
-		height: 96%;
+		height: 98%;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -113,6 +120,7 @@
 		column-gap: 63px;
 		justify-content: center;
 	}
+	
 	.card-block__link {
 		font-size:14px ;
 		font-weight:600 ;
@@ -127,8 +135,8 @@
 		margin-top: 50px;
 	}
 	.left-side {
-		height: 96%;
-		margin: 312px 0 0 0px;
+		height: 95%;
+		margin: 312px 0 0 -6px;
 		
 	}
 }
