@@ -158,6 +158,9 @@
   .startups__wrapper {
     margin: 0 50px;
 }
+.section__startups {
+  padding: 0px 0 20px 0;
+}
 .lead__download-links-list {
   margin-left: 25px;
 }
@@ -186,7 +189,7 @@
 }
   .lead__images {
     position: absolute;
-    top: 500px;
+    top: 430px;
     left: 160px;
   }
   .lead__image {
@@ -194,7 +197,7 @@
     height: 250px;
   }
   .lead__texts {
-    margin-top: 165px;
+    margin-top: 120px;
   }
   .description__wrapper {
     margin: 50px 50px;
@@ -228,6 +231,7 @@
   } 
 }
 @media screen and (max-width: 375px) {
+  
   .startups__wrapper {
     margin: 0 14px 0;
   }
