@@ -122,7 +122,8 @@ textarea{
 	font:inherit
 }
 details{
-	display:block
+	display:block;
+	list-style: none;
 }
 summary{
 	display:list-item
@@ -627,6 +628,7 @@ body{
 	}
 	.button_type_android::after {
     background-size: 21px;
+		
 	}
 	.button_type_ios::after {
 		background-size: 25px;
@@ -666,5 +668,15 @@ body{
 	.footer__container {
     padding: 0px 8px;
 	}
+	.button_type_android {
+    padding-left: 55px;
+	}
+	.button_type_android::after {
+    background-size: 21px;
+		background-position: 27px center;
+	}
+	.button_type_ios {
+    width: 158px;
+}
 
 }
