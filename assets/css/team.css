@@ -70,7 +70,6 @@
 .team__column {
   flex: 0 1 17.85%;
   margin: 0px 15px 30px 15px;
-
 }
 @media (max-width: 1650px){
   .team__column{
