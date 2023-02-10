@@ -1,21 +1,30 @@
-#btn {
-    font-size: 14px;
+.lead__text__link {
+    list-style: none;
+    padding-left: 0;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#btn,
+#btnOne,
+#btnTwo,
+#btnThree {
+    font-size: 18px;
     line-height: 17px;
     font-weight: 600;
+    color: rgb(99, 99, 176);
 }
-.venchur-body__link { 
-    padding: 0;
-  } 
-  .venchur__link {
-    padding-left: 25px;
-  }
-  .venchur-body-list {
-    font-size: 24px;
-    line-height: 29px;
-    margin-bottom: 40px;
-    list-style: none;
-    color: white;
-  } 
+#more,
+#moreOne,
+#moreTwo,
+#moreThree{
+    display: none;
+}
+#dots,
+#dotsOne,
+#dotsTwo,
+#dotsThree {
+    display: none;
+}
 
 
 hr {
@@ -73,6 +82,10 @@ hr {
     .section__wrapper {
         margin: 0 25px;
     }
+    .apps__lead:first-of-type {
+        padding-top: 100px;
+    }
+    
     .apps__lead-image {
         max-width: 320px;
     }
