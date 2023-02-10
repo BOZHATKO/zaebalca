@@ -108,6 +108,10 @@
   }
 }
 @media screen and (max-width: 1440px) {
+  .lead__image {
+    width: 600px;
+    height: 400px;
+  }
   .startups__wrapper {
     margin: 0 100px;
   }
@@ -116,7 +120,7 @@
   }
   .frame__wrapper {
     margin: 0 150px 50px 150px;
-}
+  }
   .description__list {
     margin: 0px 0 100px 45px;
   }
