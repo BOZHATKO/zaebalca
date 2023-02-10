@@ -2,7 +2,6 @@
     padding: 0 256px;
     background:  #2E2E31;
 }
-
 .video-container{
     width: 100%;
     height: 100vh;
@@ -188,7 +187,6 @@ background: #1f1f26;
         column-gap: 10px;
         margin-left: 40px;
     }
-
     .logo_menu{
         display: block;
     }
@@ -215,7 +213,6 @@ background: #1f1f26;
     .close_menu{
         display: block;
         color: black;
-
     }
     .nav_list-elements{
         width: 400px;
@@ -224,7 +221,6 @@ background: #1f1f26;
         justify-content: flex-start;
         overflow-y: scroll;
         padding: 25px 0;
-
     }
     .header_menu-tablet{
         width: 100%;
@@ -233,7 +229,6 @@ background: #1f1f26;
         align-items: center;
         column-gap: 120px;
         margin-top: 20px;
-
     }
     .logo__menu-item{
         color: black;
@@ -248,7 +243,6 @@ background: #1f1f26;
         padding-left: 10px;
     }
     .downloads_button {
-    
         justify-content: center;
         padding-left: 10px;
     }
@@ -256,23 +250,19 @@ background: #1f1f26;
         font-size: 14px;
         font-weight: 600;
         line-height: 22px;
-        padding-left: 65px;
-        width: 145px;
+        padding-left: 73px;
+        width: 146px;
         margin-bottom: 10px;
     }
     .button_downloads_android {  
         font-size: 14px;
         font-weight: 600;
         line-height: 22px;
-        padding-left: 60px;
+        padding-left: 70px;
         width: 150px;
         
     }
-    .colorWhite{
-        background-color: white;
-        color: black;
-    }
-    .button_download{
+    /* .button_download{
         width: 273px;
         height: 42px;
         display: flex;
@@ -284,7 +274,7 @@ background: #1f1f26;
         filter: drop-shadow(0px -4px 4px rgba(255, 0, 245, 0.25)) drop-shadow(0px 4px 4px rgba(34, 218, 229, 0.25));
         border-radius: 16px ;
         color:black;
-    }
+    } */
     .link_tablet-menu{
         width: 100%;
         height: 48px;
@@ -292,12 +282,10 @@ background: #1f1f26;
         justify-content: center;
         align-items: center;
         padding-top: 35px;
-
     }
     .menu-links{
         padding: 0 20px;
         color: #007094;
-
     }
     .nav_menu{
         width: 100%;
@@ -338,9 +326,7 @@ background: #1f1f26;
         line-height: 50px;
         margin-top: 45px;
         margin-left: 0;
-
     }
-
     .nav_list-link{
         font-size: 20px;
         color: black;
@@ -364,7 +350,6 @@ background: #1f1f26;
     }
     .block-logo {
         column-gap: 10px;
-        /* margin-right: 150px; */
     }
     .logo__image {
         max-width: 110px;
@@ -375,18 +360,17 @@ background: #1f1f26;
     }
     .video-container video {
         width: 330px;
-    height: 309px;
-    margin-left: 16px;
-    margin-top: 17px;
+        height: 309px;
+        margin-left: 16px;
+        margin-top: 17px;
     }
-    
     .video-container .close {
         position: absolute;
         left: 310px;
         top: 35px;
     }
     .langs {
-    display: none;
+        display: none;
     }
     .nav_list-elements {
         width: 300px;
@@ -430,11 +414,10 @@ background: #1f1f26;
     }
     .checkButton{
         left: 300px;
-        
     }
     .block-logo {
-    column-gap: 10px;
-    margin-left: 20px;
+        column-gap: 10px;
+        margin-left: 20px;
     }
     .lang_tablet{
         display: flex;
@@ -472,14 +455,35 @@ background: #1f1f26;
     }
 }
 @media  screen and (max-width: 320px) {
+    .button_downloads_ios {  
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 55px;
+        width: 130px;
+        margin-bottom: 10px;
+    }
+    .button_downloads_android {  
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 40px;
+        width: 146px;
+    }
+    .button_type_ios::after {
+        background-size: 22px;
+        background-position: 24px center;
+    }
+    .button_type_android::after {
+        background-size: 20px;
+        background-position: 17px center;
+    }
     .logo {
         padding-left: 0px;
     }
-
     .header_menu-tablet {
         column-gap: 40px;
     }
-
     .button_download {
         width: 170px;
         height: 14px;
@@ -487,9 +491,7 @@ background: #1f1f26;
         filter: drop-shadow(0px -4px 4px rgba(255, 0, 245, 0.25)) drop-shadow(0px 4px 4px rgba(34, 218, 229, 0.25));
         border-radius: 16px;
     }
-
     .download_button-tablet {
-
         justify-content: center;
         align-items: flex-start;
         padding-left: 0px;
@@ -497,7 +499,6 @@ background: #1f1f26;
     .nav_list {
         width: 268px;
     }
-
     .nav_list-elements {
         width: 255px;
         height: 481px;
@@ -526,7 +527,6 @@ background: #1f1f26;
     .menu-links {
         padding: 0 10px;
     }
-
     .checkButton {
         margin-left: 24px;
         margin-right: 0;
