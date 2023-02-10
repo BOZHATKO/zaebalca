@@ -3,6 +3,12 @@
     line-height: 17px;
     font-weight: 600;
 }
+#more {
+    display: none;
+}
+#dots {
+    display: none;
+}
 .venchur-body__link { 
     padding: 0;
   } 
@@ -16,7 +22,9 @@
     list-style: none;
     color: white;
   } 
-
+  .venchur-list {
+    margin: 7px 0 7px 0;
+  }
 
 hr {
     margin: 0;
