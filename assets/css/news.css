@@ -1,3 +1,26 @@
+#btn {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+}
+.venchur-body__link { 
+    padding: 0;
+  } 
+  .venchur__link {
+    padding-left: 25px;
+  }
+  .venchur-body-list {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 40px;
+    list-style: none;
+    color: white;
+  } 
+
+
+hr {
+    margin: 0;
+}
 .section__wrapper {
     margin: 0 200px;
 }
@@ -42,8 +65,10 @@
     .section__wrapper {
         margin: 0 50px;
     }
+    .apps__lead-image {
+        max-width: 653px;
+    }
 }
-
 @media screen and (max-width: 375px) {
     .section__wrapper {
         margin: 0 25px;
@@ -56,8 +81,9 @@
         font-size: 16px;
         line-height: 20px;
         font-weight: 500;
-    }.section__wrapper {
-        margin: 0 200px;
+    }
+    .section__wrapper {
+        margin: 0 20px;
     }
     .apps__lead {
         background:  #2E2E31;
@@ -67,13 +93,7 @@
         justify-content: center;
         align-items: center;
         column-gap: 80px;
-        padding: 100px 0;
-    }
-    .lead__text {
-        color: rgba(255, 255, 255, 0.87);
-        font-size: 24px;
-        line-height: 29px;
-        max-width: 700px;
+        padding: 10px 0;
     }
     .details__list {
         display: list-item;
