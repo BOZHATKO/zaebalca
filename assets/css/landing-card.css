@@ -118,7 +118,10 @@
 		font-weight:600 ;
 		line-height:17px ;
 		position: relative;
-    top: 0px;
+    	top: 0px;
+	}
+	.eng-card-block__link{
+		top: 290px;
 	}
 	.card-block {
 		margin-bottom: 150px
@@ -129,7 +132,6 @@
 	.left-side {
 		height: 96%;
 		margin: 312px 0 0 0px;
-		
 	}
 }
 @media screen and (max-width: 375px) {
@@ -195,6 +197,9 @@
 	.card-block__link {
 		position: relative;
     top: 190px;
+	}
+	.eng-card-block__link{
+		top: 110px;
 	}
 }
 @media screen and (max-width: 320px) {
