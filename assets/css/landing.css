@@ -299,6 +299,7 @@ a {
     column-gap: 70px;
     padding: 70px 0;
   }
+  
   .section-two {
   column-gap: 180px;
   }
@@ -326,7 +327,7 @@ a {
   }
   .about-as-heading-last, 
   .about-as-heading {
-	  margin-top: 140px;
+	  margin-top: 40px;
   }
   .block-for-image-one {
     width: 280px;
@@ -336,7 +337,6 @@ a {
   .block-for-image-two {
     width: 280px;
     height: 590px;
-    /* margin-right: 48px; */
   }
   .block-seven {
     column-gap: 200px;
@@ -454,7 +454,6 @@ a {
     font-weight: 400;
   }
   .link-list-left-for-li {
-    /* margin-top: 18px; */
     line-height: 22px;
     font-size: 18px;
     font-weight: 500;
@@ -498,8 +497,6 @@ a {
   }
   .section-two-content-message,
   .section-two-content-social {
-    /* background-image: url(../image-lending/general/Group\ 1\ \(Traced\).png);
-    background-repeat: no-repeat; */
     font-weight: 600;
     font-size: 22px;
     Line-height: 26px;
@@ -521,8 +518,8 @@ a {
   .about-as-heading {
     font-size: 40px;
     line-height: 55px;
-	  margin-top: 50px;
-    padding-bottom: 50px;
+	  margin-top: 30px;
+    padding-bottom: 30px;
   }
   .block-eight {
     margin: 120px 0 0 0;
@@ -720,7 +717,7 @@ a {
     font-size: 24px;
     line-height: 29px;
     font-weight: 600;
-	  margin-top: 40px;
+	  margin-top: 10px;
   }
   .block-for-image {
     column-gap: 15px;
