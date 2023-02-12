@@ -123,10 +123,12 @@
 	}
 	.eng-card-block__link{
 		top: 290px;
-
+	}
+	.section-card {
+    padding: 50px 70px;
 	}
 	.card-block {
-		margin-bottom: 150px
+		margin-bottom: 100px
 	}
 	.card-block-botton{
 		margin-top: 50px;
@@ -141,7 +143,7 @@
     right: 0px;
 	}
 	.section-card {
-    padding: 80px 32px;
+    padding: 40px 32px;
 	}
 	.card {
 		column-gap: 30px;
@@ -179,15 +181,11 @@
 			margin-top: 301px;
 			margin-left: 0px;
 		}
+		
 		.card-block__link {
 			position: relative;
-			top: 190px;
-		}
-
-		.card-block__link {
-			position: relative;
-    	top: 190px;
-		}
+			top: 180px;
+	}
 		/* .eng-card-block__link{
 		top: 110px;
 	} */
@@ -197,7 +195,7 @@
     padding: 40px 32px;
 }
 	.card-block {
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 	.product-back {
     right: 0px;

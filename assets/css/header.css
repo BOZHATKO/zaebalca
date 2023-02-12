@@ -74,6 +74,7 @@ background: #1f1f26;
     text-decoration:none;
     list-style: none;
     margin: 0 auto;
+    column-gap: 8px;
 }
 .nav_menu{
     display: flex;
@@ -95,6 +96,9 @@ background: #1f1f26;
     align-items: center;
     column-gap: 20px;
     margin-right: 80px;
+}
+.block-logo-rus {
+    margin-right: 10px;
 }
 .logo{
     width: 247px;
@@ -134,12 +138,13 @@ background: #1f1f26;
     margin: 40px 0;
 }
 .nav_list-item.active{
+    
     border-bottom:2px solid rgba(0,0,0,0);
-    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 25
+    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 25;
 }
 .nav_list-item:hover{
     border-bottom:2px solid rgba(0,0,0,0);
-    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 25
+    border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 25;
 }
 .checkButton {
     font-size: 30px;
@@ -158,6 +163,9 @@ background: #1f1f26;
     .header__wrapper {
         padding: 0 156px;
     }
+    .nav_list-link {
+        padding: 5px 13px;
+    }
     .video-container .close {
         right: 70px;
     }
@@ -169,11 +177,18 @@ background: #1f1f26;
         font-size: 30px;
     }
     .block-logo {
-        column-gap: 10px;
+        column-gap: 30px;
         margin-right: 0;
+    }
+    .block-logo-rus {
+        column-gap: 10px;
+    }
+    .logo-rus {
+        width: 130px;
     }
     .nav_menu{
         margin: 0 auto;
+        padding: 40px 85px;
     }
     .nav_list-link{
         font-size: 18px;
@@ -270,13 +285,7 @@ background: #1f1f26;
         line-height: 22px;
         padding-left: 70px;
         width: 150px;
-
     }
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 375de5099bcc442e8c869d8fbc2274afb301b019
     .link_tablet-menu{
         width: 100%;
         height: 48px;
@@ -319,9 +328,7 @@ background: #1f1f26;
         background-color: white;
         padding: 0;
         overflow-y: scroll;
-
     }
-
     .nav_list-item {
         width: 306px;
         height: 39px;
@@ -364,6 +371,9 @@ background: #1f1f26;
     .header__wrapper {
         padding: 0 50px;
     }
+    .nav_menu {
+        padding: 0 10px;
+    }
     .block-logo{
         column-gap: 10px;
         margin-left: 40px;
@@ -377,8 +387,8 @@ background: #1f1f26;
     .checkButton{
         display:flex;
         position: absolute;
-        left: 587px;
-        margin-bottom: 9px;
+        left: 550px;
+        margin-bottom: 10px;
     }
     .video-container video {
         width: 678px;
@@ -472,13 +482,17 @@ background: #1f1f26;
     .langs{
         padding-left: 50px;
         margin-bottom: 14px;
-
+    }
+    .langs-rus {
+        padding-left: 160px;
+            
     }
     .nav_list-link:hover,.nav_list-link.active{
         color: #007094;
     }
     .myCheckBox:checked ~ .nav_list{
         right: 0;
+        height: auto;
     }
     
 }
