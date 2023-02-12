@@ -356,7 +356,7 @@ background: #1f1f26;
         left: 750px;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .header__wrapper {
         padding: 0 50px;
     }
@@ -487,7 +487,7 @@ background: #1f1f26;
         padding-right: 29px;
     }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width: 375px){
     .header__wrapper {
         padding: 0 25px;
     }
@@ -597,7 +597,7 @@ background: #1f1f26;
         padding-left: 10px;
     }
 }
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .button_downloads_ios {  
         font-size: 14px;
         font-weight: 600;
