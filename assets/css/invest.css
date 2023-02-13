@@ -356,29 +356,21 @@
   .investment-body__text {
     max-width: 210px;
   }
-  .button_type_android {
-    padding-left: 58px;
-}
   .lead__download-links-list {
     margin-left: 0px;
-}
-.button_type_ios-invest {
-  padding-left: 80px;
-  width: 152px;
-}
-.button_type_ios-invest::after {
+  }
+  .button_type_ios-invest::after {
   background-position: 56px;
-}
-.investment__image {
-  width: 142px;
-  top: 380px;
-  right: 85px;
-  
-}
-.card__image-center {
-  width: 280px;
-}
-.card-body__list_2,
+  }
+  .investment__image {
+    width: 142px;
+    top: 380px;
+    right: 85px;
+  }
+  .card__image-center {
+    width: 280px;
+  }
+  .card-body__list_2,
   .card-body__list_4{
     font-size: 20px;
   }
