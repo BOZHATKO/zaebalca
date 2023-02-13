@@ -492,7 +492,7 @@ background: #1f1f26;
     }
     .myCheckBox:checked ~ .nav_list{
         right: 0;
-        height: auto;
+        height: 600px;
     }
     
 }
