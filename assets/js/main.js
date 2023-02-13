@@ -41,6 +41,16 @@ function copyTextTwo(){
    document.getElementById('myCheck').checked = false
 })
 
-let goto = document.querySelector('.goto').addEventListener('click', ()=>{
-  let el = 
-})
+
+let gotos=document.querySelectorAll('body a[href*="#"]');
+for(goto of gotos){
+  if (goto){
+    goto.addEventListener("click", function(e){
+      e.preventDefault();
+      gotoId=this.getAttribute("href");
+      document.querySelector(gotoId).scrollIntoView({
+        behavior: 'smooth', block:"start"
+      })
+    })
+  }
+}
