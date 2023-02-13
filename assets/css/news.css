@@ -40,15 +40,14 @@
     width: 90%;
     padding: 20px;
     position: relative;
-    
 }
 .closeOne,
 .closeTwo,
 .closeThree,
 .closeFor {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 7px;
+    right: 7px;
     padding-right: 7px;
     color: #aaaaaa;
     font-size: 28px;
@@ -240,5 +239,25 @@ hr {
 }
 
 
-
-
+.modal-footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.modal-arrow{
+    position: relative;
+    width: 50px;
+    margin: 0 auto;
+    animation: arrow 2s infinite ease;
+}
+.modal-arrow img{
+    width: 100%;
+}
+@keyframes arrow {
+    0% {
+      top: 0; }
+    50% {
+      top: 15px; }
+    100% {
+      top: 0; } }

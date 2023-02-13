@@ -1,9 +1,10 @@
-.langs__dropdown-menu::before{
-	content: '\23F7';
-	color: white;
+/* .langs__dropdown-menu::before{
+	content: url(./../img/favicons/gb.svg);
+	width: 20px;
+	height: 10px;
 	position: absolute;
 	left: 40px;
-}
+} */
 .page {
 	max-width: 1920px;
 }
@@ -409,17 +410,32 @@ body{
 .langs__item{
 	margin:20px 0 0 -10px;
 	padding:0;
+
 }
 .langs__item:first-of-type{
 	margin-top:0;
 }
+
 .langs__link{
 	font-size:22px;
 	line-height:27px;
 	text-decoration:none;
 	border-radius: 10px;
 	padding: 5px;
-    background: #2E2E31;
+  background: #2E2E31;
+	color:#c9ced4;
+	display: flex;
+}
+.langs-image {
+	
+	width: 20px;
+	height: 15px;
+	margin: 5px 0 0 5px;
+}
+.langs__link:hover {
+	font-weight: 800;
+	transition: 1.5s;
+	color:#6d8095;
 }
 .langs__submenu{
 	padding-top:20px
@@ -625,6 +641,12 @@ body{
 	.button_type_android {
     padding-left: 70px;
 	}
+	.button_type_android-en {
+    padding-left: 60px;
+	}
+	.button_type_android-cs {
+    padding-left: 68px;
+}
 	.button_type_android::after {
     background-size: 21px;
 		
@@ -668,9 +690,9 @@ body{
 	.footer__container {
     padding: 0px 8px;
 	}
-	.button_type_android {
-    padding-left: 65px;
-	}
+	.button_type_android-en {
+    padding-left: 55px;
+}
 	.button_type_android::after {
     background-size: 21px;
 		background-position: 27px center;
@@ -678,6 +700,8 @@ body{
 	.button_type_ios {
     width: 160px;
 		padding-left: 80px;
-}
-
+	}
+	.button_type_android-cs {
+		padding-left: 65px;
+	}
 }
