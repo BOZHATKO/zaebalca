@@ -118,8 +118,7 @@
 		font-weight:600 ;
 		line-height:17px ;
 		position: relative;
-
-    	top: 0px;
+		top: 0px;
 	}
 	.eng-card-block__link{
 		top: 290px;
@@ -176,34 +175,33 @@
 		height: 297px;
 	}
 	.left-side {
-			width: 16px;
-			height: 277px;
-			margin-top: 301px;
-			margin-left: 0px;
-		}
+		width: 16px;
+		height: 277px;
+		margin-top: 301px;
+		margin-left: 0px;
+	}
 		
-		.card-block__link {
-			position: relative;
-			top: 180px;
+	.card-block__link {
+		position: relative;
+		top: 180px;
 	}
 		.eng-card-block__link{
 		top: 180px;
 	} 
 	.card-block {
 		margin-bottom: 140px;
-}
+	}
 }
 @media screen and (max-width: 320px) {
 	.section-card {
     padding: 40px 32px;
-}
-	
+	}
 	.product-back {
     right: 0px;
 	}
 	.card {
     column-gap: 10px;
-		}
+	}
 	.back{
 		width: 132px;
 		height: 297px;
