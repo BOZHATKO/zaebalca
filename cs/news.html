@@ -17,7 +17,7 @@
 </head>
 <body>
   <div class="page">
-    <nav class="nav_menu">
+    <nav class="nav_menu" id="section__landing">
         <input type="checkbox" class="myCheckBox" id="myCheck">
         <label for="myCheck" class="checkButton">
             <i class="fa fa-bars"></i>
@@ -176,7 +176,7 @@
                     <div id="modalOne" class="modalOne">
                       <div class="modal-content-one">
                         <span class="closeOne">&times;</span>
-                        <div class="modal-main">
+                        <div class="modal-main" id="modal-main">
                           <h2>AKTUALIZACE 05.12.2022</h2>
                           <p>06.12.2022 by DIANA AKHMETOVA COMMENTS</p>
                         </div>
@@ -188,6 +188,7 @@
                             <p>Naši vývojáři usilovně pracují na vylepšení aplikace. Již nyní na iOS (v0.93.32) byl optimalizován kód SFERA Feed a funkce počítadla nepřečtených zpráv ASAP, což vám umožňuje rychle najít chyby a vylepšit aplikace.</p>
                             <p>Na Androidu (v0.0.94) byla přepsána logika práce s časem doručení zpráv, díky čemuž byly opraveny chyby v pořadí zpráv a opakování dat mezi nimi. Byly opraveny chyby, které se vyskytly během videohovorů nebo audiohovorů, a byla přidána funkce pro zobrazování odkazů v informacích chatu. Implementováno stránkování kronik v uživatelském profilu, které umožňuje zobrazovat obsah ve feedu v chronologickém pořadí.</p>  
                             <p>Náš tým vám děkuje, že pomáháte vylepšit aplikaci SFERA! Prosíme Vás, abyste aplikaci aktivně využívali a informovali náš tým o nedostatcích v systému a přáních na jeho vylepšení.</p> 
+                            <div class="modal-footer"><a href="#modal-main" class="modal-arrow"><img src="/assets/img/icons/up-arrow-svgrepo-com.svg" alt=""></a></div>
                         </div>
                       </div>
                     </div>
@@ -214,7 +215,7 @@
                       <div id="modalTwo" class="modalTwo">
                         <div class="modal-content-two">
                           <span class="closeTwo">&times;</span>
-                          <div class="modal-main">
+                          <div class="modal-main" id="modal-main2">
                             <h2>PATCHNOTE 07.07.2022</h2>
                             <p>07.07.2022 BY DIANA AKHMETOVA COMMENTS</p>
                           </div>
@@ -414,6 +415,7 @@
                               <p>Mnoho úloh prováděných v systému na serveru není v seznamu zahrnuto. </p>
                               <p>Používejte SFERA a pošlete nám své návrhy na zlepšení naší aplikace. Tímto způsobem přispějete k produktu, který bude pro uživatele skutečně užitečný, protože je vytvořen za účelem vývoje a řešení skutečných problémů!</p>
                             </ol>
+                            <div class="modal-footer"><a href="#modal-main2" class="modal-arrow"><img src="/assets/img/icons/up-arrow-svgrepo-com.svg" alt=""></a></div>
                         </div>
                         </div>
                       </div>
@@ -439,7 +441,7 @@
                         <div id="modalThree" class="modalThree">
                           <div class="modal-content-three">
                             <span class="closeThree">&times;</span>
-                            <div class="modal-main">
+                            <div class="modal-main" id="modal-main3">
                               <h2>PATCHNOTE 26.05.2022</h2>
                               <p>26.05.2022 BY DIANA AKHMETOVA COMMENTS</p>
                             </div>
@@ -563,6 +565,7 @@
                                 <li>Přidána nápověda k omezení počtu znaků pro zadávání přezdívky.</li>
                                 <p>Seznam neobsahuje mnoho vnitro systémových úloh prováděných na serveru. Zanechte připomínky k aplikaci a my ji ještě vylepšíme</p>
                               </ol>
+                              <div class="modal-footer"><a href="#modal-main3" class="modal-arrow"><img src="/assets/img/icons/up-arrow-svgrepo-com.svg" alt=""></a></div>
                             </div>
                           </div>
                         </div>
@@ -588,7 +591,7 @@
                           <div id="modalFor" class="modalFor">
                             <div class="modal-content-for">
                               <span class="closeFor">&times;</span>
-                              <div class="modal-main">
+                              <div class="modal-main" id="modal-main4">
                                 
                                 <p>10.04.2022 BY DIANA AKHMETOVA</p>
                               </div>
@@ -961,6 +964,7 @@
                                   <li>Oprava chyby, která způsobovala, že se po kliknutí na tlačítko “Reproduktor” reproduktor nezapnul.</li>
                                 </ol>
                                 <p>V seznamu není zahrnuto mnoho vnitřních architektonických úkolů a chyb, které se vyskytly během vývoje Job Lite, Find Friends, Novinky SFERA, a také chyby, které se vyskytly během testovacích verzí.</p>
+                                <div class="modal-footer"><a href="#modal-main4" class="modal-arrow"><img src="/assets/img/icons/up-arrow-svgrepo-com.svg" alt=""></a></div>
                               </div>
                             </div>
                           </div>
@@ -1000,7 +1004,7 @@
 						<li class="socials-list__item"><a class="socials-list__link socials-list_type_instagram" href=" https://www.instagram.com/sfera_motivator/"target="_blank" title="Our Instagram">Instagram </a></li>
           </ul>
         </div>
-        <a href="" class="footer-top"><img src="../assets/img/arrow_upward_24px.svg" alt=""></a>
+        <a href="#section__landing" class="footer-top"><img src="../assets/img/arrow_upward_24px.svg" alt=""></a>
         <div class="footer__copyright">
 
           <p class="footer__copyright-text"><a class="link link_theme_dark" href="#">Podmínky používání SFERA</a></p>
