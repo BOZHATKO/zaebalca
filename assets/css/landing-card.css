@@ -186,17 +186,18 @@
 			position: relative;
 			top: 180px;
 	}
-		/* .eng-card-block__link{
-		top: 110px;
-	} */
+		.eng-card-block__link{
+		top: 180px;
+	} 
+	.card-block {
+		margin-bottom: 140px;
+}
 }
 @media screen and (max-width: 320px) {
 	.section-card {
     padding: 40px 32px;
 }
-	.card-block {
-    margin-bottom: 70px;
-}
+	
 	.product-back {
     right: 0px;
 	}
