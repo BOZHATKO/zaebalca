@@ -46,8 +46,8 @@
 .closeThree,
 .closeFor {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 7px;
+    right: 7px;
     padding-right: 7px;
     color: #aaaaaa;
     font-size: 28px;
