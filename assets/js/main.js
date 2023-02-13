@@ -40,3 +40,7 @@ function copyTextTwo(){
    closeMenu.addEventListener('click', function (){
    document.getElementById('myCheck').checked = false
 })
+
+let goto = document.querySelector('.goto').addEventListener('click', ()=>{
+  let el = 
+})
