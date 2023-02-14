@@ -460,7 +460,7 @@ background: #1f1f26;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 35px;
+        padding: 35px 0;
     }
     .menu-links{
         padding: 0 20px;
@@ -631,13 +631,23 @@ background: #1f1f26;
         padding-left: 40px;
         width: 146px;
     }
+    .button_ios_tablet {
+        background-position: 40px center;
+        padding-left: 76px;
+        width: 122px;
+    }
+    .button_android_tablet {
+        background-position: 40px center;
+        padding-left: 55px;
+        width: 146px;
+    }
     .button_type_ios::after {
         background-size: 22px;
-        background-position: 24px center;
+        background-position: 50px center;
     }
     .button_type_android::after {
         background-size: 20px;
-        background-position: 17px center;
+        background-position: 33px center;
     }
     .logo {
         padding-left: 0;

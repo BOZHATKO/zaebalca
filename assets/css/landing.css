@@ -611,7 +611,7 @@ a {
   }
   .list-left {
     text-align: center;
-    padding: 128px 0 0px 0;
+    padding: 80px 0 0px 0;
   }
   .section-two {
     display: flex;
@@ -638,7 +638,7 @@ a {
     width: 16px;
   }
   .section-block-one {
-    top: 380px;
+    top: 340px;
   }
   .lead__download-links-list {
     padding: 0;
@@ -849,6 +849,9 @@ a {
     height: 219px;
     margin: 14px 0 0 0x;
   }
+  .lead__download-links-list {
+    margin-top: 340px;
+}
   .block-for {
     margin: 38px 5px 0 5px;
   }
