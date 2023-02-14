@@ -78,3 +78,20 @@ window.onclick = function (event) {
 		modalFor.style.display = "none";
   }
 };
+
+function popupOpen(currentPopup){
+  if(currentPopup&&unlock){
+
+  }
+}
+
+
+
+
+// document.addEventListener('click', (e)=>{
+//   let click = e.composedPath();
+//   if(click){
+//     modalThree.style.display = "none";
+//   }
+//   console.log(click);
+// })
