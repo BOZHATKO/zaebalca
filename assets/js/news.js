@@ -39,48 +39,45 @@
 //   }
 // };
 
-let modalThree = document.getElementById("modalThree");
+// let modalThree = document.getElementById("modalThree");
 
-let btnThree = document.getElementById("btnThree");
+// let btnThree = document.getElementById("btnThree");
 
-let closeThree = document.getElementsByClassName("closeThree")[0];
+// let closeThree = document.getElementsByClassName("closeThree")[0];
 
-btnThree.onclick = function () {
-  modalThree.style.display = "flex";
-};
+// btnThree.onclick = function () {
+//   modalThree.style.display = "flex";
+// };
 
-closeThree.onclick = function () {
-  modalThree.style.display = "none";
-};
+// closeThree.onclick = function () {
+//   modalThree.style.display = "none";
+// };
 
-window.onclick = function (event) {
-  if (event.target == modalThree) {
-		modalThree.style.display = "none";
-  }
-};
+// window.onclick = function (event) {
+//   if (event.target == modalThree) {
+// 		modalThree.style.display = "none";
+//   }
+// };
 
-let modalFor = document.getElementById("modalFor");
+// let modalFor = document.getElementById("modalFor");
 
-let btnFor = document.getElementById("btnFor");
+// let btnFor = document.getElementById("btnFor");
 
-let closeFor = document.getElementsByClassName("closeFor")[0];
+// let closeFor = document.getElementsByClassName("closeFor")[0];
 
-btnFor.onclick = function () {
-  modalFor.style.display = "flex";
-};
+// btnFor.onclick = function () {
+//   modalFor.style.display = "flex";
+// };
 
-closeFor.onclick = function () {
-  modalFor.style.display = "none";
-};
+// closeFor.onclick = function () {
+//   modalFor.style.display = "none";
+// };
 
-window.onclick = function (event) {
-  if (event.target == modalFor) {
-		modalFor.style.display = "none";
-  }
-};
-
-
-
+// window.onclick = function (event) {
+//   if (event.target == modalFor) {
+// 		modalFor.style.display = "none";
+//   }
+// };
 
 
 
@@ -111,12 +108,29 @@ function popupOpen(currentPopup){
     }
     currentPopup.classList.add('open');
     currentPopup.addEventListener("click", function(e){
-      if(!e.target.closest(".lead__text__link")){
+
+        let array=['.modal-content-one', '.modal-content-two', '.modal-content-three', '.modal-content-for'];
+
+        let text;
+        if(modal.includes('One')){
+          text = '.modal-content-one'
+        } else if(modal.includes('Two')) {
+         text = '.modal-content-two'
+        } else if(modal.includes('Three')){
+          text = '.modal-content-three'
+        } else if(modal.includes('For')){
+          text = '.modal-content-for'
+        }
+
+      if(!e.target.closest(`${text}`)){
         popupClose(e.target.closest(`.${modal}`))
       }
     })
   }
 }
+
+
+
 function popupClose(popupActive){
   if(unlock){
     popupActive.classList.remove('open');
@@ -128,7 +142,7 @@ if (popupCloseIcon.length > 0) {
 	for (let index = 0; index < popupCloseIcon.length; index++) {
 		const el = popupCloseIcon[index];
 		el.addEventListener('click', function (e) {
-			popupClose(el.closest('.modalOne'));
+			popupClose(el.closest('.open'));
 			e.preventDefault();
 		});
 	}
