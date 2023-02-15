@@ -22,7 +22,7 @@
     z-index: 999990; 
     left: 0;
     top: 0;
-    width: 100%; 
+    width: 90%; 
     height: 100%; 
     overflow: auto; 
     background-color: rgba(86, 80, 80, 0.4); 
@@ -31,6 +31,12 @@
     user-select: none;
     /* transition: 2s; */
 }
+/* ?================================================= */
+
+.modalOne.open,.modalTwo.open,.modalThree.open,.modalFor.open{
+display: flex;
+}
+/* ?==================================================== */
 .modal-content-one,
 .modal-content-two,
 .modal-content-three,
