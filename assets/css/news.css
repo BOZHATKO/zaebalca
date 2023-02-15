@@ -31,6 +31,12 @@
     user-select: none;
     /* transition: 2s; */
 }
+/* ?================================================= */
+
+.modalOne.open,.modalTwo.open,.modalThree.open,.modalFor.open{
+display: flex;
+}
+/* ?==================================================== */
 .modal-content-one,
 .modal-content-two,
 .modal-content-three,
@@ -59,8 +65,8 @@
     text-decoration: none;
     cursor: pointer;
 }
-.closeOne :hover,
-.closeOne :focus {
+.closeOne:hover,
+.closeOne:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
