@@ -65,8 +65,8 @@ display: flex;
     text-decoration: none;
     cursor: pointer;
 }
-.closeOne :hover,
-.closeOne :focus {
+.closeOne:hover,
+.closeOne:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
