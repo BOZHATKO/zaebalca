@@ -31,6 +31,12 @@
     user-select: none;
     /* transition: 2s; */
 }
+/* ?================================================= */
+
+.modalOne.open,.modalTwo.open,.modalThree.open,.modalFor.open{
+display: flex;
+}
+/* ?==================================================== */
 .modal-content-one,
 .modal-content-two,
 .modal-content-three,
