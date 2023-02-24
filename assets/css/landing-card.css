@@ -99,6 +99,11 @@
 		height: 96%;
 	}
 }
+@media screen and (max-width: 1185px){
+	.card {
+		column-gap: 100px;
+	}
+}
 @media screen and (max-width: 768px) {
 	.section-card {
     padding: 80px 70px;
