@@ -649,14 +649,14 @@ body{
     background-size: 30px;
 	}
 	.button_type_ios {
-    padding-left: 83px;
-    width: 169px;
-	}
-	.button_type_android {
-		padding-left: 71px;
-    width: 184px;
-		font-size: 18px;
-	}
+    padding-left: 92px;
+    width: 163px;
+}
+.button_type_android {
+	padding-left: 64px;
+	width: 191px;
+	font-size: 18px;
+}
 	/* .button_type_android-en {
     padding-left: 60px;
     width: 197px;
@@ -664,7 +664,7 @@ body{
 	/* } */
 	.button_type_android-cs {
 		padding-left: 68px;
-    width: 179px;
+    width: 187px;
 		background-size: 28px;
     background-position: 18px center;
 }
@@ -719,7 +719,7 @@ body{
 	.button_type_ios {
 		width: 160px;
 		padding-left: 88px;
-		width: 155px;
+		width: 157px;
 	}
 	.button_type_android-en {
     padding-left: 59px;

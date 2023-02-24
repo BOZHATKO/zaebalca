@@ -437,12 +437,12 @@ background: #1f1f26;
         justify-content: center;
         padding-left: 10px;
     }
-    .button_downloads_ios {  
+    .button_downloads_ios {
         font-size: 14px;
         font-weight: 600;
         line-height: 22px;
-        padding-left: 73px;
-        width: 146px;
+        padding-left: 99px;
+        width: 121px;
         margin-bottom: 10px;
     }
     .button_downloads_android {  
