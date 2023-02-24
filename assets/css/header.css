@@ -384,10 +384,10 @@ background: #1f1f26;
     label.logo {
         padding-left: 25px;
     }
-    .checkButton{
-        display:flex;
+    .checkButton {
+        display: flex;
         position: absolute;
-        left: 550px;
+        left: 536px;
         margin-bottom: 10px;
     }
     .video-container video {
@@ -479,12 +479,12 @@ background: #1f1f26;
         font-size: 20px;
         color: black;
     }
-    .langs{
-        padding-left: 50px;
+    .langs {
+        padding-left: 35px;
         margin-bottom: 14px;
     }
     .langs-rus {
-        padding-left: 160px;
+        padding-left: 147px;
             
     }
     .nav_list-link:hover,.nav_list-link.active{
