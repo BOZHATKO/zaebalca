@@ -575,7 +575,6 @@ body{
 }
 
 @media  screen and (max-width: 1440px) {
-	
 	.logo__image{
 		max-width: 177px;
 	}
@@ -584,7 +583,10 @@ body{
 	.footer-top {
 		display: none;
 	}
-
+	.button_type_ios, .button_type_android {
+    padding-left: 78px;
+    width: 200px;
+}
 	.logo__image {
     max-width: 148px
 	}
