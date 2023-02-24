@@ -583,10 +583,18 @@ body{
 	.footer-top {
 		display: none;
 	}
-	.button_type_ios, .button_type_android {
+	.button_type_android {
     padding-left: 78px;
     width: 200px;
 }
+.button_type_ios::after {
+	background-position: 62px center;
+	background-size: 30px;
+}
+	.button_type_ios{
+		padding-left: 104px;
+		width: 175px;
+	}
 	.logo__image {
     max-width: 148px
 	}
@@ -636,20 +644,24 @@ body{
 		padding: 0;
 		column-gap: 30px;
 	}
+	.button_type_ios::after {
+    background-position: 56px center;
+    background-size: 30px;
+	}
 	.button_type_ios {
-    padding-left: 82px;
-    width: 174px;
+    padding-left: 83px;
+    width: 169px;
 	}
 	.button_type_android {
 		padding-left: 71px;
     width: 184px;
 		font-size: 18px;
 	}
-	.button_type_android-en {
+	/* .button_type_android-en {
     padding-left: 60px;
     width: 197px;
-    
-	}
+     */
+	/* } */
 	.button_type_android-cs {
 		padding-left: 68px;
     width: 179px;
@@ -661,10 +673,10 @@ body{
 	background-size: 30px;
 }
 
-	.button_type_android-en::after {
+	/* .button_type_android-en::after {
     background-size: 28px;
     background-position: 24px center;
-	}
+	} */
 	.button_type_ios::after {
 		background-size: 30px;
 	}

@@ -549,6 +549,14 @@ background: #1f1f26;
         left: 328px;
         margin-bottom: 0;
     }
+    .button_downloads_ios {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+        padding-left: 97px;
+        width: 122px;
+        margin-bottom: 10px;
+    }
     .nav_menu{
         padding: 0 0;
     }
