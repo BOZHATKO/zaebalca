@@ -162,6 +162,15 @@
     left: 20px;
     }
 }
+@media (max-width: 1185px){
+  .team__column-cs{
+    flex: 0 1 21%;
+  }
+  .item__person-cs{
+    top: 200px;
+  }
+}
+
 @media (max-width: 992px) {
   .team__column {
     flex: 0 1 20%;
