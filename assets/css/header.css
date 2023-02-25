@@ -750,4 +750,16 @@ background: #1f1f26;
     .card {
         column-gap: 10px;
     }
+    .downloads_button {
+        padding-left: 10px;
+    }
+    .button_downloads_ios {
+        padding-left: 80px;
+        width: 126px;
+        margin-bottom: 10px;
+    }
+    .button_downloads_android {
+        padding-left: 62px;
+        width: 146px;
+    }
 }
