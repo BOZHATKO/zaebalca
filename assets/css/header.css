@@ -318,7 +318,7 @@ background: #1f1f26;
         flex-direction: column;
         row-gap: 12px;
         position: fixed;
-        width: 400px;
+        width: auto;
         top: 0;
         height: 1024px;
         right: -110%;
@@ -351,6 +351,9 @@ background: #1f1f26;
     }
     .myCheckBox:checked ~ .nav_list{
         right: 0;
+    }
+    .myCheckBox:checked ~ body{
+        overflow: hidden;
     }
 }
 @media screen and (max-width: 912px){
@@ -404,6 +407,10 @@ background: #1f1f26;
     .close_menu{
         display: block;
         color: black;
+    }
+    .nav_list{
+        overflow: auto;
+        height: auto;
     }
     .nav_list-elements{
         width: 400px;
@@ -492,7 +499,8 @@ background: #1f1f26;
     }
     .myCheckBox:checked ~ .nav_list{
         right: 0;
-        height: 600px;
+        overflow: auto;
+        height: 100%;
     }
     
 }
@@ -554,7 +562,7 @@ background: #1f1f26;
     }
     .nav_list{
         width: 312px;
-        height: 600px;
+
     }
     .nav_list-item {
         width: 95%;
