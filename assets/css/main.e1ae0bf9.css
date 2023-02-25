@@ -579,6 +579,11 @@ body{
 		max-width: 177px;
 	}
 }
+@media  screen and (max-width: 1185px) {
+	.button_type_ios, .button_type_android {
+		padding-left: 68px;
+	}
+}
 @media screen and  (max-width: 768px) {
 	.footer-top {
 		display: none;
