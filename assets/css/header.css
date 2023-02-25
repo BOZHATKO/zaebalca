@@ -211,6 +211,7 @@ background: #1f1f26;
     }
     .nav_list-link {
         padding: 5px 8px;
+        margin: 10px 0 5px 0;
     }
 }
 @media screen and (max-width: 1024px){
