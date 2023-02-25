@@ -9,6 +9,12 @@
   column-gap: 320px;
   padding: 150px 0 100px 0;
 }
+.investment-body-cs{
+  margin-left: 29%;
+}
+.investment-body-eng{
+  margin-left: 26%;
+}
 .investment-body-content {
   max-width: 667px;
 }
@@ -154,6 +160,9 @@
   .investment-body {
     column-gap: 150px;
   }
+  .investment-body-cs{
+    margin-left: 20%;
+  }
   .card__wrapper {
     margin: 234px 50px 110px 89px;
   }
@@ -166,6 +175,9 @@
   }
   .investment-body {
     column-gap: 80px;
+  }
+  .investment-body-eng{
+    margin-left: 20%;
   }
   .card {
     column-gap: 0px;
@@ -196,6 +208,9 @@
     line-height: 22px;
     font-weight: 400;
     margin-bottom: 20px;
+  }
+  .investment-body-eng{
+    margin-left: 24%;
   }
   .card {
     flex-direction: column;
@@ -262,10 +277,25 @@
     row-gap: 0;
     padding: 100px 0 10px 0;
 }
+.investment-body-cs{
+  display: block;
+}
+.investment-body-eng{
+  margin-left: 0%;
+}
   .lead__download-links-list {
     flex-direction: column-reverse;
     margin-top: 375px;
     margin-left: 20px;
+  }
+  .lead__download-links-list-cs{
+    margin-top: 75px;
+  }
+  .lead__download-links-list-eng{
+    margin-top: 75px;
+  }
+  .investment-body-content-cs{
+    margin-left: -60px;
   }
   /* .button_type_ios-invest {
     padding-left: 100px;
@@ -291,6 +321,12 @@
     line-height: 17px;
     font-weight: 400;
     margin-bottom: 20px;
+  }
+  .investment-body__text-cs{
+    max-width: 300px;
+  }
+  .investment-body__text-eng{
+    max-width: 315px;
   }
   .investment__image {
     width: 142px;
@@ -359,6 +395,9 @@
 @media screen and  (max-width: 320px) {
   .investment-body__text {
     max-width: 210px;
+  }
+  .investment-body__text-cs{
+    max-width: 300px;
   }
   .lead__download-links-list {
     margin-left: -5px;
