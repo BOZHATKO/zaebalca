@@ -171,6 +171,19 @@
     column-gap: 0px;
 }
 }
+@media screen and  (max-width: 1185px) {
+.investment__image {
+  position: absolute;
+  top: 360px;
+  right: 40px;
+  width: 300px;
+}
+.investment-body {
+  display: flex;
+  column-gap: 320px;
+  padding: 0px 0 100px 0;
+}
+}
 @media screen and  (max-width: 768px) {
   /* .button_type_ios-invest {
 		padding-left:118px;

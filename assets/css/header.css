@@ -194,6 +194,25 @@ background: #1f1f26;
         font-size: 18px;
     }
 }
+@media screen and (max-width: 1185px){
+    .nav_list-elements {
+        column-gap: 0px;
+    }
+    .video-container video {
+        margin-left: 60px;
+    }
+    .logo {
+    width: 100px;
+    height: 40px;
+    }
+    .block-logo {
+        column-gap: 10px;
+        margin-right: 0;
+    }
+    .nav_list-link {
+        padding: 5px 8px;
+    }
+}
 @media screen and (max-width: 1024px){
     .nav_list-link {
         font-size: 15px;

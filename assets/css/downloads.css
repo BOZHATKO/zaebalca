@@ -132,6 +132,20 @@
     margin-top: 110px;
   }
 }
+@media screen and  (max-width: 1185px){
+  .lead__images {
+    column-gap: 15px;
+  }
+  .lead__image {
+    width: 220px;
+    height: 481px;
+  }
+  .lead__wrapper {
+    margin: 0 180px;
+    background: #2E2E31;
+    padding-top: 40px;
+}
+}
 @media screen and  (max-width: 992px){
   .lead__wrapper {
     margin: 0 44px;
