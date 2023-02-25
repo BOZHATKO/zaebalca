@@ -127,8 +127,8 @@
 }
 @media screen and (max-width: 1240px) {
   .lead__image {
-    width: 506px;
-    height: 397px;
+    width: 445px;
+    height: 370px;
 }
   .lead__text {
     font-size: 22px;
