@@ -128,21 +128,22 @@ background: #1f1f26;
     color: rgba(255, 255, 255, 0.87);
 
 }
-.nav_list-link{
+.nav_list-link {
+    display: inline-block;
     color: rgba(255, 255, 255, 0.87);
     text-decoration: none;
     font-size: 18px;
     line-height: 22px;
     font-weight: 500;
     padding: 7px 20px;
-    margin: 40px 0;
+    margin: 20px 0 5px 0;
 }
 .nav_list-item.active{
-    border-bottom:4px solid rgba(0,0,0,0);
+    border-bottom:2px solid rgba(0,0,0,0);
     border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 25;
 }
 .nav_list-item:hover{
-    border-bottom:4px solid rgba(0,0,0,0);
+    border-bottom:2px solid rgba(0,0,0,0);
     border-image:linear-gradient(141.95deg, #FF00F5 14.92%, #00F0FF 84.27%) 25;
 }
 .checkButton {
@@ -483,8 +484,7 @@ background: #1f1f26;
         margin-bottom: 14px;
     }
     .langs-rus {
-        padding-left: 147px;
-            
+        padding-left: 170px;
     }
     .nav_list-link:hover,.nav_list-link.active{
         color: #007094;

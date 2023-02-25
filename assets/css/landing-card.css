@@ -99,6 +99,11 @@
 		height: 96%;
 	}
 }
+@media screen and (max-width: 1240px){
+	.card {
+		column-gap: 130px;
+	}
+}
 @media screen and (max-width: 1185px){
 	.card {
 		column-gap: 100px;
