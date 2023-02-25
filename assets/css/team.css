@@ -169,6 +169,12 @@
   .item__person-cs{
     top: 200px;
   }
+  .team__column{
+    flex: 0 1 21%;
+  }
+  .item__person{
+    top: 200px;
+  }
 }
 
 @media (max-width: 992px) {
