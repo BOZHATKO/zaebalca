@@ -391,6 +391,9 @@ background: #1f1f26;
     .header__wrapper {
         padding: 0 50px;
     }
+    .lead__wrapper {
+        padding-top: 76px;
+    }
     .nav_menu {
         padding: 0 10px;
     }
@@ -528,6 +531,9 @@ background: #1f1f26;
     .header__wrapper {
         padding: 0 25px;
     }
+    .lead__wrapper {
+        padding-top: 100px;
+    }
     .block-logo {
         column-gap: 10px;
     }
@@ -643,30 +649,34 @@ background: #1f1f26;
     }
 }
 @media screen and (max-width: 320px) {
-    .button_downloads_ios {  
+    .lead__wrapper {
+        padding-top: 70px;
+    }
+    .button_downloads_ios {
         font-size: 14px;
         font-weight: 600;
         line-height: 22px;
-        padding-left: 55px;
-        width: 130px;
+        padding-left: 78px;
+        width: 116px;
         margin-bottom: 10px;
     }
-    .button_downloads_android {  
+    .button_downloads_android {
         font-size: 14px;
         font-weight: 600;
         line-height: 22px;
-        padding-left: 40px;
-        width: 146px;
+        padding-left: 54px;
+        width: 140px;
     }
     .button_ios_tablet {
         background-position: 40px center;
-        padding-left: 76px;
-        width: 122px;
+        padding-left: 60px;
+        width: 182px;
     }
+
     .button_android_tablet {
         background-position: 40px center;
-        padding-left: 55px;
-        width: 146px;
+        padding-left: 74px;
+        width: 164px;
     }
     .button_type_ios::after {
         background-size: 22px;
