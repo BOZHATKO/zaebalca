@@ -394,7 +394,7 @@ display: none;
     line-height: 17px;
     font-weight: 400;
   }
-  img {
+  .swiper-slide__image {
     width: 150px;
 }
 .align_wiper {
