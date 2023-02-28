@@ -109,6 +109,11 @@
 		column-gap: 100px;
 	}
 }
+@media screen and (max-width: 1024px) {
+	.card {
+    column-gap: 60px;
+}
+}
 @media screen and (max-width: 768px) {
 	.section-card {
     padding: 80px 70px;
@@ -145,6 +150,61 @@
 	.left-side {
 		height: 96%;
 		margin: 312px 0 0 0px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.product-back {
+    right: 0px;
+	}
+	.section-card {
+    padding: 40px 40px;
+	}
+	.card {
+		column-gap: 30px;
+	}
+	.product-inner {
+    height: 78%;
+	}
+	.card-block-botton {
+    margin-top: 80px;
+		font-size: 14px;
+		line-height: 17px;
+		font-weight: 400;
+	}
+	.card-block-top {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.back{
+		width: 137px;
+		height: 297px;
+		left: 0px;
+	}
+	.front {
+		width: 137px;
+		height: 297px;
+		margin-left: 5px;
+}
+	.card-block {
+		width: 137px;
+		height: 297px;
+	}
+	.left-side {
+		width: 16px;
+		height: 277px;
+		margin-top: 301px;
+		margin-left: 0px;
+	}
+		
+	.card-block__link {
+		position: relative;
+		top: 180px;
+	}
+		.eng-card-block__link{
+		top: 180px;
+	} 
+	.card-block {
+		margin-bottom: 140px;
 	}
 }
 @media screen and (max-width: 375px) {
@@ -204,7 +264,7 @@
 }
 @media screen and (max-width: 320px) {
 	.section-card {
-    padding: 40px 32px;
+    padding: 40px 12px;
 	}
 	.product-back {
     right: 0px;
