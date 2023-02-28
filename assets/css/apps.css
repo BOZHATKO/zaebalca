@@ -149,7 +149,7 @@
   content: "Android";
 }
 .apps__future {
-  padding: 78px 0 0;
+  padding: 0 0 0;
 }
 .align_center,
 .align_wiper {
@@ -182,7 +182,7 @@
   font-size: 22px;
   line-height: 27px;
   white-space: nowrap;
-  margin: 0;
+  margin-left: 20px;
   padding: 0;
 }
 @media screen and  (max-width: 1440px) {
@@ -220,6 +220,20 @@
 }
 .align_wiper {
   margin: 70px 100px;
+}
+}
+@media screen and  (max-width: 1024px) {
+  .apps__subapps {
+    column-gap: 16px;
+}
+.apps__subapps-title {
+  font-size: 49px;
+}
+.section__wrapper {
+  margin: 0 20px;
+}
+.apps__briefs-item-list {
+display: none;
 }
 }
 @media screen and  (max-width: 992px) {
@@ -304,6 +318,89 @@
   padding:0;
   }
 }
+@media screen and  (max-width: 425px) {
+  .section__wrapper {
+    margin: 0px 45px;
+  }
+  .apps__subapps-wrapper {
+    width: 320px;
+  }
+  .apps__subapps-list {
+    justify-items: stretch;
+  }
+  .apps__subapps {
+    padding: 70px 0 80px 0;
+  }
+  .apps__brief-image-wrapper::after {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    height: 29px;
+  }
+  .apps__subapps-title {
+    margin: 0px 0 10px 0;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+  }
+  .apps__brief-image {
+    width: 132px;
+    height: 292px;
+  }
+  .lead__text {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    width: 310px;
+  }
+  .apps__briefs-item {
+    row-gap: 20px;
+  }
+  .apps__brief-text-container {
+    margin-bottom: 80px;
+  }
+  .apps__brief-text  {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+  }
+  .lead__download-links-list {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+    margin-top: 300px;
+    margin-left: 25px;
+  }
+  .swiper-slide__image-wrapper {
+    width: 89px;
+    height: 191px;
+    margin-bottom: 130px;
+}
+.swiper-slide__wrapper {
+  padding: 100px 0  0px 0;
+}
+  .swiper-slide__title {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    margin-left: 60px;
+  }
+  .section__title {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+  .apps__subapps-list-item-title {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+  img {
+    width: 150px;
+}
+.align_wiper {
+  margin: 0px 0px 0 0;
+}
+}
 @media screen and  (max-width: 376px) {
   .section__wrapper {
     margin: 0px 15px;
@@ -365,7 +462,8 @@
     font-size: 14px;
     line-height: 17px;
     font-weight: 600;
-}
+    margin-left: 100px;
+  }
   .section__title {
     font-size: 18px;
     line-height: 22px;
@@ -376,6 +474,7 @@
     line-height: 17px;
     font-weight: 400;
   }
+  
 }
 @media screen and (max-width: 320px){
   .apps__subapps-wrapper {
@@ -385,10 +484,10 @@
     width: 256px;
 }
 .section__wrapper {
-  margin: 0px 0px;
+  margin: 0px 5px;
 }
 .apps__subapps {
-  padding: 50px 0px 40px 5px;
+  padding: 50px 0px 40px 0px;
 }
 
 }

@@ -1,17 +1,1 @@
-let readMore=()=> {
-	var dots=document.getElementById("dots");
-	var more=document.getElementById("more");
-	var btn=document.getElementById("btn");
-
-	if(dots.style.display==="none"){
-		dots.style.display="inline";
-		btn.innerHTML="Читать больше";
-		more.style.display="none";
-	}else {
-		dots.style.display="none";
-		btn.innerHTML="Скрыть";
-		more.style.display="inline";
-	}
-}
-
-
+let readMore=()=>{var e=document.getElementById("dots"),n=document.getElementById("more"),t=document.getElementById("btn");"none"===e.style.display?(e.style.display="inline",t.innerHTML="Читать больше",n.style.display="none"):(e.style.display="none",t.innerHTML="Скрыть",n.style.display="inline")};

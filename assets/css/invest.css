@@ -9,12 +9,12 @@
   column-gap: 320px;
   padding: 150px 0 100px 0;
 }
-.investment-body-cs{
+/* .investment-body-cs{
   margin-left: 29%;
 }
 .investment-body-eng{
   margin-left: 26%;
-}
+} */
 .investment-body-content {
   max-width: 667px;
 }
@@ -160,9 +160,9 @@
   .investment-body {
     column-gap: 150px;
   }
-  .investment-body-cs{
+  /* .investment-body-cs{
     margin-left: 20%;
-  }
+  } */
   .card__wrapper {
     margin: 234px 50px 110px 89px;
   }
@@ -176,9 +176,9 @@
   .investment-body {
     column-gap: 80px;
   }
-  .investment-body-eng{
+  /* .investment-body-eng{
     margin-left: 20%;
-  }
+  } */
   .card {
     column-gap: 0px;
 }
@@ -196,8 +196,16 @@
   padding: 0px 0 100px 0;
 }
 }
+@media screen and  (max-width: 1024px) {
+  .investment__image {
+    width: 285px;
+}
+.card__image-center {
+  width: 500px;
+}
+}
 @media screen and  (max-width: 768px) {
- 
+
   .investment-body {
     display: flex;
     column-gap: 320px;
@@ -220,11 +228,11 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
-  .investment-body-eng{
+  /* .investment-body-eng{
     margin-left: 24%;
-  }
+  } */
   .card {
     flex-direction: column;
   }
@@ -236,7 +244,7 @@
   }
   .lead__download-links-list {
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
   }
   .card__image-center {
     width: 386px;
@@ -245,7 +253,7 @@
   .card-body__link,
   .card-body__text,
   .venchur__downtext {
-    margin: 48px 0 100px 0;
+    margin: 50px 0 50px 0;
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
@@ -280,7 +288,7 @@
     margin: 48px 0 50px 0;
   }
 }
-@media screen and  (max-width: 375px) {
+@media screen and  (max-width: 425px) {
   .investment__wrapper, 
   .sfera__wrapper, 
   .venchur__wrapper,
@@ -303,24 +311,14 @@
     margin-left: 20px;
   }
   .lead__download-links-list-cs{
-    margin-top: 75px;
+    margin-top: 425px;
   }
   .lead__download-links-list-eng{
-    margin-top: 75px;
+    margin-top: 425px;
   }
   .investment-body-content-cs{
-    margin-left: -60px;
+    margin-left: 0px;
   }
-  /* .button_type_ios-invest {
-    padding-left: 100px;
-  } */
-  /* .button_type_ios {
-    padding-left: 85px;
-    width: 159px;
-  }
-  .button_type_ios-invest::after {
-    background-position: 42px;
-  } */
   
   .investment-body__title {
     width: 200px;
@@ -343,9 +341,9 @@
     max-width: 315px;
   }
   .investment__image {
-    width: 142px;
-    top: 400px;
-    right: 110px;
+    width: 164px;
+    top: 353px;
+    right: 124px;
   }
   .card__image-center {
     width: 308px;
@@ -404,6 +402,13 @@
   }
   .card-body__list_copy-img{
     width: 100%;
+  }
+}
+@media screen and  (max-width: 375px) {
+  .investment__image {
+    width: 142px;
+    top: 400px;
+    right: 110px;
   }
 }
 @media screen and  (max-width: 320px) {

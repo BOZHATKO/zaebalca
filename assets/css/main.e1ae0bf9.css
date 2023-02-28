@@ -1,17 +1,9 @@
-/* .langs__dropdown-menu::before{
-	content: url(./../img/favicons/gb.svg);
-	width: 20px;
-	height: 10px;
-	position: absolute;
-	left: 40px;
-} */
 .page {
 	max-width: 1920px;
 }
 .color_grey{
 	color:#c9ced4
 }
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html{
 	line-height:1.15;
 	-webkit-text-size-adjust:100%
@@ -583,6 +575,12 @@ body{
 		padding-left: 68px;
 	}
 }
+
+@media  screen and (max-width: 1024px) {
+.button {
+	font-size: 20px;
+}
+}
 @media screen and  (max-width: 768px) {
 	.footer-top {
 		display: none;
@@ -629,16 +627,45 @@ body{
     margin-bottom: 30px;
 }
 }
+@media screen and  (max-width: 425px) {
+	.lead__download-links-list {
+		flex-direction: column-reverse;
+		list-style: none;
+		padding: 0;
+		column-gap: 30px;
+	}
+	.list-left {
+    text-align: center;
+    padding: 80px 0 0px 0;
+	}
+	.footer__download-links-list {
+		flex-direction: column-reverse;
+		row-gap: 20px;
+	}
+	.socials-list__item {
+    
+    margin: 0px 10px 0 0;
+    width: 60px;
+    height: 60px;
+	}
+	.footer__container {
+    padding: 0px 30px;
+	}
+	.footer__contacts, .footer__social-links {
+    width: 370px;
+    margin-right: 300px;
+}
+}
 @media screen and  (max-width: 375px) {
 	.footer__copyright-text {
     width: 278px;
-}
+	}
 .footer__social-links {
 	width: 338px;
-}
+	}
 	.socials-list__link {
     background-size: 34px;
-}
+	}
 	.socials-list {
     max-width: 270px;
 	}
@@ -655,32 +682,22 @@ body{
 	.button_type_ios {
     padding-left: 92px;
     width: 163px;
-}
-.button_type_android {
+	}
+	.button_type_android {
 	padding-left: 64px;
 	width: 191px;
-	font-size: 18px;
-}
-	/* .button_type_android-en {
-    padding-left: 60px;
-    width: 197px;
-     */
-	/* } */
+	font-size: 18px;	
+	}
 	.button_type_android-cs {
 		padding-left: 68px;
     width: 187px;
 		background-size: 28px;
     background-position: 18px center;
-}
-.button_type_android::after {
+	}
+	.button_type_android::after {
 	background-position: 30px center;
 	background-size: 30px;
-}
-
-	/* .button_type_android-en::after {
-    background-size: 28px;
-    background-position: 24px center;
-	} */
+	}
 	.button_type_ios::after {
 		background-size: 30px;
 	}
@@ -736,6 +753,9 @@ body{
     background-size: 21px;
 		background-position: 27px center;
 	}
-	
+	.list-left {
+    text-align: center;
+    padding: 78px 0px 0px 0px;
+}
 	
 }
