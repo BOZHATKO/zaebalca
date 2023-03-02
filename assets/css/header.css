@@ -560,6 +560,15 @@ background: #1f1f26;
     .nav_list-elements {
         width: 345px;
     }
+    .langs {
+        padding-left: 42px;
+        padding-right: 10px;
+        padding-top: 16px;
+    }
+    .checkButton {
+        left: 270px;
+        top: 24px;
+    }
 }
 @media screen and (max-width: 375px){
     .header__wrapper {
@@ -594,7 +603,7 @@ background: #1f1f26;
     }
     .nav_list-elements {
         width: 300px;
-        height: 481px;
+        height: 100%;
     }
     .button_download {
         width: 211px;
@@ -742,7 +751,7 @@ background: #1f1f26;
     }
     .nav_list-elements {
         width: 255px;
-        height: 481px;
+        height: 100%;
     }
     .checkButton {
         left: 230px;
