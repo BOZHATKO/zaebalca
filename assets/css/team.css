@@ -182,6 +182,15 @@
   line-height: 5px;
   margin-bottom: 0px;
 }
+.team__column{
+  flex: 0 1 20.4%;
+}
+.item__person{
+  top: 150px;
+}
+.item .logo__item{
+  left: 8px;
+}
 }
 @media (max-width: 992px) {
   .team__title {
@@ -224,7 +233,7 @@ font-size: 12px;
     width: 85%;
   }
   .item__person {
-    top: 65px;
+    top: 55px;
     left: 13px;
   }
   .item .logo__item .logo__text {
@@ -257,6 +266,9 @@ font-size: 12px;
 .item__person .item__person-name {
   line-height: 5px;
   margin-top: 50px;
+}
+.team__column {
+  flex: 0 1 28.6%;
 }
 }
 

@@ -83,6 +83,9 @@
   cursor: pointer;
   background-color: #fff;
 }
+.card-body__list_copy:hover{
+  
+}
 .sfera__wrapper {
   margin: 0 256px;
 }
