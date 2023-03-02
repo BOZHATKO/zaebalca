@@ -493,7 +493,7 @@ background: #1f1f26;
         padding: 35px 0;
     }
     .menu-links{
-        padding: 0 20px;
+        padding: 0 10px;
         color: #007094;
     }
 
@@ -636,9 +636,9 @@ background: #1f1f26;
     .download_button-tablet{
         margin-left: 0;
     }
-    .menu-links{
+    /* .menu-links{
         padding: 0 13px;
-    }
+    } */
     .checkButton{
         left: 300px;
     }
@@ -767,7 +767,7 @@ background: #1f1f26;
         top: 30px;
     }
     .menu-links {
-        padding: 0 10px;
+        padding: 0 5px;
     }
     .checkButton {
         margin-left: 24px;
