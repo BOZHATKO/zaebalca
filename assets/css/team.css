@@ -278,8 +278,11 @@
 @media (max-width:425px){
 	.item__person .item__person-name{
 		line-height:5px;
-		margin-top:50px
+		margin-top:130px
 	}
+  .team__column{
+    flex:0 1 44%
+  }
 }
 @media (max-width:375px){
 	.item__person .item__person-name{
@@ -310,12 +313,6 @@
 	}
 }
 
-.team__column {
-  flex: 0 1 28.6%;
-}
-
-
-}
 @media (max-width:320px){
 	.item__person .item__person-name{
 		margin-top:150px
@@ -338,4 +335,7 @@
 		top:0;
 		left:6px
 	}
+  .item__person .item__person-role {
+    line-height: 12px;
+  }
 }
