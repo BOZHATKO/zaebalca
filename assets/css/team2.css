@@ -180,8 +180,6 @@
 		line-height:5px;
 		margin-bottom:0
 	}
-}
-
 .team__column{
   flex: 0 1 20.4%;
 }
@@ -191,7 +189,6 @@
 .item .logo__item{
   left: 8px;
 }
-
 }
 @media (max-width:768px){
 	.team__body{
