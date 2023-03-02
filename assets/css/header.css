@@ -564,6 +564,7 @@ background: #1f1f26;
     .nav_list-elements {
         width: 345px;
     }
+
     .langs {
         padding-left: 42px;
         padding-right: 10px;
@@ -582,6 +583,9 @@ background: #1f1f26;
     .button_form_circle {
         width: 45px;
         height: 45px;
+    }
+    .button__play-video {
+        background-position: 17px center;
     }
 }
 @media screen and (max-width: 375px){
@@ -636,7 +640,7 @@ background: #1f1f26;
         font-weight: 600;
         line-height: 22px;
         padding-left: 97px;
-        width: 122px;
+        width: 125px;
         margin-bottom: 10px;
     }
     .nav_menu{
