@@ -560,6 +560,12 @@ background: #1f1f26;
     .nav_list-elements {
         width: 345px;
     }
+    .button_downloads_ios {
+        width: 125px;
+    }
+    .button_downloads_android {
+        width: 154px;
+    }
 }
 @media screen and (max-width: 375px){
     .header__wrapper {
@@ -613,7 +619,7 @@ background: #1f1f26;
         font-weight: 600;
         line-height: 22px;
         padding-left: 97px;
-        width: 122px;
+        width: 125px;
         margin-bottom: 10px;
     }
     .nav_menu{
