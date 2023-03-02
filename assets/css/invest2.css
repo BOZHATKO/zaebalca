@@ -78,9 +78,6 @@
   cursor: pointer;
   background-color: #fff;
 }
-.card-body__list_copy:hover{
-  
-}
 .sfera__wrapper {
   margin: 0 256px;
 }
@@ -326,7 +323,7 @@
     margin-bottom: 20px;
   }
   .investment-body__text {
-    max-width: 172px;
+    max-width: 200px;
     font-size: 14px;
     line-height: 17px;
     font-weight: 400;
