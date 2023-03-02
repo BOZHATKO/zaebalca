@@ -549,12 +549,12 @@ background: #1f1f26;
     .video-container video {
         width: 380px;
         height: 260px;
-        margin-left: 15px;
+        margin-left: 25px;
         margin-top: 0;
     }
     .video-container .close {
         position: absolute;
-        left: 365px;
+        left: 370px;
         top: 10px;
     }
     .button__play-video{
@@ -566,12 +566,12 @@ background: #1f1f26;
     }
 
     .langs {
-        padding-left: 42px;
+        padding-left: 35px;
         padding-right: 10px;
         padding-top: 16px;
     }
     .checkButton {
-        left: 265px;
+        left: 250px;
         top: 24px;
     }
     .button_downloads_ios {
@@ -608,7 +608,7 @@ background: #1f1f26;
     .video-container video {
         width: 330px;
         height: 309px;
-        margin-left: 16px;
+        margin-left: 25px;
         margin-top: 17px;
     }
     .video-container .close {
@@ -785,7 +785,7 @@ background: #1f1f26;
     .video-container video {
         width: 290px;
         height: 280px;
-        margin-left: 5px;
+        margin-left: 18px;
         margin-top: 18px;
     }
     .video-container .close {
