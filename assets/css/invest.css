@@ -1,85 +1,80 @@
-.investment {
-  background:  #2E2E31;
+.investment{
+	background:#2e2e31
 }
-.investment__wrapper {
-  margin: 0 250px;
+.investment__wrapper{
+	margin:0 250px
 }
-.investment-body {
-  display: flex;
-  column-gap: 320px;
-  padding: 150px 0 100px 0;
+.investment-body{
+	display:flex;
+	column-gap:320px;
+	padding:150px 0 100px 0
 }
-/* .investment-body-cs{
-  margin-left: 29%;
+.investment-body-content{
+	max-width:667px
 }
-.investment-body-eng{
-  margin-left: 26%;
-} */
-.investment-body-content {
-  max-width: 667px;
+.lead__download-links-list{
+	display:flex;
+	list-style:none;
+	padding:0;
+	column-gap:30px
 }
-.lead__download-links-list {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  column-gap: 30px;
+#more{
+	display:none
 }
-#more {
-  display: none;
+.investment__image{
+	position:absolute;
+	top:380px
 }
-.investment__image {
-  position: absolute;
-  top: 380px
+.investment-body__title{
+	font-size:72px;
+	line-height:87px;
+	color:#fff;
+	margin-bottom:50px
 }
-.investment-body__title {
-  font-size: 72px;
-  line-height: 87px;
-  color: #fff;
-  margin-bottom: 50px;
+.investment-body__title_color{
+	color:#00a9de
 }
-.investment-body__title_color {
-  color: #00A9DE;
+.investment-body__text{
+	max-width:667px;
+	font-size:24px;
+	color:#fff;
+	margin-bottom:50px
 }
-.investment-body__text {
-  max-width: 667px;
-  font-size: 24px;
-  color: #fff;
-  margin-bottom: 50px;
+.card__wrapper{
+	margin:235px 250px 200px 250px
 }
-.card__wrapper {
-  margin: 235px 250px 200px 250px;
+.card{
+	display:flex;
+	column-gap:50px
 }
-.card {
-  display: flex;
-  column-gap: 50px;
+.card__image-center{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:618px
 }
-.card__image-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 618px;
+.card-body__list_2{
+	font-weight:600;
+	font-size:36px;
+	line-height:44px;
+	color:#007094;
+	margin:20px 0 20px 0
 }
-.card-body__list_2 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  color: #007094;
-  margin: 20px 0px 20px 0;
+.card-body__list_4{
+	font-weight:600;
+	font-size:36px;
+	line-height:44px;
+	color:#007094;
+	margin:20px 0 20px 0
 }
-.card-body__list_4 {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 44px;
-  color: #007094;
-  margin: 20px 0px 20px 0;
-}
-.card-body__text {
-  padding-right: 30px;
-  font-size: 24px;
-  line-height: 29px;
-  font-weight: 400;
+.card-body__text{
+	padding-right:30px;
+	font-size:24px;
+	line-height:29px;
+	font-weight:400
 }
 .card-body__list_copy{
+
   cursor: pointer;
   background-color: #fff;
 }
@@ -439,4 +434,5 @@
   .card-body__list_4{
     font-size: 20px;
   }
+
 }

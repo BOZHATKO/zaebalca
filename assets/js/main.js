@@ -37,8 +37,8 @@ function copyTextTwo(){
     document.body.removeChild(element)
 }
   const closeMenu = document.querySelector('.close_menu');
-   closeMenu.addEventListener('click', function (){
-   document.getElementById('myCheck').checked = false
+    closeMenu.addEventListener('click', function (){
+    document.getElementById('myCheck').checked = false
 })
 
 let gotos=document.querySelectorAll('body a[href*="#"]');
