@@ -75,13 +75,13 @@
 	
 	.left-side {
 	width:16px;
-	height:96%;
+	height:92%;
 	background:#1e1d1d;
 	transform:rotateY(90deg);
 	margin-top:310px;
 	position:relative;
 	margin-left:0;
-	bottom:589px;
+	bottom:577px;
 	}
 	
 	.product-inner:hover {
@@ -91,7 +91,7 @@
 	
 	.back {
 	position:relative;
-	width:275px;
+	width:280px;
 	height:595px;
 	transform:rotateY(180deg);
 	left:-63px;
@@ -108,7 +108,7 @@
 	}
 	
 	.left-side {
-	height:96%;
+	height:92%;
 	}
 	}
 	
@@ -128,6 +128,9 @@
 	.card {
 	column-gap:60px;
 	}
+	.left-side {
+		height:91%;
+		}
 	}
 	
 	@media screen and (max-width:768px){
@@ -168,7 +171,7 @@
 	}
 	
 	.left-side {
-	height:96%;
+	height:91%;
 	margin:312px 0 0;
 	}
 	}
@@ -203,8 +206,8 @@
 	}
 	
 	.back {
-	width:137px;
-	height:297px;
+	width:138px;
+	height:296px;
 	left:0;
 	}
 	
@@ -222,8 +225,8 @@
 	
 	.left-side {
 	width:16px;
-	height:277px;
-	margin-top:301px;
+	height:263px;
+	margin-top:295px;
 	margin-left:0;
 	}
 	
@@ -286,8 +289,8 @@
 	
 	.left-side {
 	width:16px;
-	height:277px;
-	margin-top:301px;
+	height:261px;
+	margin-top:296px;
 	margin-left:0;
 	}
 	
@@ -315,9 +318,9 @@
 	}
 	
 	.back {
-	width:132px;
+	width:134px;
 	height:297px;
-	left:3px;
+	left:0px;
 	}
 	
 	.front {
@@ -328,7 +331,7 @@
 	
 	.left-side {
 	width:16px;
-	height:280px;
+	height:252px;
 	margin-top:300px;
 	margin-left:0;
 	}
