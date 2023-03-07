@@ -38,7 +38,7 @@
     box-shadow:0 20px 20px rgba(0,0,0,0.2);
     outline:none;
     transition:all .3s;
-    margin-left:100px;
+    margin-left:80px;
     margin-top:15px;
     z-index:11;
     }
@@ -164,7 +164,7 @@
     }
     
     .video-container .close {
-    right:70px;
+    right:85px;
     }
     
     .langs {
@@ -460,7 +460,7 @@
     .video-container video {
     width:678px;
     height:490px;
-    margin-left:38px;
+    margin-left:40px;
     margin-top:0;
     }
     
@@ -611,7 +611,7 @@
     .video-container video {
     width:380px;
     height:260px;
-    margin-left:25px;
+    margin-left:20px;
     margin-top:0;
     }
     
@@ -676,7 +676,7 @@
     .video-container video {
     width:330px;
     height:309px;
-    margin-left:25px;
+    margin-left:20px;
     margin-top:17px;
     }
     
@@ -878,7 +878,7 @@
     .video-container video {
     width:290px;
     height:280px;
-    margin-left:18px;
+    margin-left:15px;
     margin-top:18px;
     }
     
