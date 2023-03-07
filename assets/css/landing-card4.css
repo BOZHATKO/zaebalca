@@ -1,6 +1,6 @@
 .section-card {
 	background:#2e2e31;
-	padding:80px 250px;
+	padding:80px 555px;
 	}
 	
 	.card-block-link,.card-block-link-botton {
@@ -101,7 +101,11 @@
 	width:275px;
 	height:595px;
 	}
-	
+	@media screen and (max-width:1920px){
+	.section-card {
+		padding:80px 250px;
+		}
+	}
 	@media screen and (max-width:1440px){
 	.card {
 	column-gap:150px;
