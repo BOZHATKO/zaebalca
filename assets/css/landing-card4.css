@@ -20,9 +20,6 @@
 	justify-content: center;
 	transition: 1s;
 }
-.box-frame:hover .inner-frame{
-	opacity: 1;
-}
 .island_poppup{
 	position: absolute;
 	top: 2px;
