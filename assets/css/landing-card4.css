@@ -17,16 +17,12 @@
 	inset: 3px;
 	background-size: cover;
 	background-position: center;
-	display: flex;
-	justify-content: center;
 	transition: 1s;
 }
 .island_poppup-IOS{
 	position: absolute;
 	top: 2px;
-
 	right: 0px;
-
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	width: 50px;
@@ -76,23 +72,6 @@
 	opacity: 0;
 	animation: Android 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
-
-
-@keyframes Android {
-	0% {
-		
-	}
-	75%{
-		opacity: 0;
-	}
-	100% {
-
-		left: 160px;
-
-		opacity: 1;
-	}
-}
-
 
 
 
