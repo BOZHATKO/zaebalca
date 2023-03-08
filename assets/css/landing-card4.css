@@ -20,21 +20,62 @@
 	justify-content: center;
 	transition: 1s;
 }
-.island_poppup{
+.island_poppup-IOS{
 	position: absolute;
 	top: 2px;
-	left:  0px;
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
+	right: 0px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
 	width: 50px;
 	height: 590px;
 	background: url(../animat/Menu\ IOS.png);
 	transition: 5s;
 	opacity: 0;
-	animation: frame 5s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+	animation: IOS 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+}
+.Mac1{background: url(../animat/Asap-IOS.png);}
+.Mac2{background: url(../animat/Profile-IOS.png);}
+.Mac3{background: url(../animat/Lenta-IOS.png);}
+.Mac4{background: url(../animat/Video-IOS.png);}
+.Mac5{background: url(../animat/BlackBox-IOS.png);}
+.Mac6{background: url(../animat/FindFriends-IOS.png);}
+.Mac7{background: url(../animat/Meet-IOS.png);}
+.Mac8{background: url(../animat/Job-IOS.png);}
+.Mac9{background: url(../animat/Choose-IOS.png);}
+@keyframes IOS {
+	0% {
+		
+	}
+	50%{
+		opacity: 0;
+		right: 8px;
+	}
+	60%{
+		opacity: 1;
+		right: 8px;
+	}
+	100% {
+		right: 8px;
+		opacity: 1;
+		animation-delay: 20s;
+	}
+}
+.island_poppup-Android{
+	position: absolute;
+	top: 2px;
+	right: 0px;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	width: 50px;
+	height: 590px;
+	background: url(../animat/Menu\ IOS.png);
+	transition: 5s;
+	opacity: 0;
+	animation: Android 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
 
-@keyframes frame {
+
+@keyframes Android {
 	0% {
 		
 	}
@@ -42,9 +83,8 @@
 		opacity: 0;
 	}
 	100% {
-		left:  10px;
+		left: 160px;
 		opacity: 1;
-		animation-delay: 20s;
 	}
 }
 
