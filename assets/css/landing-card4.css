@@ -17,16 +17,12 @@
 	inset: 3px;
 	background-size: cover;
 	background-position: center;
-	display: flex;
-	justify-content: center;
 	transition: 1s;
 }
 .island_poppup-IOS{
 	position: absolute;
 	top: 2px;
-
 	right: 0px;
-
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	width: 50px;
@@ -74,7 +70,7 @@
 	background: url(../animat/Menu\ IOS.png);
 	transition: 5s;
 	opacity: 0;
-	animation: Android 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
 
 .And1{background: url(../animat/Asap-IOS.png);}
@@ -104,8 +100,162 @@
 	}
 }
 
+@media screen and (max-width:425px){
 
-
+	.box-frame{
+		position: relative;
+		width: 137px;
+		height:300px;
+		border-radius: 20px;
+		
+	}
+	.island_poppup-IOS{
+		position: absolute;
+		top: 2px;
+		right: 0px;
+		width: 30px;
+		height: 294px;
+		
+		background-size: 27px 293px;
+		background-repeat:no-repeat ;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+	.island_poppup-Android{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+		width: 30px;
+		height: 294px;
+		
+		background-size: 27px 293px;
+		background-repeat:no-repeat;
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		
+	}
+	@keyframes Android {
+		0% {
+			left: 0;
+		}
+		50%{
+			left: 110px;
+			opacity: 0;
+			
+		}
+		60%{
+			left: 110px;
+			opacity: 1;
+			
+		}
+		100% {
+			left:  110px;
+			opacity: 1;
+		}
+	}
+	@keyframes IOS {
+		0% {
+			right: 0;
+		}
+		50%{
+			right: 0;
+			opacity: 0;
+			
+		}
+		60%{
+			right: 0;
+			opacity: 1;
+			
+		}
+		100% {
+			left:115px;
+			opacity: 1;
+			
+		}
+	}
+}
+@media screen and (max-width:375px){
+	@keyframes Android {
+		0% {
+			left: 0;
+		}
+		50%{
+			left: 110px;
+			opacity: 0;
+			
+		}
+		60%{
+			left: 110px;
+			opacity: 1;
+			
+		}
+		100% {
+			left:  110px;
+			opacity: 1;
+		}
+	}
+	@keyframes IOS {
+		0% {
+			right: 0;
+		}
+		50%{
+			right: 0;
+			opacity: 0;
+			
+		}
+		60%{
+			right: 0;
+			opacity: 1;
+			
+		}
+		100% {
+			left:113px;
+			opacity: 1;
+			
+		}
+	}
+}
+@media screen and (max-width:375px){
+	@keyframes Android {
+		0% {
+			left: 0;
+		}
+		50%{
+			left: 106px;
+			opacity: 0;
+			
+		}
+		60%{
+			left: 106px;
+			opacity: 1;
+			
+		}
+		100% {
+			left:  106px;
+			opacity: 1;
+		}
+	}
+	@keyframes IOS {
+		0% {
+			right: 0;
+		}
+		50%{
+			right: 0;
+			opacity: 0;
+			
+		}
+		60%{
+			right: 0;
+			opacity: 1;
+			
+		}
+		100% {
+			left:110px;
+			opacity: 1;
+			
+		}
+	}
+}
 
 
 
