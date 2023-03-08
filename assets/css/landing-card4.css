@@ -77,18 +77,29 @@
 	animation: Android 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
 
-
+.And1{background: url(../animat/Asap-IOS.png);}
+.And2{background: url(../animat/Profile-IOS.png);}
+.And3{background: url(../animat/Lenta-IOS.png);}
+.And4{background: url(../animat/Video-IOS.png);}
+.And5{background: url(../animat/BlackBox-IOS.png);}
+.And6{background: url(../animat/FindFriends-IOS.png);}
+.And7{background: url(../animat/Meet-IOS.png);}
+.And8{background: url(../animat/Job-IOS.png);}
+.And9{background: url(../animat/Choose-IOS.png);}
 @keyframes Android {
 	0% {
 		
 	}
-	75%{
+	50%{
 		opacity: 0;
+		right: 8px;
+	}
+	60%{
+		opacity: 1;
+		right: 8px;
 	}
 	100% {
-
 		left: 160px;
-
 		opacity: 1;
 	}
 }
