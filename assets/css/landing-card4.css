@@ -1,3 +1,69 @@
+
+.box-frame{
+	position: relative;
+	width: 285px;
+	height: 600px;
+	border-radius: 30px;
+}
+.box-frame::before{
+	content: "";
+	position: absolute;
+	inset: 3px;
+	border-radius: 30px;
+}
+.inner-frame{
+	position: absolute;
+	inset: 3px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	transition: 1s;
+}
+.box-frame:hover .inner-frame{
+	opacity: 1;
+}
+.island_poppup{
+	position: absolute;
+	top: 2px;
+	left:  0px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	width: 50px;
+	height: 590px;
+	background: url(../animat/Menu\ IOS.png);
+	transition: 5s;
+	opacity: 0;
+	animation: frame 5s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+}
+
+@keyframes frame {
+	0% {
+		
+	}
+	75%{
+		opacity: 0;
+	}
+	100% {
+		left:  10px;
+		opacity: 1;
+		animation-delay: 20s;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section-card {
 	background:#2e2e31;
 	padding:80px 555px;
@@ -100,11 +166,13 @@
 	.front {
 	width:275px;
 	height:595px;
+	border-radius: 0px 0px 0px 0px;
 	}
 	@media screen and (max-width:1920px){
 	.section-card {
 		padding:80px 250px;
 		}
+		
 	}
 	@media screen and (max-width:1440px){
 	.card {
