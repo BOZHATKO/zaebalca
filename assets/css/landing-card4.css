@@ -13,6 +13,7 @@
 }
 .inner-frame{
 	position: absolute;
+	right: 0;
 	inset: 3px;
 	background-size: cover;
 	background-position: center;
@@ -23,7 +24,9 @@
 .island_poppup-IOS{
 	position: absolute;
 	top: 2px;
+
 	right: 0px;
+
 	border-top-right-radius: 30px;
 	border-bottom-right-radius: 30px;
 	width: 50px;
@@ -83,7 +86,9 @@
 		opacity: 0;
 	}
 	100% {
+
 		left: 160px;
+
 		opacity: 1;
 	}
 }
