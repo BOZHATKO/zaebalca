@@ -58,37 +58,38 @@
 	right: 0px;
 	border-bottom-right-radius: 30px;
 	border-top-right-radius: 30px;
-	width: 50px;
+	width: 250px;
 	height: 590px;
-	background: url(../animat/Menu\ IOS.png);
+	/* background: url(../animat/Menu\ IOS.png); */
 	transition: 5s;
 	opacity: 0;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+
 }
 
-.And1{background: url(../animat/Asap-IOS.png) no-repeat;}
-.And2{background: url(../animat/Profile-IOS.png) no-repeat;}
-.And3{background: url(../animat/Lenta-IOS.png)no-repeat;}
-.And4{background: url(../animat/Video-IOS.png) no-repeat;}
-.And5{background: url(../animat/BlackBox-IOS.png)no-repeat;}
-.And6{background: url(../animat/FindFriends-IOS.png)no-repeat;}
-.And7{background: url(../animat/Meet-IOS.png)no-repeat;}
-.And8{background: url(../animat/Job-IOS.png)no-repeat;}
-.And9{background: url(../animat/Choose-IOS.png)no-repeat;}
+.And1{background: url(/assets/animat/AndroidEng/ASAP.png);}
+.And2{background: url(/assets/animat/AndroidEng/My\ profile.png) no-repeat;}
+.And3{background: url(/assets/animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
+.And4{background: url(/assets/animat/AndroidEng/VideoS.png) no-repeat;}
+.And5{background: url(/assets/animat/AndroidEng/BlackBox.png)no-repeat;}
+.And6{background: url(/assets/animat/AndroidEng/Find\ Friends.png)no-repeat;}
+.And7{background: url(/assets/animat/AndroidEng/MeetNet.png)no-repeat;}
+.And8{background: url(/assets/animat/AndroidEng/Job\ Lite.png)no-repeat re;}
+.And9{background: url(/assets/animat/AndroidEng/Choose.png)no-repeat;}
 @keyframes Android {
 	0% {
-		left: 160px;
+		left: -40px;
 	}
 	50%{
 		opacity: 0;
-		left: 160px;
+		left: -40px;
 	}
 	60%{
 		opacity: 1;
-		left: 160px;
+		left: -40px;
 	}
 	100% {
-		left: 160px;
+		left: -40px;
 		opacity: 1;
 	}
 }
