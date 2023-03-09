@@ -69,7 +69,6 @@
 	opacity: 0;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
-
 }
 
 .And1{background: url(/assets/animat/AndroidEng/ASAP.png);}
