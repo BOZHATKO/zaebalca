@@ -207,7 +207,8 @@
 		}
 	}
 }
-/* @media screen and (max-width:375px){
+<<<<<<< HEAD:assets/css/landing-card4.css
+@media screen and (max-width:375px){
 	@keyframes Android {
 		0% {
 			left: 110px;
@@ -247,7 +248,10 @@
 			
 		}
 	}
-} */
+}
+=======
+
+>>>>>>> d458a7a65107237016ee7f7b1d488fc9b7f4b646:assets/css/landing-card5.css
 @media screen and (max-width:320px){
 	@keyframes Android {
 		0% {
