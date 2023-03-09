@@ -63,7 +63,7 @@
 	/* background: url(../animat/Menu\ IOS.png); */
 	transition: 5s;
 	opacity: 0;
-	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+	animation: Android 1s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
 
 }
@@ -124,8 +124,8 @@
 		height: 297px;
 		background-size: 147px 300px;
 		background-repeat:no-repeat;
-		border-top-right-radius: 10px;
-		border-bottom-right-radius: 20px;
+		border-top-left-radius: 30px;
+		border-bottom-left-radius: 30px;
 		
 	}
 	@keyframes Android {
@@ -167,25 +167,8 @@
 	}
 }
 @media screen and (max-width:375px){
-	@keyframes Android {
-		0% {
-			left: 110px;
-		}
-		50%{
-			left: 110px;
-			opacity: 0;
-			
-		}
-		60%{
-			left: 110px;
-			opacity: 1;
-			
-		}
-		100% {
-			left:  110px;
-			opacity: 1;
-		}
-	}
+	
+	
 	@keyframes IOS {
 		0% {
 			right: 113px;
@@ -255,23 +238,22 @@
 @media screen and (max-width:320px){
 	@keyframes Android {
 		0% {
-			left: 106px;
+			left: 15px;
 		}
 		50%{
-			left: 106px;
 			opacity: 0;
-			
+			left: 15px;
 		}
 		60%{
-			left: 106px;
 			opacity: 1;
-			
+			left: 15px;
 		}
 		100% {
-			left: 106px;
+			left: 15px;
 			opacity: 1;
 		}
 	}
+	
 	@keyframes IOS {
 		0% {
 			left:110px;
