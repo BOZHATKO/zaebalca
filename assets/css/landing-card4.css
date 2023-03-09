@@ -5,12 +5,12 @@
 	height: 600px;
 	border-radius: 30px;
 }
-.box-frame::before{
+/* .box-frame::before{
 	content: "";
 	position: absolute;
 	inset: 3px;
 	border-radius: 30px;
-}
+} */
 .inner-frame{
 	position: absolute;
 	right: 0;
@@ -43,7 +43,7 @@
 .Mac9{background: url(../animat/Choose-IOS.png);}
 @keyframes IOS {
 	0% {
-		
+		right: 8px;
 	}
 	50%{
 		opacity: 0;
@@ -83,15 +83,15 @@
 .And9{background: url(../animat/Choose-IOS.png)no-repeat;}
 @keyframes Android {
 	0% {
-		
+		left: 160px;
 	}
 	50%{
 		opacity: 0;
-		right: 8px;
+		left: 160px;
 	}
 	60%{
 		opacity: 1;
-		right: 8px;
+		left: 160px;
 	}
 	100% {
 		left: 160px;
@@ -135,7 +135,7 @@
 	}
 	@keyframes Android {
 		0% {
-			left: 0;
+			left: 110px;
 		}
 		50%{
 			left: 110px;
@@ -154,7 +154,7 @@
 	}
 	@keyframes IOS {
 		0% {
-			right: 0;
+			right: 115px;
 		}
 		50%{
 			right: 115px;
@@ -176,7 +176,7 @@
 @media screen and (max-width:375px){
 	@keyframes Android {
 		0% {
-			left: 0;
+			left: 110px;
 		}
 		50%{
 			left: 110px;
@@ -195,7 +195,7 @@
 	}
 	@keyframes IOS {
 		0% {
-			right: 0;
+			right: 113px;
 		}
 		50%{
 			right: 113px;
@@ -217,7 +217,7 @@
 @media screen and (max-width:375px){
 	@keyframes Android {
 		0% {
-			left: 0;
+			left: 106px;
 		}
 		50%{
 			left: 106px;
@@ -236,15 +236,15 @@
 	}
 	@keyframes IOS {
 		0% {
-			right: 0;
+			left:110px;
 		}
 		50%{
-			right: 0;
+			left:110px;
 			opacity: 0;
 			
 		}
 		60%{
-			right: 0;
+			left:110px;
 			opacity: 1;
 			
 		}
@@ -386,7 +386,7 @@
 	}
 	}
 	
-	@media screen and (max-width:1240px){
+	@media screen and (max-width:1280px){
 	.card {
 	column-gap:130px;
 	}
