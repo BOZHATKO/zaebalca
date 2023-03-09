@@ -196,7 +196,19 @@
     padding:40px 85px;
     }
     }
-    
+    @media screen and (max-width: 1280px){
+    .logo {
+        width: 145px;
+        height: 40px;
+    }
+    .block-logo {
+        column-gap: 10px;
+        margin-right: 0;
+    }
+    .nav_list-elements {
+        column-gap: 0px;
+    }
+}
     @media screen and (max-width: 1185px){
     .nav_list-elements {
     column-gap:0;
