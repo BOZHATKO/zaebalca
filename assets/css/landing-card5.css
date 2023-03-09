@@ -211,51 +211,6 @@
 		}
 	}
 }
-<<<<<<< HEAD:assets/css/landing-card4.css
-@media screen and (max-width:375px){
-	@keyframes Android {
-		0% {
-			left: 110px;
-		}
-		50%{
-			left: 110px;
-			opacity: 0;
-			
-		}
-		60%{
-			left: 110px;
-			opacity: 1;
-			
-		}
-		100% {
-			left: 110px;
-			opacity: 1;
-		}
-	}
-	@keyframes IOS {
-		0% {
-			left:113px;
-		}
-		50%{
-			left:113px;
-			opacity: 0;
-			
-		}
-		60%{
-			left:113px;
-			opacity: 1;
-			
-		}
-		100% {
-			left:113px;
-			opacity: 1;
-			
-		}
-	}
-}
-=======
-
->>>>>>> d458a7a65107237016ee7f7b1d488fc9b7f4b646:assets/css/landing-card5.css
 @media screen and (max-width:320px){
 	@keyframes Android {
 		0% {
