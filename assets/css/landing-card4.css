@@ -214,7 +214,7 @@
 		}
 	}
 }
-@media screen and (max-width:375px){
+/* @media screen and (max-width:375px){
 	@keyframes Android {
 		0% {
 			left: 110px;
@@ -254,7 +254,7 @@
 			
 		}
 	}
-}
+} */
 @media screen and (max-width:320px){
 	@keyframes Android {
 		0% {
@@ -385,12 +385,12 @@
 	
 	.left-side {
     width: 16px;
-    height: 100%;
+    height: 98%;
     background: #1e1d1d;
     transform: rotateY(90deg);
     margin-top: 309px;
     position: relative;
-    margin-left: -6px;
+    margin-left: -4px;
     bottom: 588px;
 }
 	
@@ -434,7 +434,7 @@
 	}
 	.left-side {
     width: 16px;
-    height: 101%;
+    height: 98%;
     background: #1e1d1d;
     transform: rotateY(90deg);
     margin-top: 309px;
@@ -498,12 +498,12 @@
 	
 	.left-side {
     width: 16px;
-    height: 101%;
+    height: 99%;
     background: #1e1d1d;
     transform: rotateY(90deg);
     margin-top: 309px;
     position: relative;
-    margin-left: -5px;
+    margin-left: 3px;
     bottom: 588px;
 }
 	}
