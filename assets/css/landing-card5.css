@@ -66,60 +66,6 @@
 		opacity: 1;
 	}
 }
-@media screen and (max-width:1100px){
-	.section-two-image{
-		column-gap: 30px;
-	}
-}
-@media screen and (max-width:768px){
-	.section-two-image{
-		width: 178px;
-		height: 387px;
-	}
-	.island_poppup-Android1{
-		position: relative;
-		bottom: 410px;
-		left: 200px;
-		border-bottom-left-radius: 40px;
-		border-top-left-radius: 50px;
-		width: 158px;
-		height: 387px;
-		transition: 5s;
-		opacity: 0;
-		animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
-		background-size: 18px;
-	}
-	.island_poppup-IOS1 {
-		position: relative;
-		bottom: 415px;
-		left: 130px;
-		border-top-right-radius: 30px;
-		border-bottom-right-radius: 30px;
-		/* width: 40px;
-		height: 382px; */
-		transition: 5s;
-		opacity: 0;
-		animation: IOS1 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
-		background-size: 18px 200px;
-	}
-	@keyframes IOS1 {
-		0% {
-			right: 0px;
-		}
-		50%{
-			opacity: 0;
-			right: 0px;
-		}
-		60%{
-			opacity: 1;
-			right: 0px;
-		}
-		100% {
-			right: 0px;
-			opacity: 1;
-		}
-	}
-}
 
 
 .box-frame{
@@ -216,6 +162,87 @@
 	}
 }
 
+
+@media screen and (max-width:1100px){
+	.section-two-image{
+		column-gap: 30px;
+	}
+}
+@media screen and (max-width:768px){
+	.section-two-image{
+		width: 178px;
+		height: 387px;
+	}
+	.island_poppup-Android1{
+		position: relative;
+		bottom: 405px;
+		left: 200px;
+		border-bottom-left-radius: 45px;
+		border-top-left-radius: 35px;
+		width: 158px;
+		height: 387px;
+		transition: 1s;
+		opacity: 0;
+		animation: Android1 1s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+		background-size: 18px;
+	}
+	.island_poppup-IOS1 {
+		position: relative;
+		bottom: 412px;
+		left: 131px;
+		width: 40px;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+		/* width: 40px;
+		height: 382px; */
+		transition: 5s;
+		opacity: 0;
+		animation: IOS1 1s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+		background-size: 18px 200px;
+	}
+	@keyframes IOS1 {
+		0% {
+			right: 0px;
+		}
+		50%{
+			opacity: 0;
+			right: 0px;
+		}
+		60%{
+			opacity: 1;
+			right: 0px;
+		}
+		100% {
+			right: 0px;
+			opacity: 1;
+		}
+	}
+	@keyframes Android1 {
+		0% {
+			left: 0px;
+		}
+		50%{
+			opacity: 0;
+			left: 0px;
+		}
+		60%{
+			opacity: 1;
+			left: 0px;
+		}
+		100% {
+			left: 0px;
+			opacity: 1;
+		}
+	}
+	.And1{
+		background-size: 200px 375px;
+		height: 380px;
+	}
+	.Mac1{
+		background-size: 40px 415px;
+		height: 375px;
+	}
+}
 @media screen and (max-width:425px){
 
 	.box-frame{
