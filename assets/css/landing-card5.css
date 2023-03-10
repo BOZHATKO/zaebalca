@@ -1,3 +1,126 @@
+.section-two-image{
+	width: 287px;
+	height: 600px;
+	display:flex;
+	justify-content:center;
+	margin:0;
+	padding:30px 0;
+	column-gap: 50px;
+}
+.island_poppup-IOS1 {
+	position: relative;
+	bottom: 630px;
+	left: 230px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	width: 50px;
+	height: 590px;
+	transition: 5s;
+	opacity: 0;
+	animation: IOS1 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+}
+@keyframes IOS1 {
+	0% {
+		right: 5px;
+	}
+	50%{
+		opacity: 0;
+		right: 5px;
+	}
+	60%{
+		opacity: 1;
+		right: 6px;
+	}
+	100% {
+		right: 4px;
+		opacity: 1;
+	}
+}
+.island_poppup-Android1{
+	position: relative;
+	bottom: 630px;
+	left: 200px;
+	border-bottom-left-radius: 40px;
+	border-top-left-radius: 50px;
+	width: 250px;
+	height: 590px;
+	transition: 5s;
+	opacity: 0;
+	animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+	background-size: 10px;
+}
+@keyframes Android1 {
+	0% {
+		left: 0px;
+	}
+	50%{
+		opacity: 0;
+		left: 0px;
+	}
+	60%{
+		opacity: 1;
+		left: 0px;
+	}
+	100% {
+		left: -3px;
+		opacity: 1;
+	}
+}
+@media screen and (max-width:1100px){
+	.section-two-image{
+		column-gap: 30px;
+	}
+}
+@media screen and (max-width:768px){
+	.section-two-image{
+		width: 178px;
+		height: 387px;
+	}
+	.island_poppup-Android1{
+		position: relative;
+		bottom: 410px;
+		left: 200px;
+		border-bottom-left-radius: 40px;
+		border-top-left-radius: 50px;
+		width: 158px;
+		height: 387px;
+		transition: 5s;
+		opacity: 0;
+		animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+		background-size: 18px;
+	}
+	.island_poppup-IOS1 {
+		position: relative;
+		bottom: 415px;
+		left: 130px;
+		border-top-right-radius: 30px;
+		border-bottom-right-radius: 30px;
+		/* width: 40px;
+		height: 382px; */
+		transition: 5s;
+		opacity: 0;
+		animation: IOS1 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+		background-size: 18px 200px;
+	}
+	@keyframes IOS1 {
+		0% {
+			right: 0px;
+		}
+		50%{
+			opacity: 0;
+			right: 0px;
+		}
+		60%{
+			opacity: 1;
+			right: 0px;
+		}
+		100% {
+			right: 0px;
+			opacity: 1;
+		}
+	}
+}
+
 
 .box-frame{
 	position: relative;
@@ -5,10 +128,7 @@
 	height: 600px;
 	border-radius: 30px;
 }
-.x-right{
-	left: 30px;
-	transform: scalex(-1);
-}
+
 .inner-frame{
 	position: absolute;
 	right: 0;
@@ -25,7 +145,6 @@
 	border-bottom-right-radius: 30px;
 	width: 50px;
 	height: 590px;
-	background: url(../animat/Menu\ IOS.png);
 	transition: 5s;
 	opacity: 0;
 	animation: IOS 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
@@ -64,22 +183,21 @@
 	border-top-left-radius: 50px;
 	width: 250px;
 	height: 590px;
-	/* background: url(../animat/Menu\ IOS.png); */
 	transition: 5s;
 	opacity: 0;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
 }
 
-.And1{background: url(/assets/animat/AndroidEng/ASAP.png);}
-.And2{background: url(/assets/animat/AndroidEng/My\ profile.png) no-repeat;}
-.And3{background: url(/assets/animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
-.And4{background: url(/assets/animat/AndroidEng/VideoS.png) no-repeat;}
-.And5{background: url(/assets/animat/AndroidEng/BlackBox.png)no-repeat;}
-.And6{background: url(/assets/animat/AndroidEng/Find\ Friends.png)no-repeat;}
-.And7{background: url(/assets/animat/AndroidEng/MeetNet.png)no-repeat;}
-.And8{background: url(/assets/animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
-.And9{background: url(/assets/animat/AndroidEng/Choose.png)no-repeat;}
+.And1{background: url(../animat/AndroidEng/ASAP.png);}
+.And2{background: url(../animat/AndroidEng/My\ profile.png) no-repeat;}
+.And3{background: url(../animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
+.And4{background: url(../animat/AndroidEng/VideoS.png) no-repeat;}
+.And5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
+.And6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
+.And7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
+.And8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
+.And9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
 @keyframes Android {
 	0% {
 		left: -27px;
@@ -113,7 +231,6 @@
 		right: 0px;
 		width: 30px;
 		height: 294px;
-		
 		background-size: 27px 293px;
 		background-repeat:no-repeat ;
 		border-bottom-right-radius: 20px;
@@ -210,51 +327,6 @@
 		}
 	}
 }
-<<<<<<< HEAD:assets/css/landing-card4.css
-@media screen and (max-width:375px){
-	@keyframes Android {
-		0% {
-			left: 110px;
-		}
-		50%{
-			left: 110px;
-			opacity: 0;
-			
-		}
-		60%{
-			left: 110px;
-			opacity: 1;
-			
-		}
-		100% {
-			left: 110px;
-			opacity: 1;
-		}
-	}
-	@keyframes IOS {
-		0% {
-			left:113px;
-		}
-		50%{
-			left:113px;
-			opacity: 0;
-			
-		}
-		60%{
-			left:113px;
-			opacity: 1;
-			
-		}
-		100% {
-			left:113px;
-			opacity: 1;
-			
-		}
-	}
-}
-=======
-
->>>>>>> d458a7a65107237016ee7f7b1d488fc9b7f4b646:assets/css/landing-card5.css
 @media screen and (max-width:320px){
 	@keyframes Android {
 		0% {
@@ -657,6 +729,4 @@
 	height:297px;
 	margin-left:6px;
 	}
-	
-
-	}
+}
