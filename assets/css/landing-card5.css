@@ -1,11 +1,10 @@
 .section-two-image{
-	width: 287px;
 	height: 600px;
 	display:flex;
 	justify-content:center;
 	margin:0;
 	padding:30px 0;
-	column-gap: 50px;
+	column-gap: 10px;
 }
 .island_poppup-IOS1 {
 	position: relative;
@@ -15,7 +14,7 @@
 	border-bottom-right-radius: 30px;
 	width: 50px;
 	height: 590px;
-	transition: 5s;
+	transition: 1s;
 	opacity: 0;
 	animation: IOS1 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
@@ -44,7 +43,7 @@
 	border-top-left-radius: 50px;
 	width: 250px;
 	height: 590px;
-	transition: 5s;
+	transition: 1s;
 	opacity: 0;
 	animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	background-size: 10px;
@@ -91,19 +90,20 @@
 	border-bottom-right-radius: 30px;
 	width: 50px;
 	height: 590px;
-	transition: 5s;
+	transition: 1s;
 	opacity: 0;
 	animation: IOS 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
 .Mac1{background: url(../animat/Asap-IOS.png);}
-.Mac2{background: url(../animat/Profile-IOS.png);}
-.Mac3{background: url(../animat/Lenta-IOS.png);}
-.Mac4{background: url(../animat/Video-IOS.png);}
-.Mac5{background: url(../animat/BlackBox-IOS.png);}
-.Mac6{background: url(../animat/FindFriends-IOS.png);}
-.Mac7{background: url(../animat/Meet-IOS.png);}
-.Mac8{background: url(../animat/Job-IOS.png);}
-.Mac9{background: url(../animat/Choose-IOS.png);}
+.Mac-1{background: url(../animat/Asap-IOS.png);}
+.Mac-2{background: url(../animat/Profile-IOS.png);}
+.Mac-3{background: url(../animat/Lenta-IOS.png);}
+.Mac-4{background: url(../animat/Video-IOS.png);}
+.Mac-5{background: url(../animat/BlackBox-IOS.png);}
+.Mac-6{background: url(../animat/FindFriends-IOS.png);}
+.Mac-7{background: url(../animat/Meet-IOS.png);}
+.Mac-8{background: url(../animat/Job-IOS.png);}
+.Mac-9{background: url(../animat/Choose-IOS.png);}
 @keyframes IOS {
 	0% {
 		right: 8px;
@@ -129,21 +129,21 @@
 	border-top-left-radius: 50px;
 	width: 250px;
 	height: 590px;
-	transition: 5s;
+	transition: 1s;
 	opacity: 0;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
 }
-
 .And1{background: url(../animat/AndroidEng/ASAP.png);}
-.And2{background: url(../animat/AndroidEng/My\ profile.png) no-repeat;}
-.And3{background: url(../animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
-.And4{background: url(../animat/AndroidEng/VideoS.png) no-repeat;}
-.And5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
-.And6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
-.And7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
-.And8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
-.And9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
+.And-1{background: url(../animat/AndroidEng/ASAP.png);}
+.And-2{background: url(../animat/AndroidEng/My\ profile.png) no-repeat;}
+.And-3{background: url(../animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
+.And-4{background: url(../animat/AndroidEng/VideoS.png) no-repeat;}
+.And-5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
+.And-6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
+.And-7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
+.And-8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
+.And-9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
 @keyframes Android {
 	0% {
 		left: -27px;
@@ -163,9 +163,6 @@
 }
 
 
-@media screen and (max-width:1100px){
-
-}
 @media screen and (max-width:768px){
 	.section-two-image{
 		width: 178px;
@@ -182,7 +179,7 @@
 		height: 387px;
 		transition: 1s;
 		opacity: 0;
-		animation: Android1 1s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+		animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 		background-size: 18px;
 	}
 	.island_poppup-IOS1 {
@@ -196,7 +193,7 @@
 		height: 382px; */
 		transition: 5s;
 		opacity: 0;
-		animation: IOS1 1s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+		animation: IOS1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 		background-size: 18px 200px;
 	}
 	@keyframes IOS1 {
