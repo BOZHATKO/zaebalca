@@ -37,13 +37,13 @@
 }
 .island_poppup-Android1{
 	position: relative;
-	bottom: 630px;
+	bottom: 615px;
 	left: 200px;
 	border-bottom-left-radius: 40px;
 	border-top-left-radius: 50px;
 	width: 250px;
-	height: 590px;
-	transition: 1s;
+	height: 570px;
+	transition: 5s;
 	opacity: 0;
 	animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	background-size: 10px;
@@ -94,16 +94,18 @@
 	opacity: 0;
 	animation: IOS 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
-.Mac1{background: url(../animat/Asap-IOS.png);}
+
+.Mac1{background: url(../animat/Asap-IOS.png) no-repeat;}
 .Mac-1{background: url(../animat/Asap-IOS.png);}
-.Mac-2{background: url(../animat/Profile-IOS.png);}
-.Mac-3{background: url(../animat/Lenta-IOS.png);}
-.Mac-4{background: url(../animat/Video-IOS.png);}
-.Mac-5{background: url(../animat/BlackBox-IOS.png);}
-.Mac-6{background: url(../animat/FindFriends-IOS.png);}
-.Mac-7{background: url(../animat/Meet-IOS.png);}
-.Mac-8{background: url(../animat/Job-IOS.png);}
-.Mac-9{background: url(../animat/Choose-IOS.png);}
+.Mac2{background: url(../animat/Profile-IOS.png) no-repeat;}
+.Mac3{background: url(../animat/Lenta-IOS.png) no-repeat;}
+.Mac4{background: url(../animat/Video-IOS.png) no-repeat;}
+.Mac5{background: url(../animat/BlackBox-IOS.png) no-repeat;}
+.Mac6{background: url(../animat/FindFriends-IOS.png) no-repeat;}
+.Mac7{background: url(../animat/Meet-IOS.png) no-repeat;}
+.Mac8{background: url(../animat/Job-IOS.png) no-repeat;}
+.Mac9{background: url(../animat/Choose-IOS.png) no-repeat;}
+
 @keyframes IOS {
 	0% {
 		right: 8px;
@@ -123,27 +125,32 @@
 }
 .island_poppup-Android{
 	position: absolute;
-	top: 2px;
+	top: 24px;
 	right: 0px;
 	border-bottom-left-radius: 40px;
 	border-top-left-radius: 50px;
 	width: 250px;
-	height: 590px;
-	transition: 1s;
+
+	height: 570px;
+	transition: 5s;
+
 	opacity: 0;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
 }
-.And1{background: url(../animat/AndroidEng/ASAP.png);}
+
+
+.And1{background: url(../animat/AndroidEng/ASAP.png) no-repeat;}
 .And-1{background: url(../animat/AndroidEng/ASAP.png);}
-.And-2{background: url(../animat/AndroidEng/My\ profile.png) no-repeat;}
-.And-3{background: url(../animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
-.And-4{background: url(../animat/AndroidEng/VideoS.png) no-repeat;}
-.And-5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
-.And-6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
-.And-7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
-.And-8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
-.And-9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
+.And2{background: url(../animat/AndroidEng/My\ profile.png) no-repeat;}
+.And3{background: url(../animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
+.And4{background: url(../animat/AndroidEng/VideoS.png) no-repeat;}
+.And5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
+.And6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
+.And7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
+.And8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
+.And9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
+
 @keyframes Android {
 	0% {
 		left: -27px;
@@ -230,14 +237,6 @@
 			opacity: 1;
 		}
 	}
-	.And1{
-		background-size: 200px 375px;
-		height: 380px;
-	}
-	.Mac1{
-		background-size: 40px 415px;
-		height: 375px;
-	}
 }
 @media screen and (max-width:425px){
 	.section-two-image{
@@ -266,14 +265,13 @@
 	}
 	.island_poppup-Android{
 		position: absolute;
-		top: 2px;
+		top: 15px;
 		left: 0px;
 		width: 120px;
 		height: 297px;
-		background-size: 147px 300px;
-		background-repeat:no-repeat;
-		border-top-right-radius: 10px;
-		border-bottom-right-radius: 20px;
+		background-size: 147px 285px;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 50px;
 		
 	}
 	@keyframes Android1 {
@@ -338,20 +336,20 @@
 	}
 	@keyframes Android {
 		0% {
-			left: 110px;
+			left: 20px;
 		}
 		50%{
-			left: 110px;
+			left: 20px;
 			opacity: 0;
 			
 		}
 		60%{
-			left: 110px;
+			left: 20px;
 			opacity: 1;
 			
 		}
 		100% {
-			left:  110px;
+			left: 20px;
 			opacity: 1;
 		}
 	}
@@ -417,20 +415,20 @@
 	}
 	@keyframes Android {
 		0% {
-			left: 106px;
+			left: 16px;
 		}
 		50%{
-			left: 106px;
+			left: 16px;
 			opacity: 0;
 			
 		}
 		60%{
-			left: 106px;
+			left: 16px;
 			opacity: 1;
 			
 		}
 		100% {
-			left: 106px;
+			left: 16px;
 			opacity: 1;
 		}
 	}
