@@ -191,7 +191,7 @@
 		border-bottom-right-radius: 10px;
 		/* width: 40px;
 		height: 382px; */
-		transition: 5s;
+		transition: 1s;
 		opacity: 0;
 		animation: IOS1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 		background-size: 18px 200px;
