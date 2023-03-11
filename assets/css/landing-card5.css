@@ -237,7 +237,7 @@
 	.section-two-image{
 		margin: 0;
 		column-gap: 20px;
-		justify-content: initial;
+		justify-content: center;
 		padding: 30px 6px;
 	}
 	.box-frame{
