@@ -102,7 +102,6 @@
 	
 	.section-two-content-social-block,.section-two-content-social-block-mobile {
 	display:none;
-	background-image:url();
 	background-repeat:no-repeat;
 	font-size:40px;
 	height:60px;
@@ -468,8 +467,8 @@
 	}
 	
 	.block-for-image-one,.block-for-image-two {
-	width:250px;
-	height:532px;
+		width: 212px;
+		height: 434px;
 	}
 	
 	.block-seven {
@@ -491,7 +490,7 @@
 	.section-two-content{
 		align-items: stretch;
 		width: 400px;
-		justify-content: c;
+		justify-content: center;
 	}
 	.section-two-content-number{
 		font-size: 35px;
@@ -577,15 +576,15 @@
 	  }
 
 	  .block-for-image-one {
-	  width:178px;
-	  height:391px;
-	  margin-right:8px;
+		  width: 168px;
+		  height: 345px;
+	      margin-right:11px;
 	  }
 
 	  .block-for-image-two {
-	  width:178px;
-	  height:391px;
-	  margin-right:0;
+		  width: 168px;
+		  height: 345px;
+	      margin-right:0;
 	  }
 
 	  .block-for {
