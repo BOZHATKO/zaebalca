@@ -94,17 +94,16 @@
 	opacity: 0;
 	animation: IOS 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
-
-.Mac1{background: url(../animat/Asap-IOS.png) no-repeat;}
-.Mac-1{background: url(../animat/Asap-IOS.png);}
-.Mac2{background: url(../animat/Profile-IOS.png) no-repeat;}
-.Mac3{background: url(../animat/Lenta-IOS.png) no-repeat;}
-.Mac4{background: url(../animat/Video-IOS.png) no-repeat;}
-.Mac5{background: url(../animat/BlackBox-IOS.png) no-repeat;}
-.Mac6{background: url(../animat/FindFriends-IOS.png) no-repeat;}
-.Mac7{background: url(../animat/Meet-IOS.png) no-repeat;}
-.Mac8{background: url(../animat/Job-IOS.png) no-repeat;}
-.Mac9{background: url(../animat/Choose-IOS.png) no-repeat;}
+.Mac1{background: url(../animat/Asap-IOS.png);}
+.Mac-1{background: url(../animat/Asap-IOS.png) no-repeat;}
+.Mac-2{background: url(../animat/Profile-IOS.png) no-repeat;}
+.Mac-3{background: url(../animat/Lenta-IOS.png) no-repeat;}
+.Mac-4{background: url(../animat/Video-IOS.png) no-repeat;}
+.Mac-5{background: url(../animat/BlackBox-IOS.png) no-repeat;}
+.Mac-6{background: url(../animat/FindFriends-IOS.png) no-repeat;}
+.Mac-7{background: url(../animat/Meet-IOS.png) no-repeat;}
+.Mac-8{background: url(../animat/Job-IOS.png) no-repeat;}
+.Mac-9{background: url(../animat/Choose-IOS.png) no-repeat;}
 
 @keyframes IOS {
 	0% {
@@ -130,26 +129,23 @@
 	border-bottom-left-radius: 40px;
 	border-top-left-radius: 50px;
 	width: 250px;
-
 	height: 570px;
 	transition: 5s;
-
 	opacity: 0;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
 }
 
-
-.And1{background: url(../animat/AndroidEng/ASAP.png) no-repeat;}
-.And-1{background: url(../animat/AndroidEng/ASAP.png);}
-.And2{background: url(../animat/AndroidEng/My\ profile.png) no-repeat;}
-.And3{background: url(../animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
-.And4{background: url(../animat/AndroidEng/VideoS.png) no-repeat;}
-.And5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
-.And6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
-.And7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
-.And8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
-.And9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
+.And1{background: url(../animat/AndroidEng/ASAP.png);}
+.And-1{background: url(../animat/AndroidEng/ASAP.png) no-repeat;}
+.And-2{background: url(../animat/AndroidEng/My\ profile.png) no-repeat;}
+.And-3{background: url(../animat/AndroidEng/SFERA\ Feed.png)no-repeat;}
+.And-4{background: url(../animat/AndroidEng/VideoS.png) no-repeat;}
+.And-5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
+.And-6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
+.And-7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
+.And-8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
+.And-9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
 
 @keyframes Android {
 	0% {
