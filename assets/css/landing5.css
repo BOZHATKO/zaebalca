@@ -473,6 +473,17 @@
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	grid-template-rows:1fr 1fr 1fr;
 	}
+	.section-two-content{
+		align-items: stretch;
+		width: 400px;
+		justify-content: c;
+	}
+	.section-two-content-number{
+		font-size: 35px;
+	}
+	.section-two-content-social{
+		font-size: 35px;
+	}
 	}
 	
 	@media screen and (max-width:768px){
@@ -482,7 +493,9 @@
 	margin-top:500px;
 	column-gap:30px;
 	}
-	
+	.section-two-content{
+		width: 225px;
+	}
 	.section-block-one {
 	position:absolute;
 	top:480px;
