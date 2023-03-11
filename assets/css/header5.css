@@ -152,7 +152,7 @@
     
     .nav_list-item.active,.nav_list-item:hover {
     border-bottom:2px solid rgba(0,0,0,0);
-    border-image:linear-gradient(141.95deg,#FF00F514.92%,#00F0FF84.27%) 25;
+    border-image:linear-gradient(141.95deg,#FF00F514.92%, #008cff .27%) 25;
     }
     
     @media screen and (max-width:1440px){
@@ -780,8 +780,8 @@
     }
     
     .lang_list-link:hover,.active {
-    border-bottom:2px solid rgba(0,0,0,0);
-    border-image:linear-gradient(141.95deg,#FF00F514.92%,#00F0FF84.27%) 35;
+        border-bottom:2px solid rgba(0,0,0,0);
+        border-image:linear-gradient(141.95deg,#FF00F514.92%, #008cff .27%) 25;
     }
     
     .img_lang-tablet {
