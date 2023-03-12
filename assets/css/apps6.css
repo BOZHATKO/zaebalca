@@ -110,8 +110,8 @@
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
-	align-items:left;
-	margin:0;
+	align-items:center;
+	padding-bottom: 100px;
 	}
 	
 	.apps__brief-text {

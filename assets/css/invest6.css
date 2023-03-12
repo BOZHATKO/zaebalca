@@ -176,6 +176,14 @@
   }
   }
   
+
+  @media screen and (max-width: 1440px){
+  .investment__image {
+    position: absolute;
+    top: 500px;
+    width: 300px;
+  }
+  }
   @media screen and (max-width: 1280px){
   .investment__wrapper,
   .sfera__wrapper,
@@ -253,7 +261,7 @@
   .investment__image {
   position:absolute;
   width:230px;
-  top:110px;
+  top:130px;
   right:80px;
   }
   
@@ -312,7 +320,7 @@
   
   @media screen and (max-width: 425px){
   .investment__wrapper,.sfera__wrapper,.venchur__wrapper,.card__wrapper {
-  margin:0 16px;
+  margin:0 30px;
   }
   
   .investment-body {
@@ -434,6 +442,7 @@
   .lead__download-links-list-eng {
   margin-top:425px;
   }
+
   }
   
   @media screen and (max-width: 375px){
@@ -442,6 +451,9 @@
   top:400px;
   right:110px;
   }
+  .investment__wrapper, .sfera__wrapper, .venchur__wrapper, .card__wrapper {
+    margin: 0px 20px;
+}
   }
   
   @media screen and (max-width: 320px){
