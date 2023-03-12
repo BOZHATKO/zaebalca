@@ -190,12 +190,18 @@
 	
 	@media screen and (max-width:1024px){
 	.lead__image {
-	width:360px;
-	height:340px;
+		width: 365px;
+    height: 293px;
 	}
 	
 	.frame__wrapper {
-	margin:149px 60px 100px;
+		margin:149px 60px 100px;
+	}
+	.lead__title {
+    font-size: 66px;
+	}
+	.lead__text {
+    font-size: 20px;
 	}
 	}
 	
@@ -237,7 +243,7 @@
 	
 	.lead__image {
 	width:400px;
-	height:250px;
+	height:278px;
 	}
 	
 	.lead__texts {

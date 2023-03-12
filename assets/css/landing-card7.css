@@ -126,7 +126,7 @@
 	position: absolute;
 	top: 24px;
 	right: 0px;
-	border-bottom-left-radius: 55px;
+	border-bottom-left-radius: 40px;
 	border-top-left-radius: 50px;
 	width: 250px;
 	height: 564px;
@@ -149,26 +149,26 @@
 
 @keyframes Android {
 	0% {
-		left: -30px;
+		left: -27px;
 	}
 	50%{
 		opacity: 0;
-		left: -30px;
+		left: -27px;
 	}
 	60%{
 		opacity: 1;
-		left: -30px;
+		left: -27px;
 	}
 	100% {
-		left: -30px;
+		left: -27px;
 		opacity: 1;
 	}
 }
 
 @media screen and (max-width: 1440px){
 	.island_poppup-Android1{
-		bottom: 597px;
-		height: 556px;
+		bottom: 615px;
+    height: 570px;
 }
 }
 @media screen and (max-width:768px){
@@ -177,14 +177,17 @@
 		height: 387px;
 		column-gap: 20px;
 	}
+	
+
+
 	.island_poppup-Android1 {
     position: relative;
     bottom: 406px;
     left: 200px;
     border-bottom-left-radius: 45px;
     border-top-left-radius: 35px;
-    width: 139px;
-    height: 368px;
+    width: 150px;
+    height: 374px;
     transition: 1s;
     opacity: 0;
     animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
@@ -389,7 +392,7 @@
 		left: 120px;
 	}
 	.And1 {
-    background-size: 142px 307px;
+    background-size: 142px 308px;
     background-repeat: no-repeat;
     bottom: 335px;
     border-radius: 0;
@@ -475,9 +478,10 @@
 		left: 95px;
 	}
 	.And1{
-		background-size: 100px 245px;
-		height: 231px;
-	
+			background-size: 100px 245px;
+			height: 243px;
+    	bottom: 273px;
+			width: 100px;
 	}
 	.Mac1{
 		background-size: 25px 250px;
