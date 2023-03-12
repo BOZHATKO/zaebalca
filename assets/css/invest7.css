@@ -9,7 +9,7 @@
   .investment-body {
   display:flex;
   column-gap:320px;
-  padding:150px 0 100px;
+  padding: 50px 0 100px;
   }
   
   .investment-body-content {
@@ -29,7 +29,7 @@
   
   .investment__image {
   position:absolute;
-  top:380px;
+  top:300px;
   }
   
   .investment-body__title {
@@ -172,7 +172,7 @@
   }
   
   .card__wrapper {
-  margin:234px 50px 110px 89px;
+  margin:150px 50px 110px 89px;
   }
   }
   
@@ -180,7 +180,7 @@
   @media screen and (max-width: 1440px){
   .investment__image {
     position: absolute;
-    top: 500px;
+    top: 370px;
     width: 300px;
   }
   }
@@ -217,7 +217,8 @@
   
   @media screen and (max-width: 1024px){
   .investment__image {
-  width:285px;
+  width:250px;
+  top: 415px;
   }
   
   .card__image-center {
