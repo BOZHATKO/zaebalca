@@ -158,7 +158,7 @@
 	.section-as-iframe-video {
 	width:1280px;
 	height:720px;
-	box-shadow:0 5px #666363;
+	box-shadow: 0 4px 12px rgba(14, 15, 15, 0.2), 0 16px 20px rgba(16, 19, 20, 0.2);
 	}
 	
 	.block-for {
