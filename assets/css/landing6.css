@@ -64,8 +64,8 @@
 	}
 	
 	.block-for-image-one,.block-for-image-two,.section-image-two {
-	width:282px;
-	height:612px;
+		width: 282px;
+    height: 584px;
 	}
 	
 	.section-button {
@@ -253,6 +253,7 @@
 	text-align:justify;
 	line-height:35px;
 	font-size:24px;
+	max-width: 800px;
 	}
 	
 	.block-seven-p {
@@ -822,8 +823,8 @@
 	}
 	
 	.section-image-two {
-	width:159px;
-	height:317px;
+		width:151px;
+		height:317px;
 	}
 	
 	.section-two-image-one {
@@ -1070,6 +1071,7 @@
 	
 	.section-block-one {
 	top:340px;
+	right: 28px;
 	}
 	
 	.lead__download-links-list {
