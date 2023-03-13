@@ -14,9 +14,12 @@
 	border-bottom-right-radius: 17px;
 	width: 54px;
 	height: 580px;
-	transition: 1s;
+	transition: 500ms;
 	opacity: 0;
 	animation: IOS1 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
+}
+.ruISland{
+	left: 221px;
 }
 @keyframes IOS1 {
 	0% {
@@ -43,7 +46,7 @@
 	border-top-left-radius: 20px;
 	width: 250px;
 	height: 570px;
-	transition: 5s;
+	transition: 500ms;
 	opacity: 0;
 	animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	background-size: 10px;
@@ -90,7 +93,7 @@
 	border-bottom-right-radius: 25px;
 	width: 50px;
 	height: 577px;
-	transition: 1s;
+	transition: 500ms;
 	opacity: 0;
 	animation: IOS 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
@@ -130,7 +133,7 @@
 	border-top-left-radius: 50px;
 	width: 250px;
 	height: 564px;
-	transition: 5s;
+	transition: 500ms;
 	opacity: 0;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
@@ -188,7 +191,7 @@
     border-top-left-radius: 35px;
     width: 150px;
     height: 374px;
-    transition: 1s;
+    transition: 500ms;
     opacity: 0;
     animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
     background-size: 160px 380px;
@@ -201,7 +204,7 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 372px;
-    transition: 1s;
+    transition: 500ms;
     opacity: 0;
     animation: IOS1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
     background-size: 40px 375px;
