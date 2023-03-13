@@ -197,6 +197,9 @@
     }
     }
     @media screen and (max-width: 1280px){
+        .video-container video {
+            margin-left: 65px;
+        }
     .logo {
         width: 145px;
         height: 40px;
@@ -651,11 +654,11 @@
     }
     
     .button_downloads_ios {
-    width:125px;
+    width:130px;
     }
     
     .button_downloads_android {
-    width:154px;
+    width:160px;
     }
     
     .button_form_circle {
@@ -668,7 +671,9 @@
     .header__wrapper {
     padding:0 25px;
     }
-    
+    .button_downloads_android {
+        width: 153px;
+    }
     .lead__wrapper {
     padding-top:100px;
     }
