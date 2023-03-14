@@ -144,7 +144,7 @@ a {
 }
 
 .section-two-content-social {
-  padding: 0px 104px;
+  padding: 0px 50px;
   background-image: url(../image-lending/general/line2.png);
   background-repeat: no-repeat;
   font-size: 44px;
@@ -430,7 +430,7 @@ a {
   }
 
   .section-two {
-    column-gap: 70px;
+    column-gap: 0px;
   }
 
   .block-for-image-two {
