@@ -72,7 +72,7 @@ button,input{
 	overflow:visible
 }
 button,select{
-	text-transform:none;
+	/* text-transform:none; */
 	border: none;
 }
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{
@@ -733,10 +733,13 @@ body{
     width: 292px;
     margin-right: 0px;
 	}
+
+	
 	.button_type_android {
-		padding-left: 65px;
-    width: 179px;
-	}
+    padding-left: 64px;
+    width: 180px;
+    font-size: 17px;
+}
 	.button_type_ios {
 		width: 160px;
 		padding-left: 88px;

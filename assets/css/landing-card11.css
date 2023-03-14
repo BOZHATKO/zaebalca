@@ -69,10 +69,10 @@
 	}
 }
 
-
 .box-frame{
 	position: relative;
-	width: 285px;
+	right: 5px;
+	width: 220px; 
 	height: 600px;
 	border-radius: 30px;
 }
@@ -110,18 +110,18 @@
 
 @keyframes IOS {
 	0% {
-		right: 13px;
+		right: -55px;
 	}
 	50%{
-		opacity: 0;
-		right: 13px;
+		opacity: 1;
+		right: -55px;
 	}
 	60%{
 		opacity: 1;
-		right: 13px;
+		right: -55px;
 	}
 	100% {
-		right: 13px;
+		right: -55px;
 		opacity: 1;
 	}
 }
@@ -131,7 +131,7 @@
 	right: 0px;
 	border-bottom-left-radius: 40px;
 	border-top-left-radius: 50px;
-	width: 250px;
+	width: 243px;
 	height: 564px;
 	transition: 500ms;
 	opacity: 0;
@@ -152,26 +152,50 @@
 
 @keyframes Android {
 	0% {
-		left: -27px;
+		left: 40px;
 	}
 	50%{
 		opacity: 0;
-		left: -27px;
+		left: 40px;
 	}
 	60%{
 		opacity: 1;
-		left: -27px;
+		left: 40px;
 	}
 	100% {
-		left: -27px;
+		left: 40px;
 		opacity: 1;
 	}
 }
 
 @media screen and (max-width: 1440px){
+	.box-frame {
+    position: relative;
+    right: 5px;
+    width: 275px;
+    height: 600px;
+    border-radius: 30px;
+}
 	.island_poppup-Android1{
 		bottom: 615px;
     height: 570px;
+}
+@keyframes IOS {
+	0% {
+		right: 0px;
+	}
+	50%{
+		opacity: 1;
+		right: 0px;
+	}
+	60%{
+		opacity: 1;
+		right: 0px;
+	}
+	100% {
+		right: 0px;
+		opacity: 1;
+	}
 }
 }
 @media screen and (max-width:768px){
@@ -180,9 +204,6 @@
 		height: 387px;
 		column-gap: 20px;
 	}
-
-
-
 	.island_poppup-Android1 {
     position: relative;
     bottom: 406px;
@@ -322,20 +343,20 @@
 	}
 	@keyframes IOS {
 		0% {
-			right: 111px;
+			right: 107px;
 		}
 		50%{
-			right: 111px;
+			right: 107px;
 			opacity: 0;
 			
 		}
 		60%{
-			right: 111px;
+			right: 107px;
 			opacity: 1;
 			
 		}
 		100% {
-			left:111px;
+			left:107px;
 			opacity: 1;
 			
 		}
@@ -346,7 +367,7 @@
 		width: 150px;
 		height: 314px;
 	}
-	@keyframes Android {
+	/* @keyframes Android {
 		0% {
 			left: 19px;
 		}
@@ -384,7 +405,7 @@
 			opacity: 1;
 			
 		}
-	}
+	} */
 	.island_poppup-Android1{
 		bottom: 351px;
 		width: 117px;
@@ -451,20 +472,20 @@
 	}
 	@keyframes IOS {
 		0% {
-			left:107px;
+			left:100px;
 		}
 		50%{
-			left:107px;
+			left:100px;
 			opacity: 0;
 			
 		}
 		60%{
-			left:107px;
+			left:100px;
 			opacity: 1;
 			
 		}
 		100% {
-			left:107px;
+			left:100px;
 			opacity: 1;
 			
 		}
@@ -511,9 +532,10 @@
 	}
 	
 	.card-block {
-	cursor:pointer;
-	margin-bottom:40px;
-	perspective: 1000px;
+		/* margin-left: 10px; */
+		cursor:pointer;
+		margin-bottom:40px;
+		perspective: 1000px;
 	}
 	
 	.product-inner {
@@ -522,8 +544,8 @@
 	width:100%;
 	height:75%;
 	transform-style:preserve-3d;
-	padding: 0;
-	margin: 0;
+	/* padding: 0;
+	margin: 0; */
 	}
 	
 	.card-block-botton {
@@ -546,16 +568,10 @@
 	padding:8px;
 	}
 	
-	/* .card-3d {
-	perspective:1000px;
-	cursor:pointer;
-	width:296px;
-	height:600px;
-	} */
-	
 	.product-front {
 	position:absolute;
-	left:-5px;
+	/* left:0px; */
+	width: 100%;
 	border-radius:35px;
 	transform:translateZ(7.8px);
 	}
@@ -563,26 +579,24 @@
 	.product-back {
 	transition:transform 1.2s linear;
 	border-radius:35px;
-	right:-55px;
-	width:64%;
+	right:0px;
+	width:100%;
 	position:relative;
 	height:300px;
 	transform:translateZ(-7.8px);
 	
 	}
-	
+
 	.left-side {
     width: 16px;
-    height: 100%;
+		height: 100%;
     background: #1e1d1d;
     transform: rotateY(90deg);
-    margin-top: 309px;
+    margin-top: 302px;
     position: relative;
-    margin-left: -6px;
+    margin-left: 0px;
     bottom: 588px;
-		
 }
-	
 .card-block:hover .product-inner{
 	transform:rotateY(180deg);
 	animation-duration: all 0.5s ease-in;
@@ -593,11 +607,9 @@
 	
 	.back {
 	position:relative;
-	width:280px;
+	width:275px;
 	height:595px;
 	transform:rotateY(180deg);
-	left:-63px;
-	
 	}
 	
 	.front {
@@ -614,9 +626,9 @@
 		
 	}
 	@media screen and (max-width:1440px){
-	   .card {
-	   column-gap:150px;
-	   }
+	  .card {
+	    column-gap:150px;
+	  }
 
 	}
 	
@@ -624,15 +636,6 @@
 	  .card {
 	  column-gap:130px;
 	  }
-	  .left-side {
-      width: 16px;
-      background: #1e1d1d;
-      transform: rotateY(90deg);
-      margin-top: 309px;
-      position: relative;
-      margin-left: -2px;
-      bottom: 588px;
-      }
 	}
 	
 	@media screen and (max-width:1185px){
@@ -677,22 +680,22 @@
         }
 
         .card-block {
-        margin-bottom:100px;
+        margin-bottom:10px;
         }
 
         .card-block-botton {
         margin-top:50px;
         }
 
-        .left-side {
-			width: 16px;
-			background: #1e1d1d;
-			transform: rotateY(90deg);
-			margin-top: 309px;
-			position: relative;
-			margin-left: -5px;
-			bottom: 588px;
-	    }
+				.left-side {
+					width: 16px;
+					background: #1e1d1d;
+					transform: rotateY(90deg);
+					margin-top: 302px;
+					position: relative;
+					margin-left: -2px;
+					bottom: 588px;
+			}
 	}
 	
 	@media screen and (max-width:425px) {
@@ -729,22 +732,16 @@
 	   height:296px;
 	   left:0;
 	   }
-
 	   .front {
 	   width:137px;
 	   height:297px;
-	   margin-left:5px;
 		 border-radius: 15px;
 	   }
-
 	   .card-block {
 	   width:137px;
 	   height:297px;
 	   margin-bottom:140px;
-		 
-		 
 	   }
-
 	   .left-side {
        width: 15px;
        height: 122%;
@@ -752,19 +749,19 @@
        transform: rotateY(90deg);
        margin-top: 299px;
        position: relative;
-       margin-left: 0px;
        bottom: 588px;
-       }
+			 margin-left: -4px;
+      }
 
-	   .card-block__link {
-	   position:relative;
-	   top:180px;
-	   }
+	  .card-block__link {
+	    position:relative;
+	    top:180px;
+	  }
 
-	   .eng-card-block__link {
-	   top:180px;
-	   }
-    }
+	  .eng-card-block__link {
+	  	top:180px;
+	  }
+  }
 	@media screen and (max-width:375px) {
 		.product-back {
 			right: 0;
@@ -797,13 +794,11 @@
 		.back {
 			width: 137px;
 			height: 297px;
-			left: 0;
 		}
 
 		.front {
 			width: 137px;
 			height: 297px;
-			margin-left: 5px;
 		}
 
 		.card-block {
@@ -822,8 +817,7 @@
 		}
 
 	}
-
- @media screen and (max-width:320px) {
+@media screen and (max-width:320px) {
 	.section-card {
 		padding: 40px 12px;
 	}
@@ -845,6 +839,5 @@
 	.front {
 		width: 132px;
 		height: 297px;
-		margin-left: 6px;
 	}
 }
