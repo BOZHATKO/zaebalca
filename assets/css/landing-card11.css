@@ -14,6 +14,7 @@
 	border-bottom-right-radius: 17px;
 	width: 54px;
 	height: 580px;
+	
 	transition: 500ms;
 	opacity: 0;
 	animation: IOS1 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
@@ -95,6 +96,7 @@
 	height: 577px;
 	transition: 500ms;
 	opacity: 0;
+	-webkit-animation: IOS 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	animation: IOS 3s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 }
 .Mac1{background: url(../animat/Asap-IOS.png);}
@@ -135,6 +137,7 @@
 	height: 564px;
 	transition: 500ms;
 	opacity: 0;
+	-webkit-animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	animation: Android 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
 	transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
@@ -213,8 +216,10 @@
     border-top-left-radius: 35px;
     width: 150px;
     height: 374px;
+		-webkit-transition: 500ms;
     transition: 500ms;
     opacity: 0;
+		-webkit-animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
     animation: Android1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
     background-size: 160px 380px;
 }
@@ -226,8 +231,10 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     height: 372px;
+		-webkit-transition: 500ms;
     transition: 500ms;
     opacity: 0;
+		-webkit-animation: IOS1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
     animation: IOS1 4s infinite cubic-bezier(0.165, 0.84, 0.44, 1) alternate;
     background-size: 40px 375px;
 }
@@ -487,6 +494,7 @@
 	}
 	
 	.product-inner {
+		-webkit-transition:transform .5s linear;
 	transition:transform .5s linear;
 	position:relative;
 	width:100%;
@@ -517,7 +525,6 @@
 	
 	.product-front {
 	position:absolute;
-	/* left:0px; */
 	width: 100%;
 	border-radius:35px;
 	-webkit-transform: translateZ(7.8px);
@@ -525,15 +532,15 @@
 	}
 	
 	.product-back {
-	transition:transform 1.2s linear;
-	border-radius:35px;
-	right:0px;
-	width:100%;
-	position:relative;
-	height:300px;
-	-webkit-transform: translateZ(-7.8px);
-	transform:translateZ(-7.8px);
-	
+		-webkit-transition:transform 1.2s linear;
+		transition:transform 1.2s linear;
+		border-radius:35px;
+		right:0px;
+		width:100%;
+		position:relative;
+		height:300px;
+		-webkit-transform: translateZ(-7.8px);
+		transform:translateZ(-7.8px);
 	}
 
 	.left-side {
@@ -553,6 +560,7 @@
 	/* animation-duration:all 0.5s ease-in; */
 	/* -moz-transition: all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in; */
+	-webkit-transition:transform 0.3s linear;
 	transition:transform 0.3s linear;
 	}
 	
@@ -562,20 +570,16 @@
 	height:595px;
 	-webkit-transform:rotateY(180deg);
 	transform:rotateY(180deg);
-	}
-	
+	}	
 	.front {
 	width:275px;
 	height:595px;
 	border-radius: 35px;
-	/* box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(104, 194, 247, 0.2); */
-	
 	}
 	@media screen and (max-width:1920px){
 	.section-card {
 		padding:80px 250px;
 		}
-		
 	}
 	@media screen and (max-width:1440px){
 	  .card {
@@ -583,7 +587,6 @@
 	  }
 
 	}
-	
 	@media screen and (max-width:1280px){
 	  .card {
 	  column-gap:130px;
@@ -650,7 +653,6 @@
 					bottom: 588px;
 			}
 	}
-	
 	@media screen and (max-width:425px) {
 		.product-back {
 			right: 0;
