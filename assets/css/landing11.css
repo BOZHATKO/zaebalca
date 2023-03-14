@@ -479,9 +479,9 @@
 	}
 	
 	.block-seven {
-	column-gap:52px;
-	margin:194px 100px 0;
-	}
+    column-gap: 8px;
+    margin: 190px 56px 0;
+}
 	
 	.block-eight {
 	margin:168px 20px 70px;

@@ -807,7 +807,10 @@
     .lead__wrapper {
     padding-top:70px;
     }
-    
+    .button_downloads_android {
+        width: 152px;
+        padding-left: 54px;
+    }
     .button_downloads_ios {
     font-size:14px;
     font-weight:600;
@@ -821,14 +824,14 @@
     font-size:14px;
     font-weight:600;
     line-height:22px;
-    padding-left:60px;
-    width:146px;
     }
     
     .button_ios_tablet {
-        background-position: 40px center;
-        padding-left: 76px;
-        width: 142px;
+      
+            background-position: 40px center;
+            padding-left: 76px;
+            width: 140px;
+    
     }
     
     .button_android_tablet {
