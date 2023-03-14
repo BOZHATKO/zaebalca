@@ -470,26 +470,27 @@
 	.section__wrapper {
 	margin:0 15px;
 	}
-	
+
 	.apps__subapps-wrapper {
 	width:320px;
 	}
-	
+
 	.apps__subapps-list {
-	justify-items:stretch;
+	   justify-items:stretch;
+		padding-left: 30px;
 	}
-	
+
 	.apps__subapps {
 	padding:70px 0 80px;
 	}
-	
+
 	.apps__brief-image-wrapper::after {
 	font-size:14px;
 	line-height:17px;
 	font-weight:400;
 	height:29px;
 	}
-	
+
 	.apps__subapps-title {
 	font-size:22px;
 	line-height:26px;
