@@ -151,7 +151,7 @@
 .And-5{background: url(../animat/AndroidEng/BlackBox.png)no-repeat;}
 .And-6{background: url(../animat/AndroidEng/Find\ Friends.png)no-repeat;}
 .And-7{background: url(../animat/AndroidEng/MeetNet.png)no-repeat;}
-.And-8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat;}
+.And-8{background: url(../animat/AndroidEng/Job\ Lite.png)no-repeat repeat;}
 .And-9{background: url(../animat/AndroidEng/Choose.png)no-repeat;}
 
 @keyframes Android {
@@ -557,11 +557,13 @@
 .card-block:hover .product-inner{
 	-webkit-transform: rotateY(180deg);
 	transform:rotateY(180deg);
+
 	/* animation-duration:all 0.5s ease-in; */
 	/* -moz-transition: all 0.5s ease-in;
 	-o-transition: all 0.5s ease-in; */
 	-webkit-transition:transform 0.3s linear;
 	transition:transform 0.3s linear;
+
 	}
 	
 	.back {
