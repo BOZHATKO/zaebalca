@@ -378,7 +378,7 @@
 	}
 	
 	.apps__subapps {
-	padding:70px 0 80px;
+	padding:70px 3px 80px;
 	}
 	
 	.apps__brief-image-wrapper::after {
@@ -571,6 +571,9 @@
 	}
 	
 	.apps__subapps {
-	padding:50px 0 40px;
+	padding:50px 3px 40px;
 	}
+	.apps__subapps-list {
+    padding-left:5px;
+}
 	}
